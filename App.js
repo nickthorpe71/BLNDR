@@ -1,9 +1,17 @@
 /* eslint-disable react-native/no-inline-styles */
-import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import React, { useState } from 'react';
+import { View, StyleSheet } from 'react-native';
 import Header from './components/Header';
+import { uuid } from 'uuidv4';
 
 const App = () => {
+  const [items, setItems] = useState([
+    { id: uuid(), text: 'Nuts' },
+    { id: uuid(), text: 'Berries' },
+    { id: uuid(), text: 'Beer' },
+    { id: uuid(), text: 'Bread' },
+  ]);
+
   return (
     <View style={styles.container}>
       <Header />

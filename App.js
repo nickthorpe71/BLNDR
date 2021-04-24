@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { View, StyleSheet, FlatList, Text } from 'react-native';
 import Header from './components/Header';
-// import ListItem from './components/ListItem';
+import ListItem from './components/ListItem';
 import { v4 as uuidv4 } from 'uuid';
 
 const App = () => {
@@ -18,7 +18,7 @@ const App = () => {
       <Header />
       <FlatList
         data={items}
-        renderItem={({ item }) => <Text>{item.text}</Text>}
+        renderItem={({ item }) => <ListItem item={item} />}
       />
     </View>
   );

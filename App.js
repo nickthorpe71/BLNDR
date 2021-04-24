@@ -1,20 +1,25 @@
 /* eslint-disable react-native/no-inline-styles */
 import React, { useState } from 'react';
-import { View, StyleSheet } from 'react-native';
+import { View, StyleSheet, FlatList, Text } from 'react-native';
 import Header from './components/Header';
-import { uuid } from 'uuidv4';
+// import ListItem from './components/ListItem';
+import { v4 as uuidv4 } from 'uuid';
 
 const App = () => {
   const [items, setItems] = useState([
-    { id: uuid(), text: 'Nuts' },
-    { id: uuid(), text: 'Berries' },
-    { id: uuid(), text: 'Beer' },
-    { id: uuid(), text: 'Bread' },
+    { id: uuidv4(), text: 'Nuts' },
+    { id: uuidv4(), text: 'Berries' },
+    { id: uuidv4(), text: 'Beer' },
+    { id: uuidv4(), text: 'Bread' },
   ]);
 
   return (
     <View style={styles.container}>
       <Header />
+      <FlatList
+        data={items}
+        renderItem={({ item }) => <Text>{item.text}</Text>}
+      />
     </View>
   );
 };

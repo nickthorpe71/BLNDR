@@ -7,21 +7,10 @@ import Home from './src/screens/Home';
 import { v4 as uuidv4 } from 'uuid';
 
 const App = () => {
-  const [items, setItems] = useState([
-    { id: uuidv4(), text: 'Nuts' },
-    { id: uuidv4(), text: 'Berries' },
-    { id: uuidv4(), text: 'Beer' },
-    { id: uuidv4(), text: 'Bread' },
-  ]);
-
   return (
     <View style={styles.container}>
       <Header />
       <Home />
-      {/* <FlatList
-        data={items}
-        renderItem={({ item }) => <ListItem item={item} />}
-      /> */}
     </View>
   );
 };

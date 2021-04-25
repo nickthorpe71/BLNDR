@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { View, StyleSheet, FlatList, Text } from 'react-native';
 import Header from './src/components/Header';
 import ListItem from './src/components/ListItem';
+import Home from './src/screens/Home';
 import { v4 as uuidv4 } from 'uuid';
 
 const App = () => {
@@ -16,10 +17,11 @@ const App = () => {
   return (
     <View style={styles.container}>
       <Header />
-      <FlatList
+      <Home />
+      {/* <FlatList
         data={items}
         renderItem={({ item }) => <ListItem item={item} />}
-      />
+      /> */}
     </View>
   );
 };

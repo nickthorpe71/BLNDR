@@ -1,8 +1,8 @@
 /* eslint-disable react-native/no-inline-styles */
 import React, { useState } from 'react';
 import { View, StyleSheet, FlatList, Text } from 'react-native';
-import Header from './components/Header';
-import ListItem from './components/ListItem';
+import Header from './src/components/Header';
+import ListItem from './src/components/ListItem';
 import { v4 as uuidv4 } from 'uuid';
 
 const App = () => {
@@ -27,7 +27,7 @@ const App = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 60,
+    paddingTop: 35,
   },
 });
 

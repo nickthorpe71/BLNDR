@@ -67,7 +67,7 @@ const Filter = () => {
 
 const styles = StyleSheet.create({
   filterContainer: {
-    backgroundColor: '#fff',
+    backgroundColor: '#555',
     flex: 1,
     justifyContent: 'space-evenly',
   },

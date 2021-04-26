@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, StyleSheet, Button } from 'react-native';
 import Carousel from 'react-native-snap-carousel';
 
-const Home = () => {
+const Home = ({ history }) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [carouselItems, setCarouselItems] = useState([
     {
@@ -44,7 +44,7 @@ const Home = () => {
           Select ingredients, restrictions and more to find the perfect recipe
           for you
         </Text>
-        <Button title="START SEARCH" />
+        <Button title="START SEARCH" onPress={() => history.push('/filter')} />
       </View>
       <View>
         <Text style={styles.homeTitle}>FEATURED</Text>
@@ -82,6 +82,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     maxWidth: '90%',
     alignSelf: 'center',
+    marginBottom: 15,
   },
   carouselItem: {
     backgroundColor: '#ddd',

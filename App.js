@@ -1,16 +1,22 @@
 /* eslint-disable react-native/no-inline-styles */
-import React, { useState } from 'react';
-import { View, StyleSheet, FlatList, Text } from 'react-native';
+import React from 'react';
+import { View, StyleSheet } from 'react-native';
+import { NativeRouter, Route } from 'react-router-native';
+
 import Header from './src/components/Header';
-import ListItem from './src/components/ListItem';
 import Home from './src/screens/Home';
-import { v4 as uuidv4 } from 'uuid';
+import Filter from './src/screens/Filter';
+
+// https://dev.to/nicopaulino/react-router-native-a-love-story-4m59
 
 const App = () => {
   return (
     <View style={styles.container}>
       <Header />
-      <Home />
+      <NativeRouter>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/filter" component={Filter} />
+      </NativeRouter>
     </View>
   );
 };

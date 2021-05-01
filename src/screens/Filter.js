@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, Button } from 'react-native';
+import { SearchBar } from 'react-native-elements';
 import Carousel from 'react-native-snap-carousel';
 
-const Filter = () => {
+const Filter = ({ history }) => {
+  const [search, setSearch] = useState('');
   const [activeIndex, setActiveIndex] = useState(0);
   const [carouselItems, setCarouselItems] = useState([
     {
@@ -37,43 +39,63 @@ const Filter = () => {
   };
 
   return (
-    <View style={styles.filterContainer}>
-      <View>
-        <Text style={styles.filterTitle}>GET BLENDING</Text>
-        <Text style={styles.filterParagraph}>
-          Select ingredients, restrictions and more to find the perfect recipe
-          for you
-        </Text>
-        <Button title="START SEARCH" />
+    <View style={styles.filterContainerOuter}>
+      <View style={styles.filterContainer}>
+        <View style={styles.filterLeft}>
+          <Text style={styles.filterTitle}>INGREDIENTS</Text>
+          <Text style={styles.filterParagraph}>Your List</Text>
+        </View>
+        <View style={styles.filterRight}>
+          <Text style={styles.filterParagraph}>
+            You can include ingredients listed here, or find recipes with only
+            these ingredients
+          </Text>
+          <SearchBar
+            placeholder="Search"
+            lightTheme={true}
+            onChangeText={setSearch}
+            value={search}
+          />
+          <Carousel
+            layout={'default'}
+            ref={ref => (this.carousel = ref)}
+            data={carouselItems}
+            sliderWidth={200}
+            itemWidth={110}
+            renderItem={renderCarouselItem}
+            onSnapToItem={index => setActiveIndex(index)}
+          />
+        </View>
       </View>
       <View>
-        <Text style={styles.filterTitle}>FEATURED</Text>
-        <Text style={styles.filterParagraph}>
-          Get inspired by some of our top picks for you
-        </Text>
-        <Carousel
-          layout={'default'}
-          ref={ref => (this.carousel = ref)}
-          data={carouselItems}
-          sliderWidth={400}
-          itemWidth={110}
-          renderItem={renderCarouselItem}
-          onSnapToItem={index => setActiveIndex(index)}
-        />
+        <Button title="FIND RECIPE" onPress={() => history.push('/results')} />
       </View>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
-  filterContainer: {
-    backgroundColor: '#555',
+  filterContainerOuter: {
     flex: 1,
-    justifyContent: 'space-evenly',
+    justifyContent: 'center',
+  },
+  filterContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    flexDirection: 'row',
+    paddingTop: 100,
+  },
+  filterLeft: {
+    flex: 2,
+    borderRightWidth: 1,
+  },
+  filterRight: {
+    flex: 3,
   },
   filterTitle: {
     color: '#000',
-    fontSize: 30,
+    fontSize: 20,
+    fontWeight: 'bold',
     textAlign: 'center',
   },
   filterParagraph: {
@@ -82,6 +104,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     maxWidth: '90%',
     alignSelf: 'center',
+    paddingBottom: 10,
   },
   carouselItem: {
     backgroundColor: '#ddd',

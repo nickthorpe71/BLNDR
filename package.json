@@ -10,9 +10,13 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "i": "^0.3.6",
+    "npm": "^7.11.2",
     "react": "17.0.1",
     "react-native": "0.64.0",
+    "react-native-elements": "^3.4.1",
     "react-native-snap-carousel": "^3.9.1",
+    "react-native-vector-icons": "^8.1.0",
     "react-router-native": "^5.2.0"
   },
   "devDependencies": {

@@ -13,11 +13,11 @@ import Results from './src/screens/Results';
 const App = ({ history }) => {
   return (
     <View style={styles.container}>
-      <Header goHome={() => history.push('/results')} />
       <NativeRouter>
+        <Header goHome={() => history.push('/results')} />
         <Route exact path="/" component={Home} />
         <Route exact path="/filter" component={Filter} />
-        <Route exact path="/results" component={Results} />
+        {/* <Route exact path="/results" component={Results} /> */}
       </NativeRouter>
     </View>
   );

@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, Button } from 'react-native';
-import { SearchBar } from 'react-native-elements';
+import { SearchBar, Switch } from 'react-native-elements';
 import Carousel from 'react-native-snap-carousel';
 
 const Filter = ({ history }) => {
   const [search, setSearch] = useState('');
   const [activeIndex, setActiveIndex] = useState(0);
+  const [includeToggle, setIncludeToggle] = useState(0);
   const [carouselItems, setCarouselItems] = useState([
     {
       title: 'Item 1',
@@ -38,6 +39,8 @@ const Filter = ({ history }) => {
     );
   };
 
+  // Search Bar Ref: https://snack.expo.io/embedded/@aboutreact/example-of-search-bar-in-react-native?preview=true&platform=ios&iframeId=qn4os3zz2g&theme=dark
+
   return (
     <View style={styles.filterContainerOuter}>
       <View style={styles.filterContainer}>
@@ -51,11 +54,22 @@ const Filter = ({ history }) => {
             these ingredients
           </Text>
           <SearchBar
+            round
+            searchIcon={{ size: 24 }}
             placeholder="Search"
             lightTheme={true}
             onChangeText={setSearch}
             value={search}
           />
+          <Switch
+            style={styles.filterSwitch}
+            trackColor={{ false: '#767577', true: '#81b0ff' }}
+            thumbColor={includeToggle ? '#f5dd4b' : '#f4f3f4'}
+            ios_backgroundColor="#3e3e3e"
+            onValueChange={() => setIncludeToggle(!includeToggle)}
+            value={includeToggle}
+          />
+          <Text style={styles.filterParagraph}>Common Ingredients</Text>
           <Carousel
             layout={'default'}
             ref={ref => (this.carousel = ref)}
@@ -77,13 +91,15 @@ const Filter = ({ history }) => {
 const styles = StyleSheet.create({
   filterContainerOuter: {
     flex: 1,
-    justifyContent: 'center',
+    justifyContent: 'space-evenly',
+
   },
   filterContainer: {
     flex: 1,
     justifyContent: 'center',
     flexDirection: 'row',
     paddingTop: 100,
+    maxHeight: 420,
   },
   filterLeft: {
     flex: 2,
@@ -112,6 +128,9 @@ const styles = StyleSheet.create({
     height: 100,
     width: 100,
     padding: 10,
+  },
+  filterSwitch: {
+    margin: 12,
   },
 });
 

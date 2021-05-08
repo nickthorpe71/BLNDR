@@ -31,11 +31,13 @@ const Results = ({ history }) => {
     return (
       <TouchableOpacity
         style={styles.carouselItem}
-        onPress={() => history.push('/')}>
+        onPress={() => history.push('/recipe')}>
         <Image
-          source={
-            'https://www.dinneratthezoo.com/wp-content/uploads/2018/05/frozen-fruit-smoothie-3.jpg'
-          }
+          style={{ width: 80, height: 130 }}
+          source={{
+            uri:
+              'https://www.dinneratthezoo.com/wp-content/uploads/2018/05/frozen-fruit-smoothie-3.jpg',
+          }}
         />
       </TouchableOpacity>
     );

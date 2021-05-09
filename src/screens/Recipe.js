@@ -47,7 +47,7 @@ const Item = ({ ingredient, measurement }) => (
     <TouchableOpacity
       /*onPress={onPress}*/
       style={[styles.itemButton]}>
-      <Text>replace</Text>
+      <Text>Replace</Text>
     </TouchableOpacity>
   </View>
 );
@@ -80,6 +80,7 @@ const Recipe = ({ history }) => {
         </View>
       </View>
       <View style={styles.recipeContainerMid}>
+        <Text style={styles.recipeTitleSm}>Ingredients</Text>
         <FlatList
           data={DATA}
           renderItem={renderItem}
@@ -87,7 +88,11 @@ const Recipe = ({ history }) => {
         />
       </View>
       <View style={styles.recipeContainerBottom}>
-        <Text>test</Text>
+        <Text style={styles.recipeTitleSm}>Instructions</Text>
+        <Text style={styles.recipeParagraph}>
+          Place all ingredients in the blender carafe in the order listed. Blend
+          all ingredients together until smooth.
+        </Text>
       </View>
     </View>
   );
@@ -105,14 +110,14 @@ const styles = StyleSheet.create({
     paddingTop: 25,
   },
   recipeContainerMid: {
-    flex: 2,
+    flex: 3,
     justifyContent: 'center',
-    flexDirection: 'row',
+    flexDirection: 'column',
+    padding: 8,
   },
   recipeContainerBottom: {
     flex: 1,
-    justifyContent: 'center',
-    flexDirection: 'row',
+    padding: 8,
   },
   recipeContainerTopLeft: {
     flex: 2,
@@ -125,26 +130,29 @@ const styles = StyleSheet.create({
   recipeMainImage: {
     flex: 1,
     margin: 10,
+    maxHeight: 200,
   },
   recipeTitleLg: {
     color: '#000',
     fontSize: 22,
     fontWeight: 'bold',
     textAlign: 'center',
-    paddingBottom: 25,
+    paddingBottom: 10,
   },
   recipeTitleSm: {
     color: '#000',
     fontSize: 20,
     fontWeight: 'bold',
-    textAlign: 'center',
+    paddingLeft: 15,
+    paddingBottom: 8,
   },
   recipeParagraph: {
     color: '#000',
     fontSize: 14,
-    textAlign: 'center',
     alignSelf: 'center',
     paddingBottom: 10,
+    paddingTop: 7,
+    paddingLeft: 4,
   },
   item: {
     flexDirection: 'row',

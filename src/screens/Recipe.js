@@ -41,18 +41,18 @@ const DATA = [
   },
 ];
 
-const Item = ({ ingredient, measurement }) => (
-  <View style={styles.item}>
-    <Text style={styles.ingredient}>{ingredient + ' | ' + measurement}</Text>
-    <TouchableOpacity
-      /*onPress={onPress}*/
-      style={[styles.itemButton]}>
-      <Text>Replace</Text>
-    </TouchableOpacity>
-  </View>
-);
-
 const Recipe = ({ history }) => {
+  const Item = ({ ingredient, measurement }) => (
+    <View style={styles.item}>
+      <Text style={styles.ingredient}>{ingredient + ' | ' + measurement}</Text>
+      <TouchableOpacity
+        onPress={() => history.push('/replace')}
+        style={[styles.itemButton]}>
+        <Text>Replace</Text>
+      </TouchableOpacity>
+    </View>
+  );
+
   const renderItem = ({ item }) => (
     <Item ingredient={item.ingredient} measurement={item.measurement} />
   );
@@ -126,18 +126,19 @@ const styles = StyleSheet.create({
   recipeContainerTopRight: {
     flex: 2,
     margin: 15,
+    marginRight: 22,
   },
   recipeMainImage: {
     flex: 1,
-    margin: 10,
+    marginLeft: 22,
     maxHeight: 200,
   },
   recipeTitleLg: {
     color: '#000',
     fontSize: 22,
     fontWeight: 'bold',
-    textAlign: 'center',
     paddingBottom: 10,
+    paddingLeft: 5,
   },
   recipeTitleSm: {
     color: '#000',

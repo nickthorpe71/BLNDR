@@ -92,7 +92,6 @@ const styles = StyleSheet.create({
   filterContainerOuter: {
     flex: 1,
     justifyContent: 'space-evenly',
-
   },
   filterContainer: {
     flex: 1,

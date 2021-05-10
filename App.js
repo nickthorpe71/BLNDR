@@ -8,6 +8,7 @@ import Home from './src/screens/Home';
 import Filter from './src/screens/Filter';
 import Results from './src/screens/Results';
 import Recipe from './src/screens/Recipe';
+import Replace from './src/screens/Replace';
 
 // https://dev.to/nicopaulino/react-router-native-a-love-story-4m59
 
@@ -20,6 +21,7 @@ const App = ({ history }) => {
         <Route exact path="/filter" component={Filter} />
         <Route exact path="/results" component={Results} />
         <Route exact path="/recipe" component={Recipe} />
+        <Route exact path="/replace" component={Replace} />
       </NativeRouter>
     </View>
   );

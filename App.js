@@ -9,6 +9,7 @@ import Filter from './src/screens/Filter';
 import Results from './src/screens/Results';
 import Recipe from './src/screens/Recipe';
 import Replace from './src/screens/Replace';
+import ConfirmReplace from './src/screens/ConfirmReplace';
 
 // https://dev.to/nicopaulino/react-router-native-a-love-story-4m59
 
@@ -22,6 +23,7 @@ const App = ({ history }) => {
         <Route exact path="/results" component={Results} />
         <Route exact path="/recipe" component={Recipe} />
         <Route exact path="/replace" component={Replace} />
+        <Route exact path="/confirm" component={ConfirmReplace} />
       </NativeRouter>
     </View>
   );

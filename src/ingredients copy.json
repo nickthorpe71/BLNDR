@@ -1,0 +1,2200 @@
+[
+  {
+    "name": "Frozen Blueberry",
+    "nutrition": {
+      "measure": "cup",
+      "amount": "1",
+      "calories": 71.4,
+      "fiber": {
+        "measure": "g",
+        "amount": 3.6
+      },
+      "macros": {
+        "protein": {
+          "measure": "g",
+          "amount": 0.6
+        },
+        "fat": {
+          "measure": "g",
+          "amount": 0.9
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 17
+        }
+      },
+      "totalSugars": {
+        "measure": "g",
+        "amount": 11.8
+      },
+      "vitamins": {
+        "B1": {
+          "percentDailyValue": 2.8,
+          "measure": "mg",
+          "amount": 0.04
+        },
+        "B2": {
+          "percentDailyValue": 0.6,
+          "measure": "mg",
+          "amount": 0.005
+        },
+        "B3": {
+          "percentDailyValue": 4.3,
+          "measure": "mg",
+          "amount": 0.85
+        },
+        "B5": {
+          "percentDailyValue": 1.8,
+          "measure": "mg",
+          "amount": 0.18
+        },
+        "B6": {
+          "percentDailyValue": 1.4,
+          "measure": "mg",
+          "amount": 0.03
+        },
+        "B12": {
+          "percentDailyValue": 0,
+          "measure": "mg",
+          "amount": 0
+        },
+        "A": {
+          "percentDailyValue": 1.9,
+          "measure": "IU",
+          "amount": 94.27
+        },
+        "C": {
+          "percentDailyValue": 4,
+          "measure": "mg",
+          "amount": 2.38
+        },
+        "D": {
+          "percentDailyValue": 0,
+          "measure": "IU",
+          "amount": 0
+        },
+        "E": {
+          "percentDailyValue": 1.8,
+          "measure": "mg",
+          "amount": 0.36
+        },
+        "K": {
+          "percentDailyValue": 28.7,
+          "measure": "ug",
+          "amount": 22.96
+        }
+      },
+      "lipids": {
+        "omega3": {
+          "measure": "g",
+          "amount": 0.16
+        },
+        "omega6": {
+          "measure": "g",
+          "amount": 0.23
+        },
+        "cholesterol": {
+          "measure": "g",
+          "amount": 0
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "percentDailyValue": 2.4,
+          "measure": "mg",
+          "amount": 23.8
+        },
+        "iron": {
+          "percentDailyValue": 4.5,
+          "measure": "mg",
+          "amount": 0.05
+        },
+        "magnesium": {
+          "percentDailyValue": 2.5,
+          "measure": "mg",
+          "amount": 9.8
+        },
+        "manganese": {
+          "percentDailyValue": 200.9,
+          "measure": "mg",
+          "amount": 4.02
+        },
+        "potassium": {
+          "percentDailyValue": 2.7,
+          "measure": "mg",
+          "amount": 95.2
+        },
+        "selenium": {
+          "percentDailyValue": 0.2,
+          "measure": "ug",
+          "amount": 0.14
+        },
+        "sodium": {
+          "percentDailyValue": 0.2,
+          "measure": "mg",
+          "amount": 4.2
+        },
+        "zinc": {
+          "percentDailyValue": 6.3,
+          "measure": "mg",
+          "amount": 0.94
+        }
+      }
+    },
+    "tags": [
+      "simple",
+      "super healthy",
+      "berry",
+      "fruit",
+      "vegan",
+      "paleo",
+      "whole30",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "blue",
+    "palateWeight": "medium",
+    "layer": 6,
+    "img": "images/blueberry.jpg"
+  },
+  {
+    "name": "Fresh Blueberry",
+    "nutrition": {
+      "measure": "cup",
+      "amount": "1",
+      "calories": 71.4,
+      "fiber": {
+        "measure": "g",
+        "amount": 3.6
+      },
+      "macros": {
+        "protein": {
+          "measure": "g",
+          "amount": 0.6
+        },
+        "fat": {
+          "measure": "g",
+          "amount": 0.9
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 17
+        }
+      },
+      "totalSugars": {
+        "measure": "g",
+        "amount": 11.8
+      },
+      "vitamins": {
+        "B1": {
+          "percentDailyValue": 2.8,
+          "measure": "mg",
+          "amount": 0.04
+        },
+        "B2": {
+          "percentDailyValue": 0.6,
+          "measure": "mg",
+          "amount": 0.005
+        },
+        "B3": {
+          "percentDailyValue": 4.3,
+          "measure": "mg",
+          "amount": 0.85
+        },
+        "B5": {
+          "percentDailyValue": 1.8,
+          "measure": "mg",
+          "amount": 0.18
+        },
+        "B6": {
+          "percentDailyValue": 1.4,
+          "measure": "mg",
+          "amount": 0.03
+        },
+        "B12": {
+          "percentDailyValue": 0,
+          "measure": "mg",
+          "amount": 0
+        },
+        "A": {
+          "percentDailyValue": 1.9,
+          "measure": "IU",
+          "amount": 94.27
+        },
+        "C": {
+          "percentDailyValue": 4,
+          "measure": "mg",
+          "amount": 2.38
+        },
+        "D": {
+          "percentDailyValue": 0,
+          "measure": "IU",
+          "amount": 0
+        },
+        "E": {
+          "percentDailyValue": 1.8,
+          "measure": "mg",
+          "amount": 0.36
+        },
+        "K": {
+          "percentDailyValue": 28.7,
+          "measure": "ug",
+          "amount": 22.96
+        }
+      },
+      "lipids": {
+        "omega3": {
+          "measure": "g",
+          "amount": 0.16
+        },
+        "omega6": {
+          "measure": "g",
+          "amount": 0.23
+        },
+        "cholesterol": {
+          "measure": "g",
+          "amount": 0
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "percentDailyValue": 2.4,
+          "measure": "mg",
+          "amount": 23.8
+        },
+        "iron": {
+          "percentDailyValue": 4.5,
+          "measure": "mg",
+          "amount": 0.05
+        },
+        "magnesium": {
+          "percentDailyValue": 2.5,
+          "measure": "mg",
+          "amount": 9.8
+        },
+        "manganese": {
+          "percentDailyValue": 200.9,
+          "measure": "mg",
+          "amount": 4.02
+        },
+        "potassium": {
+          "percentDailyValue": 2.7,
+          "measure": "mg",
+          "amount": 95.2
+        },
+        "selenium": {
+          "percentDailyValue": 0.2,
+          "measure": "ug",
+          "amount": 0.14
+        },
+        "sodium": {
+          "percentDailyValue": 0.2,
+          "measure": "mg",
+          "amount": 4.2
+        },
+        "zinc": {
+          "percentDailyValue": 6.3,
+          "measure": "mg",
+          "amount": 0.94
+        }
+      }
+    },
+    "tags": [
+      "simple",
+      "super healthy",
+      "berry",
+      "fruit",
+      "vegan",
+      "paleo",
+      "whole30",
+      "vegetarian",
+      "gluten free",
+      "topping"
+    ],
+    "color": "blue",
+    "palateWeight": "medium",
+    "layer": 5,
+    "img": "images/blueberry.jpg"
+  },
+  {
+    "name": "Frozen Banana",
+    "nutrition": {
+      "measure": "cup",
+      "amount": "1",
+      "calories": 85.71,
+      "fiber": {
+        "measure": "g",
+        "amount": 2.14
+      },
+      "macros": {
+        "protein": {
+          "measure": "g",
+          "amount": 1.7
+        },
+        "fat": {
+          "measure": "g",
+          "amount": 0
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 16.4
+        }
+      },
+      "totalSugars": {
+        "measure": "g",
+        "amount": 14.29
+      },
+      "vitamins": {
+        "B1": {
+          "percentDailyValue": null,
+          "measure": "mg",
+          "amount": null
+        },
+        "B2": {
+          "percentDailyValue": null,
+          "measure": "mg",
+          "amount": null
+        },
+        "B3": {
+          "percentDailyValue": null,
+          "measure": "mg",
+          "amount": null
+        },
+        "B5": {
+          "percentDailyValue": null,
+          "measure": "mg",
+          "amount": null
+        },
+        "B6": {
+          "percentDailyValue": null,
+          "measure": "mg",
+          "amount": null
+        },
+        "B12": {
+          "percentDailyValue": null,
+          "measure": "mg",
+          "amount": null
+        },
+        "A": {
+          "percentDailyValue": 0,
+          "measure": "IU",
+          "amount": 0
+        },
+        "C": {
+          "percentDailyValue": 5.7,
+          "measure": "mg",
+          "amount": 3.43
+        },
+        "D": {
+          "percentDailyValue": null,
+          "measure": "IU",
+          "amount": null
+        },
+        "E": {
+          "percentDailyValue": null,
+          "measure": "mg",
+          "amount": null
+        },
+        "K": {
+          "percentDailyValue": null,
+          "measure": "ug",
+          "amount": null
+        }
+      },
+      "lipids": {
+        "omega3": {
+          "measure": "g",
+          "amount": 0
+        },
+        "omega6": {
+          "measure": "g",
+          "amount": 0
+        },
+        "cholesterol": {
+          "measure": "g",
+          "amount": 0
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "percentDailyValue": 0,
+          "measure": "mg",
+          "amount": 0
+        },
+        "iron": {
+          "percentDailyValue": 2.9,
+          "measure": "mg",
+          "amount": 0.51
+        },
+        "magnesium": {
+          "percentDailyValue": null,
+          "measure": "mg",
+          "amount": null
+        },
+        "manganese": {
+          "percentDailyValue": null,
+          "measure": "mg",
+          "amount": null
+        },
+        "potassium": {
+          "percentDailyValue": null,
+          "measure": "mg",
+          "amount": null
+        },
+        "selenium": {
+          "percentDailyValue": null,
+          "measure": "ug",
+          "amount": null
+        },
+        "sodium": {
+          "percentDailyValue": 0,
+          "measure": "mg",
+          "amount": 0
+        },
+        "zinc": {
+          "percentDailyValue": null,
+          "measure": "mg",
+          "amount": null
+        }
+      }
+    },
+    "tags": [
+      "simple",
+      "vegan",
+      "whole30",
+      "vegetarian",
+      "gluten free",
+      "decadent",
+      "fruit"
+    ],
+    "color": "white",
+    "palateWeight": "medium",
+    "layer": 6,
+    "img": "images/banana.jpg"
+  },
+  {
+    "name": "Fresh Banana",
+    "nutrition": {
+      "measure": "cup",
+      "amount": "1",
+      "calories": 85.71,
+      "fiber": {
+        "measure": "g",
+        "amount": 2.14
+      },
+      "macros": {
+        "protein": {
+          "measure": "g",
+          "amount": 1.7
+        },
+        "fat": {
+          "measure": "g",
+          "amount": 0
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 16.4
+        }
+      },
+      "totalSugars": {
+        "measure": "g",
+        "amount": 14.29
+      },
+      "vitamins": {
+        "B1": {
+          "percentDailyValue": null,
+          "measure": "mg",
+          "amount": null
+        },
+        "B2": {
+          "percentDailyValue": null,
+          "measure": "mg",
+          "amount": null
+        },
+        "B3": {
+          "percentDailyValue": null,
+          "measure": "mg",
+          "amount": null
+        },
+        "B5": {
+          "percentDailyValue": null,
+          "measure": "mg",
+          "amount": null
+        },
+        "B6": {
+          "percentDailyValue": null,
+          "measure": "mg",
+          "amount": null
+        },
+        "B12": {
+          "percentDailyValue": null,
+          "measure": "mg",
+          "amount": null
+        },
+        "A": {
+          "percentDailyValue": 0,
+          "measure": "IU",
+          "amount": 0
+        },
+        "C": {
+          "percentDailyValue": 5.7,
+          "measure": "mg",
+          "amount": 3.43
+        },
+        "D": {
+          "percentDailyValue": null,
+          "measure": "IU",
+          "amount": null
+        },
+        "E": {
+          "percentDailyValue": null,
+          "measure": "mg",
+          "amount": null
+        },
+        "K": {
+          "percentDailyValue": null,
+          "measure": "ug",
+          "amount": null
+        }
+      },
+      "lipids": {
+        "omega3": {
+          "measure": "g",
+          "amount": 0
+        },
+        "omega6": {
+          "measure": "g",
+          "amount": 0
+        },
+        "cholesterol": {
+          "measure": "g",
+          "amount": 0
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "percentDailyValue": 0,
+          "measure": "mg",
+          "amount": 0
+        },
+        "iron": {
+          "percentDailyValue": 2.9,
+          "measure": "mg",
+          "amount": 0.51
+        },
+        "magnesium": {
+          "percentDailyValue": null,
+          "measure": "mg",
+          "amount": null
+        },
+        "manganese": {
+          "percentDailyValue": null,
+          "measure": "mg",
+          "amount": null
+        },
+        "potassium": {
+          "percentDailyValue": null,
+          "measure": "mg",
+          "amount": null
+        },
+        "selenium": {
+          "percentDailyValue": null,
+          "measure": "ug",
+          "amount": null
+        },
+        "sodium": {
+          "percentDailyValue": 0,
+          "measure": "mg",
+          "amount": 0
+        },
+        "zinc": {
+          "percentDailyValue": null,
+          "measure": "mg",
+          "amount": null
+        }
+      }
+    },
+    "tags": [
+      "simple",
+      "vegan",
+      "whole30",
+      "vegetarian",
+      "gluten free",
+      "decadent",
+      "fruit"
+    ],
+    "color": "white",
+    "palateWeight": "medium",
+    "layer": 5,
+    "img": "images/banana.jpg"
+  },
+  {
+    "name": "Frozen Pineapple",
+    "nutrition": {
+      "measure": "cup",
+      "amount": "1",
+      "calories": 82.5,
+      "fiber": {
+        "measure": "g",
+        "amount": 2.31
+      },
+      "macros": {
+        "protein": {
+          "measure": "g",
+          "amount": 0.9
+        },
+        "fat": {
+          "measure": "g",
+          "amount": 0.2
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 21.6
+        }
+      },
+      "totalSugars": {
+        "measure": "g",
+        "amount": 16.25
+      },
+      "vitamins": {
+        "B1": {
+          "percentDailyValue": 8.7,
+          "measure": "mg",
+          "amount": 0.13
+        },
+        "B2": {
+          "percentDailyValue": 3.1,
+          "measure": "mg",
+          "amount": 0.05
+        },
+        "B3": {
+          "percentDailyValue": 4.1,
+          "measure": "mg",
+          "amount": 0.83
+        },
+        "B5": {
+          "percentDailyValue": 3.5,
+          "measure": "mg",
+          "amount": 0.35
+        },
+        "B6": {
+          "percentDailyValue": 9.2,
+          "measure": "mg",
+          "amount": 0.18
+        },
+        "B12": {
+          "percentDailyValue": null,
+          "measure": "mg",
+          "amount": null
+        },
+        "A": {
+          "percentDailyValue": 1.9,
+          "measure": "IU",
+          "amount": 0.18
+        },
+        "C": {
+          "percentDailyValue": 131.5,
+          "measure": "mg",
+          "amount": 78.87
+        },
+        "D": {
+          "percentDailyValue": null,
+          "measure": "IU",
+          "amount": null
+        },
+        "E": {
+          "percentDailyValue": 0.2,
+          "measure": "mg",
+          "amount": 0.03
+        },
+        "K": {
+          "percentDailyValue": 1.4,
+          "measure": "ug",
+          "amount": 1.16
+        }
+      },
+      "lipids": {
+        "omega3": {
+          "measure": "g",
+          "amount": 0.03
+        },
+        "omega6": {
+          "measure": "g",
+          "amount": 0.04
+        },
+        "cholesterol": {
+          "measure": "g",
+          "amount": null
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "percentDailyValue": 2.1,
+          "measure": "mg",
+          "amount": 21.45
+        },
+        "iron": {
+          "percentDailyValue": 2.7,
+          "measure": "mg",
+          "amount": 0.48
+        },
+        "magnesium": {
+          "percentDailyValue": 5,
+          "measure": "mg",
+          "amount": 19.8
+        },
+        "manganese": {
+          "percentDailyValue": 76.5,
+          "measure": "mg",
+          "amount": 1.53
+        },
+        "potassium": {
+          "percentDailyValue": 5.1,
+          "measure": "mg",
+          "amount": 179.85
+        },
+        "selenium": {
+          "percentDailyValue": 0.2,
+          "measure": "ug",
+          "amount": 0.17
+        },
+        "sodium": {
+          "percentDailyValue": 0.1,
+          "measure": "mg",
+          "amount": 1.65
+        },
+        "zinc": {
+          "percentDailyValue": 1.3,
+          "measure": "mg",
+          "amount": 0.2
+        }
+      }
+    },
+    "tags": [
+      "simple",
+      "paleo",
+      "vegan",
+      "whole30",
+      "vegetarian",
+      "gluten free",
+      "fruit",
+      "tropical"
+    ],
+    "color": "yellow",
+    "palateWeight": "heavy",
+    "layer": 6,
+    "img": "images/pineapple.jpg"
+  },
+  {
+    "name": "Fresh Pineapple",
+    "nutrition": {
+      "measure": "cup",
+      "amount": "1",
+      "calories": 82.5,
+      "fiber": {
+        "measure": "g",
+        "amount": 2.31
+      },
+      "macros": {
+        "protein": {
+          "measure": "g",
+          "amount": 0.9
+        },
+        "fat": {
+          "measure": "g",
+          "amount": 0.2
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 21.6
+        }
+      },
+      "totalSugars": {
+        "measure": "g",
+        "amount": 16.25
+      },
+      "vitamins": {
+        "B1": {
+          "percentDailyValue": 8.7,
+          "measure": "mg",
+          "amount": 0.13
+        },
+        "B2": {
+          "percentDailyValue": 3.1,
+          "measure": "mg",
+          "amount": 0.05
+        },
+        "B3": {
+          "percentDailyValue": 4.1,
+          "measure": "mg",
+          "amount": 0.83
+        },
+        "B5": {
+          "percentDailyValue": 3.5,
+          "measure": "mg",
+          "amount": 0.35
+        },
+        "B6": {
+          "percentDailyValue": 9.2,
+          "measure": "mg",
+          "amount": 0.18
+        },
+        "B12": {
+          "percentDailyValue": null,
+          "measure": "mg",
+          "amount": null
+        },
+        "A": {
+          "percentDailyValue": 1.9,
+          "measure": "IU",
+          "amount": 0.18
+        },
+        "C": {
+          "percentDailyValue": 131.5,
+          "measure": "mg",
+          "amount": 78.87
+        },
+        "D": {
+          "percentDailyValue": null,
+          "measure": "IU",
+          "amount": null
+        },
+        "E": {
+          "percentDailyValue": 0.2,
+          "measure": "mg",
+          "amount": 0.03
+        },
+        "K": {
+          "percentDailyValue": 1.4,
+          "measure": "ug",
+          "amount": 1.16
+        }
+      },
+      "lipids": {
+        "omega3": {
+          "measure": "g",
+          "amount": 0.03
+        },
+        "omega6": {
+          "measure": "g",
+          "amount": 0.04
+        },
+        "cholesterol": {
+          "measure": "g",
+          "amount": null
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "percentDailyValue": 2.1,
+          "measure": "mg",
+          "amount": 21.45
+        },
+        "iron": {
+          "percentDailyValue": 2.7,
+          "measure": "mg",
+          "amount": 0.48
+        },
+        "magnesium": {
+          "percentDailyValue": 5,
+          "measure": "mg",
+          "amount": 19.8
+        },
+        "manganese": {
+          "percentDailyValue": 76.5,
+          "measure": "mg",
+          "amount": 1.53
+        },
+        "potassium": {
+          "percentDailyValue": 5.1,
+          "measure": "mg",
+          "amount": 179.85
+        },
+        "selenium": {
+          "percentDailyValue": 0.2,
+          "measure": "ug",
+          "amount": 0.17
+        },
+        "sodium": {
+          "percentDailyValue": 0.1,
+          "measure": "mg",
+          "amount": 1.65
+        },
+        "zinc": {
+          "percentDailyValue": 1.3,
+          "measure": "mg",
+          "amount": 0.2
+        }
+      }
+    },
+    "tags": [
+      "simple",
+      "paleo",
+      "vegan",
+      "whole30",
+      "vegetarian",
+      "gluten free",
+      "fruit",
+      "tropical"
+    ],
+    "color": "yellow",
+    "palateWeight": "heavy",
+    "layer": 5,
+    "img": "images/pineapple.jpg"
+  },
+  {
+    "name": "Frozen Strawberries",
+    "nutrition": {
+      "measure": "cup",
+      "amount": "1",
+      "calories": 77.3,
+      "fiber": {
+        "measure": "g",
+        "amount": 4.64
+      },
+      "macros": {
+        "protein": {
+          "measure": "g",
+          "amount": 1
+        },
+        "fat": {
+          "measure": "g",
+          "amount": 0.24
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 20.2
+        }
+      },
+      "totalSugars": {
+        "measure": "g",
+        "amount": 10.08
+      },
+      "vitamins": {
+        "B1": {
+          "percentDailyValue": 3.2,
+          "measure": "mg",
+          "amount": 0.05
+        },
+        "B2": {
+          "percentDailyValue": 4.8,
+          "measure": "mg",
+          "amount": 0.08
+        },
+        "B3": {
+          "percentDailyValue": 5.1,
+          "measure": "mg",
+          "amount": 1.02
+        },
+        "B5": {
+          "percentDailyValue": 2.4,
+          "measure": "mg",
+          "amount": 0.24
+        },
+        "B6": {
+          "percentDailyValue": 3.1,
+          "measure": "mg",
+          "amount": 0.06
+        },
+        "B12": {
+          "percentDailyValue": 0,
+          "measure": "mg",
+          "amount": 0
+        },
+        "A": {
+          "percentDailyValue": 2,
+          "measure": "IU",
+          "amount": 99.45
+        },
+        "C": {
+          "percentDailyValue": 151.7,
+          "measure": "mg",
+          "amount": 91.05
+        },
+        "D": {
+          "percentDailyValue": 0,
+          "measure": "IU",
+          "amount": 0
+        },
+        "E": {
+          "percentDailyValue": 3.2,
+          "measure": "mg",
+          "amount": 0.64
+        },
+        "K": {
+          "percentDailyValue": 6.1,
+          "measure": "ug",
+          "amount": 4.86
+        }
+      },
+      "lipids": {
+        "omega3": {
+          "measure": "g",
+          "amount": 0.05
+        },
+        "omega6": {
+          "measure": "g",
+          "amount": 0.07
+        },
+        "cholesterol": {
+          "measure": "g",
+          "amount": 0
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "percentDailyValue": 3.5,
+          "measure": "mg",
+          "amount": 35.36
+        },
+        "iron": {
+          "percentDailyValue": 9.2,
+          "measure": "mg",
+          "amount": 1.66
+        },
+        "magnesium": {
+          "percentDailyValue": 6.1,
+          "measure": "mg",
+          "amount": 24.31
+        },
+        "manganese": {
+          "percentDailyValue": 32,
+          "measure": "mg",
+          "amount": 0.64
+        },
+        "potassium": {
+          "percentDailyValue": 9.3,
+          "measure": "mg",
+          "amount": 327.07
+        },
+        "selenium": {
+          "percentDailyValue": 2.2,
+          "measure": "ug",
+          "amount": 1.55
+        },
+        "sodium": {
+          "percentDailyValue": 0.2,
+          "measure": "mg",
+          "amount": 4.42
+        },
+        "zinc": {
+          "percentDailyValue": 1.9,
+          "measure": "mg",
+          "amount": 0.29
+        }
+      }
+    },
+    "tags": [
+      "simple",
+      "paleo",
+      "vegan",
+      "whole30",
+      "vegetarian",
+      "gluten free",
+      "fruit",
+      "berry"
+    ],
+    "color": "red",
+    "palateWeight": "medium",
+    "layer": 6,
+    "img": "images/strawberry.jpg"
+  },
+  {
+    "name": "Fresh Strawberries",
+    "nutrition": {
+      "measure": "cup",
+      "amount": "1",
+      "calories": 77.3,
+      "fiber": {
+        "measure": "g",
+        "amount": 4.64
+      },
+      "macros": {
+        "protein": {
+          "measure": "g",
+          "amount": 1
+        },
+        "fat": {
+          "measure": "g",
+          "amount": 0.24
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 20.2
+        }
+      },
+      "totalSugars": {
+        "measure": "g",
+        "amount": 10.08
+      },
+      "vitamins": {
+        "B1": {
+          "percentDailyValue": 3.2,
+          "measure": "mg",
+          "amount": 0.05
+        },
+        "B2": {
+          "percentDailyValue": 4.8,
+          "measure": "mg",
+          "amount": 0.08
+        },
+        "B3": {
+          "percentDailyValue": 5.1,
+          "measure": "mg",
+          "amount": 1.02
+        },
+        "B5": {
+          "percentDailyValue": 2.4,
+          "measure": "mg",
+          "amount": 0.24
+        },
+        "B6": {
+          "percentDailyValue": 3.1,
+          "measure": "mg",
+          "amount": 0.06
+        },
+        "B12": {
+          "percentDailyValue": 0,
+          "measure": "mg",
+          "amount": 0
+        },
+        "A": {
+          "percentDailyValue": 2,
+          "measure": "IU",
+          "amount": 99.45
+        },
+        "C": {
+          "percentDailyValue": 151.7,
+          "measure": "mg",
+          "amount": 91.05
+        },
+        "D": {
+          "percentDailyValue": 0,
+          "measure": "IU",
+          "amount": 0
+        },
+        "E": {
+          "percentDailyValue": 3.2,
+          "measure": "mg",
+          "amount": 0.64
+        },
+        "K": {
+          "percentDailyValue": 6.1,
+          "measure": "ug",
+          "amount": 4.86
+        }
+      },
+      "lipids": {
+        "omega3": {
+          "measure": "g",
+          "amount": 0.05
+        },
+        "omega6": {
+          "measure": "g",
+          "amount": 0.07
+        },
+        "cholesterol": {
+          "measure": "g",
+          "amount": 0
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "percentDailyValue": 3.5,
+          "measure": "mg",
+          "amount": 35.36
+        },
+        "iron": {
+          "percentDailyValue": 9.2,
+          "measure": "mg",
+          "amount": 1.66
+        },
+        "magnesium": {
+          "percentDailyValue": 6.1,
+          "measure": "mg",
+          "amount": 24.31
+        },
+        "manganese": {
+          "percentDailyValue": 32,
+          "measure": "mg",
+          "amount": 0.64
+        },
+        "potassium": {
+          "percentDailyValue": 9.3,
+          "measure": "mg",
+          "amount": 327.07
+        },
+        "selenium": {
+          "percentDailyValue": 2.2,
+          "measure": "ug",
+          "amount": 1.55
+        },
+        "sodium": {
+          "percentDailyValue": 0.2,
+          "measure": "mg",
+          "amount": 4.42
+        },
+        "zinc": {
+          "percentDailyValue": 1.9,
+          "measure": "mg",
+          "amount": 0.29
+        }
+      }
+    },
+    "tags": [
+      "simple",
+      "paleo",
+      "vegan",
+      "whole30",
+      "vegetarian",
+      "gluten free",
+      "fruit",
+      "berry",
+      "topping"
+    ],
+    "color": "red",
+    "palateWeight": "medium",
+    "layer": 5,
+    "img": "images/strawberry.jpg"
+  },
+  {
+    "name": "Fresh Raspberries",
+    "nutrition": {
+      "measure": "cup",
+      "amount": "1",
+      "calories": 140,
+      "fiber": {
+        "measure": "g",
+        "amount": 10.75
+      },
+      "macros": {
+        "protein": {
+          "measure": "g",
+          "amount": 2.9
+        },
+        "fat": {
+          "measure": "g",
+          "amount": 2
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 31.4
+        }
+      },
+      "totalSugars": {
+        "measure": "g",
+        "amount": 16.35
+      },
+      "vitamins": {
+        "B1": {
+          "percentDailyValue": 14.8,
+          "measure": "mg",
+          "amount": 0.22
+        },
+        "B2": {
+          "percentDailyValue": 14.7,
+          "measure": "mg",
+          "amount": 0.25
+        },
+        "B3": {
+          "percentDailyValue": 8.4,
+          "measure": "mg",
+          "amount": 1.69
+        },
+        "B5": {
+          "percentDailyValue": 10,
+          "measure": "mg",
+          "amount": 1
+        },
+        "B6": {
+          "percentDailyValue": 7.8,
+          "measure": "mg",
+          "amount": 0.16
+        },
+        "B12": {
+          "percentDailyValue": 0,
+          "measure": "mg",
+          "amount": 0
+        },
+        "A": {
+          "percentDailyValue": 3.7,
+          "measure": "IU",
+          "amount": 185
+        },
+        "C": {
+          "percentDailyValue": 73.3,
+          "measure": "mg",
+          "amount": 44
+        },
+        "D": {
+          "percentDailyValue": 0,
+          "measure": "IU",
+          "amount": 0
+        },
+        "E": {
+          "percentDailyValue": 9.3,
+          "measure": "mg",
+          "amount": 1.87
+        },
+        "K": {
+          "percentDailyValue": 24.4,
+          "measure": "ug",
+          "amount": 19.5
+        }
+      },
+      "lipids": {
+        "omega3": {
+          "measure": "g",
+          "amount": 0.05
+        },
+        "omega6": {
+          "measure": "g",
+          "amount": 0.04
+        },
+        "cholesterol": {
+          "measure": "g",
+          "amount": 0
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "percentDailyValue": 6,
+          "measure": "mg",
+          "amount": 60
+        },
+        "iron": {
+          "percentDailyValue": 10.6,
+          "measure": "mg",
+          "amount": 1.9
+        },
+        "magnesium": {
+          "percentDailyValue": 14.4,
+          "measure": "mg",
+          "amount": 57.5
+        },
+        "manganese": {
+          "percentDailyValue": 76.2,
+          "measure": "mg",
+          "amount": 1.52
+        },
+        "potassium": {
+          "percentDailyValue": 13.1,
+          "measure": "mg",
+          "amount": 460
+        },
+        "selenium": {
+          "percentDailyValue": 0.7,
+          "measure": "ug",
+          "amount": 0.5
+        },
+        "sodium": {
+          "percentDailyValue": 0.4,
+          "measure": "mg",
+          "amount": 10
+        },
+        "zinc": {
+          "percentDailyValue": 5.2,
+          "measure": "mg",
+          "amount": 0.78
+        }
+      }
+    },
+    "tags": [
+      "simple",
+      "paleo",
+      "vegan",
+      "whole30",
+      "vegetarian",
+      "gluten free",
+      "fruit",
+      "berry",
+      "topping"
+    ],
+    "color": "red",
+    "palateWeight": "medium",
+    "layer": 5,
+    "img": "images/raspberry.jpg"
+  },
+  {
+    "name": "Frozen Raspberries",
+    "nutrition": {
+      "measure": "cup",
+      "amount": "1",
+      "calories": 140,
+      "fiber": {
+        "measure": "g",
+        "amount": 10.75
+      },
+      "macros": {
+        "protein": {
+          "measure": "g",
+          "amount": 2.9
+        },
+        "fat": {
+          "measure": "g",
+          "amount": 2
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 31.4
+        }
+      },
+      "totalSugars": {
+        "measure": "g",
+        "amount": 16.35
+      },
+      "vitamins": {
+        "B1": {
+          "percentDailyValue": 14.8,
+          "measure": "mg",
+          "amount": 0.22
+        },
+        "B2": {
+          "percentDailyValue": 14.7,
+          "measure": "mg",
+          "amount": 0.25
+        },
+        "B3": {
+          "percentDailyValue": 8.4,
+          "measure": "mg",
+          "amount": 1.69
+        },
+        "B5": {
+          "percentDailyValue": 10,
+          "measure": "mg",
+          "amount": 1
+        },
+        "B6": {
+          "percentDailyValue": 7.8,
+          "measure": "mg",
+          "amount": 0.16
+        },
+        "B12": {
+          "percentDailyValue": 0,
+          "measure": "mg",
+          "amount": 0
+        },
+        "A": {
+          "percentDailyValue": 3.7,
+          "measure": "IU",
+          "amount": 185
+        },
+        "C": {
+          "percentDailyValue": 73.3,
+          "measure": "mg",
+          "amount": 44
+        },
+        "D": {
+          "percentDailyValue": 0,
+          "measure": "IU",
+          "amount": 0
+        },
+        "E": {
+          "percentDailyValue": 9.3,
+          "measure": "mg",
+          "amount": 1.87
+        },
+        "K": {
+          "percentDailyValue": 24.4,
+          "measure": "ug",
+          "amount": 19.5
+        }
+      },
+      "lipids": {
+        "omega3": {
+          "measure": "g",
+          "amount": 0.05
+        },
+        "omega6": {
+          "measure": "g",
+          "amount": 0.04
+        },
+        "cholesterol": {
+          "measure": "g",
+          "amount": 0
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "percentDailyValue": 6,
+          "measure": "mg",
+          "amount": 60
+        },
+        "iron": {
+          "percentDailyValue": 10.6,
+          "measure": "mg",
+          "amount": 1.9
+        },
+        "magnesium": {
+          "percentDailyValue": 14.4,
+          "measure": "mg",
+          "amount": 57.5
+        },
+        "manganese": {
+          "percentDailyValue": 76.2,
+          "measure": "mg",
+          "amount": 1.52
+        },
+        "potassium": {
+          "percentDailyValue": 13.1,
+          "measure": "mg",
+          "amount": 460
+        },
+        "selenium": {
+          "percentDailyValue": 0.7,
+          "measure": "ug",
+          "amount": 0.5
+        },
+        "sodium": {
+          "percentDailyValue": 0.4,
+          "measure": "mg",
+          "amount": 10
+        },
+        "zinc": {
+          "percentDailyValue": 5.2,
+          "measure": "mg",
+          "amount": 0.78
+        }
+      }
+    },
+    "tags": [
+      "simple",
+      "paleo",
+      "vegan",
+      "whole30",
+      "vegetarian",
+      "gluten free",
+      "fruit",
+      "berry"
+    ],
+    "color": "red",
+    "palateWeight": "medium",
+    "layer": 6,
+    "img": "images/raspberry.jpg"
+  },
+  {
+    "name": "Fresh Blackberries",
+    "nutrition": {
+      "measure": "cup",
+      "amount": "1",
+      "calories": 96.6,
+      "fiber": {
+        "measure": "g",
+        "amount": 7.55
+      },
+      "macros": {
+        "protein": {
+          "measure": "g",
+          "amount": 1.8
+        },
+        "fat": {
+          "measure": "g",
+          "amount": 0.6
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 23.7
+        }
+      },
+      "totalSugars": {
+        "measure": "g",
+        "amount": 16.11
+      },
+      "vitamins": {
+        "B1": {
+          "percentDailyValue": 2.9,
+          "measure": "mg",
+          "amount": 0.04
+        },
+        "B2": {
+          "percentDailyValue": 4.1,
+          "measure": "mg",
+          "amount": 0.07
+        },
+        "B3": {
+          "percentDailyValue": 9.1,
+          "measure": "mg",
+          "amount": 1.82
+        },
+        "B5": {
+          "percentDailyValue": 2.3,
+          "measure": "mg",
+          "amount": 0.23
+        },
+        "B6": {
+          "percentDailyValue": 4.6,
+          "measure": "mg",
+          "amount": 0.09
+        },
+        "B12": {
+          "percentDailyValue": 0,
+          "measure": "mg",
+          "amount": 0
+        },
+        "A": {
+          "percentDailyValue": 3.4,
+          "measure": "IU",
+          "amount": 172.14
+        },
+        "C": {
+          "percentDailyValue": 7.8,
+          "measure": "mg",
+          "amount": 4.68
+        },
+        "D": {
+          "percentDailyValue": 0,
+          "measure": "IU",
+          "amount": 0
+        },
+        "E": {
+          "percentDailyValue": 8.8,
+          "measure": "mg",
+          "amount": 1.77
+        },
+        "K": {
+          "percentDailyValue": 37.4,
+          "measure": "ug",
+          "amount": 29.9
+        }
+      },
+      "lipids": {
+        "omega3": {
+          "measure": "g",
+          "amount": 0.12
+        },
+        "omega6": {
+          "measure": "g",
+          "amount": 0.25
+        },
+        "cholesterol": {
+          "measure": "g",
+          "amount": 0
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "percentDailyValue": 4.4,
+          "measure": "mg",
+          "amount": 43.79
+        },
+        "iron": {
+          "percentDailyValue": 6.7,
+          "measure": "mg",
+          "amount": 1.21
+        },
+        "magnesium": {
+          "percentDailyValue": 8.3,
+          "measure": "mg",
+          "amount": 33.22
+        },
+        "manganese": {
+          "percentDailyValue": 92.3,
+          "measure": "mg",
+          "amount": 1.85
+        },
+        "potassium": {
+          "percentDailyValue": 6,
+          "measure": "mg",
+          "amount": 211.4
+        },
+        "selenium": {
+          "percentDailyValue": 0.9,
+          "measure": "ug",
+          "amount": 0.6
+        },
+        "sodium": {
+          "percentDailyValue": 0.1,
+          "measure": "mg",
+          "amount": 1.51
+        },
+        "zinc": {
+          "percentDailyValue": 2.5,
+          "measure": "mg",
+          "amount": 0.38
+        }
+      }
+    },
+    "tags": [
+      "simple",
+      "paleo",
+      "vegan",
+      "whole30",
+      "vegetarian",
+      "gluten free",
+      "fruit",
+      "berry",
+      "topping"
+    ],
+    "color": "purple",
+    "palateWeight": "medium",
+    "layer": 5,
+    "img": "images/blackberry.jpg"
+  },
+  {
+    "name": "Frozen Blackberries",
+    "nutrition": {
+      "measure": "cup",
+      "amount": "1",
+      "calories": 96.6,
+      "fiber": {
+        "measure": "g",
+        "amount": 7.55
+      },
+      "macros": {
+        "protein": {
+          "measure": "g",
+          "amount": 1.8
+        },
+        "fat": {
+          "measure": "g",
+          "amount": 0.6
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 23.7
+        }
+      },
+      "totalSugars": {
+        "measure": "g",
+        "amount": 16.11
+      },
+      "vitamins": {
+        "B1": {
+          "percentDailyValue": 2.9,
+          "measure": "mg",
+          "amount": 0.04
+        },
+        "B2": {
+          "percentDailyValue": 4.1,
+          "measure": "mg",
+          "amount": 0.07
+        },
+        "B3": {
+          "percentDailyValue": 9.1,
+          "measure": "mg",
+          "amount": 1.82
+        },
+        "B5": {
+          "percentDailyValue": 2.3,
+          "measure": "mg",
+          "amount": 0.23
+        },
+        "B6": {
+          "percentDailyValue": 4.6,
+          "measure": "mg",
+          "amount": 0.09
+        },
+        "B12": {
+          "percentDailyValue": 0,
+          "measure": "mg",
+          "amount": 0
+        },
+        "A": {
+          "percentDailyValue": 3.4,
+          "measure": "IU",
+          "amount": 172.14
+        },
+        "C": {
+          "percentDailyValue": 7.8,
+          "measure": "mg",
+          "amount": 4.68
+        },
+        "D": {
+          "percentDailyValue": 0,
+          "measure": "IU",
+          "amount": 0
+        },
+        "E": {
+          "percentDailyValue": 8.8,
+          "measure": "mg",
+          "amount": 1.77
+        },
+        "K": {
+          "percentDailyValue": 37.4,
+          "measure": "ug",
+          "amount": 29.9
+        }
+      },
+      "lipids": {
+        "omega3": {
+          "measure": "g",
+          "amount": 0.12
+        },
+        "omega6": {
+          "measure": "g",
+          "amount": 0.25
+        },
+        "cholesterol": {
+          "measure": "g",
+          "amount": 0
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "percentDailyValue": 4.4,
+          "measure": "mg",
+          "amount": 43.79
+        },
+        "iron": {
+          "percentDailyValue": 6.7,
+          "measure": "mg",
+          "amount": 1.21
+        },
+        "magnesium": {
+          "percentDailyValue": 8.3,
+          "measure": "mg",
+          "amount": 33.22
+        },
+        "manganese": {
+          "percentDailyValue": 92.3,
+          "measure": "mg",
+          "amount": 1.85
+        },
+        "potassium": {
+          "percentDailyValue": 6,
+          "measure": "mg",
+          "amount": 211.4
+        },
+        "selenium": {
+          "percentDailyValue": 0.9,
+          "measure": "ug",
+          "amount": 0.6
+        },
+        "sodium": {
+          "percentDailyValue": 0.1,
+          "measure": "mg",
+          "amount": 1.51
+        },
+        "zinc": {
+          "percentDailyValue": 2.5,
+          "measure": "mg",
+          "amount": 0.38
+        }
+      }
+    },
+    "tags": [
+      "simple",
+      "paleo",
+      "vegan",
+      "whole30",
+      "vegetarian",
+      "gluten free",
+      "fruit",
+      "berry"
+    ],
+    "color": "purple",
+    "palateWeight": "medium",
+    "layer": 6,
+    "img": "images/blackberry.jpg"
+  },
+  {
+    "name": "Frozen Cherries",
+    "nutrition": {
+      "measure": "cup",
+      "amount": "1",
+      "calories": 88.2,
+      "fiber": {
+        "measure": "g",
+        "amount": 2.94
+      },
+      "macros": {
+        "protein": {
+          "measure": "g",
+          "amount": 1.5
+        },
+        "fat": {
+          "measure": "g",
+          "amount": 0.3
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 22.4
+        }
+      },
+      "totalSugars": {
+        "measure": "g",
+        "amount": 17.95
+      },
+      "vitamins": {
+        "B1": {
+          "percentDailyValue": 2.5,
+          "measure": "mg",
+          "amount": 0.04
+        },
+        "B2": {
+          "percentDailyValue": 2.7,
+          "measure": "mg",
+          "amount": 0.05
+        },
+        "B3": {
+          "percentDailyValue": 1.1,
+          "measure": "mg",
+          "amount": 0.22
+        },
+        "B5": {
+          "percentDailyValue": 2.8,
+          "measure": "mg",
+          "amount": 0.28
+        },
+        "B6": {
+          "percentDailyValue": 3.4,
+          "measure": "mg",
+          "amount": 0.07
+        },
+        "B12": {
+          "percentDailyValue": 0,
+          "measure": "mg",
+          "amount": 0
+        },
+        "A": {
+          "percentDailyValue": 1.8,
+          "measure": "IU",
+          "amount": 89.6
+        },
+        "C": {
+          "percentDailyValue": 16.3,
+          "measure": "mg",
+          "amount": 9.8
+        },
+        "D": {
+          "percentDailyValue": 0,
+          "measure": "IU",
+          "amount": 0
+        },
+        "E": {
+          "percentDailyValue": 0.4,
+          "measure": "mg",
+          "amount": 0.08
+        },
+        "K": {
+          "percentDailyValue": 3.7,
+          "measure": "ug",
+          "amount": 2.94
+        }
+      },
+      "lipids": {
+        "omega3": {
+          "measure": "g",
+          "amount": 0.005
+        },
+        "omega6": {
+          "measure": "g",
+          "amount": 0.04
+        },
+        "cholesterol": {
+          "measure": "g",
+          "amount": 0
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "percentDailyValue": 1.8,
+          "measure": "mg",
+          "amount": 18.2
+        },
+        "iron": {
+          "percentDailyValue": 2.8,
+          "measure": "mg",
+          "amount": 0.5
+        },
+        "magnesium": {
+          "percentDailyValue": 3.9,
+          "measure": "mg",
+          "amount": 15.4
+        },
+        "manganese": {
+          "percentDailyValue": 4.9,
+          "measure": "mg",
+          "amount": 0.1
+        },
+        "potassium": {
+          "percentDailyValue": 8.9,
+          "measure": "mg",
+          "amount": 310.80
+        },
+        "selenium": {
+          "percentDailyValue": 0,
+          "measure": "ug",
+          "amount": 0
+        },
+        "sodium": {
+          "percentDailyValue": 0,
+          "measure": "mg",
+          "amount": 0
+        },
+        "zinc": {
+          "percentDailyValue": 0.7,
+          "measure": "mg",
+          "amount": 0.1
+        }
+      }
+    },
+    "tags": [
+      "paleo",
+      "vegan",
+      "whole30",
+      "vegetarian",
+      "gluten free",
+      "fruit"
+    ],
+    "color": "red",
+    "palateWeight": "medium",
+    "layer": 6,
+    "img": "images/cherry.jpg"
+  },
+  {
+    "name": "Fresh Cherries",
+    "nutrition": {
+      "measure": "cup",
+      "amount": "1",
+      "calories": 88.2,
+      "fiber": {
+        "measure": "g",
+        "amount": 2.94
+      },
+      "macros": {
+        "protein": {
+          "measure": "g",
+          "amount": 1.5
+        },
+        "fat": {
+          "measure": "g",
+          "amount": 0.3
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 22.4
+        }
+      },
+      "totalSugars": {
+        "measure": "g",
+        "amount": 17.95
+      },
+      "vitamins": {
+        "B1": {
+          "percentDailyValue": 2.5,
+          "measure": "mg",
+          "amount": 0.04
+        },
+        "B2": {
+          "percentDailyValue": 2.7,
+          "measure": "mg",
+          "amount": 0.05
+        },
+        "B3": {
+          "percentDailyValue": 1.1,
+          "measure": "mg",
+          "amount": 0.22
+        },
+        "B5": {
+          "percentDailyValue": 2.8,
+          "measure": "mg",
+          "amount": 0.28
+        },
+        "B6": {
+          "percentDailyValue": 3.4,
+          "measure": "mg",
+          "amount": 0.07
+        },
+        "B12": {
+          "percentDailyValue": 0,
+          "measure": "mg",
+          "amount": 0
+        },
+        "A": {
+          "percentDailyValue": 1.8,
+          "measure": "IU",
+          "amount": 89.6
+        },
+        "C": {
+          "percentDailyValue": 16.3,
+          "measure": "mg",
+          "amount": 9.8
+        },
+        "D": {
+          "percentDailyValue": 0,
+          "measure": "IU",
+          "amount": 0
+        },
+        "E": {
+          "percentDailyValue": 0.4,
+          "measure": "mg",
+          "amount": 0.08
+        },
+        "K": {
+          "percentDailyValue": 3.7,
+          "measure": "ug",
+          "amount": 2.94
+        }
+      },
+      "lipids": {
+        "omega3": {
+          "measure": "g",
+          "amount": 0.005
+        },
+        "omega6": {
+          "measure": "g",
+          "amount": 0.04
+        },
+        "cholesterol": {
+          "measure": "g",
+          "amount": 0
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "percentDailyValue": 1.8,
+          "measure": "mg",
+          "amount": 18.2
+        },
+        "iron": {
+          "percentDailyValue": 2.8,
+          "measure": "mg",
+          "amount": 0.5
+        },
+        "magnesium": {
+          "percentDailyValue": 3.9,
+          "measure": "mg",
+          "amount": 15.4
+        },
+        "manganese": {
+          "percentDailyValue": 4.9,
+          "measure": "mg",
+          "amount": 0.1
+        },
+        "potassium": {
+          "percentDailyValue": 8.9,
+          "measure": "mg",
+          "amount": 310.80
+        },
+        "selenium": {
+          "percentDailyValue": 0,
+          "measure": "ug",
+          "amount": 0
+        },
+        "sodium": {
+          "percentDailyValue": 0,
+          "measure": "mg",
+          "amount": 0
+        },
+        "zinc": {
+          "percentDailyValue": 0.7,
+          "measure": "mg",
+          "amount": 0.1
+        }
+      }
+    },
+    "tags": [
+      "paleo",
+      "vegan",
+      "whole30",
+      "vegetarian",
+      "gluten free",
+      "fruit"
+    ],
+    "color": "red",
+    "palateWeight": "medium",
+    "layer": 5,
+    "img": "images/cherry.jpg"
+  }
+]

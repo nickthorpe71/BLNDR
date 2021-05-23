@@ -1,0 +1,168 @@
+[
+  {
+    "name": "Frozen Blueberry",
+    "nutrition": {
+      "measure": "cup",
+      "amount": "1",
+      "calories": 71.4,
+      "fiber": {
+        "measure": "g",
+        "amount": 3.6
+      },
+      "macros": {
+        "protein": {
+          "measure": "g",
+          "amount": 0.6
+        },
+        "fat": {
+          "measure": "g",
+          "amount": 0.9
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 17
+        }
+      },
+      "totalSugars": {
+        "measure": "g",
+        "amount": 11.8
+      },
+      "vitamins": {
+        "B1": {
+          "percentDailyValue": 2.8,
+          "measure": "mg",
+          "amount": 0.04
+        },
+        "B2": {
+          "percentDailyValue": 0.6,
+          "measure": "mg",
+          "amount": 0.005
+        },
+        "B3": {
+          "percentDailyValue": 4.3,
+          "measure": "mg",
+          "amount": 0.85
+        },
+        "B5": {
+          "percentDailyValue": 1.8,
+          "measure": "mg",
+          "amount": 0.18
+        },
+        "B6": {
+          "percentDailyValue": 1.4,
+          "measure": "mg",
+          "amount": 0.03
+        },
+        "B12": {
+          "percentDailyValue": 0,
+          "measure": "mg",
+          "amount": 0
+        },
+        "A": {
+          "percentDailyValue": 1.9,
+          "measure": "IU",
+          "amount": 94.27
+        },
+        "C": {
+          "percentDailyValue": 4,
+          "measure": "mg",
+          "amount": 2.38
+        },
+        "D": {
+          "percentDailyValue": 0,
+          "measure": "IU",
+          "amount": 0
+        },
+        "E": {
+          "percentDailyValue": 1.8,
+          "measure": "mg",
+          "amount": 0.36
+        },
+        "K": {
+          "percentDailyValue": 28.7,
+          "measure": "ug",
+          "amount": 22.96
+        }
+      },
+      "lipids": {
+        "omega3": {
+          "measure": "g",
+          "amount": 0.16
+        },
+        "omega6": {
+          "measure": "g",
+          "amount": 0.23
+        },
+        "cholesterol": {
+          "measure": "g",
+          "amount": 0
+        },
+        "saturated": {
+          "measure": "g",
+          "amount": 0
+        },
+        "trans": {
+          "measure": "g",
+          "amount": 0
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "percentDailyValue": 2.4,
+          "measure": "mg",
+          "amount": 23.8
+        },
+        "iron": {
+          "percentDailyValue": 4.5,
+          "measure": "mg",
+          "amount": 0.05
+        },
+        "magnesium": {
+          "percentDailyValue": 2.5,
+          "measure": "mg",
+          "amount": 9.8
+        },
+        "manganese": {
+          "percentDailyValue": 200.9,
+          "measure": "mg",
+          "amount": 4.02
+        },
+        "potassium": {
+          "percentDailyValue": 2.7,
+          "measure": "mg",
+          "amount": 95.2
+        },
+        "selenium": {
+          "percentDailyValue": 0.2,
+          "measure": "ug",
+          "amount": 0.14
+        },
+        "sodium": {
+          "percentDailyValue": 0.2,
+          "measure": "mg",
+          "amount": 4.2
+        },
+        "zinc": {
+          "percentDailyValue": 6.3,
+          "measure": "mg",
+          "amount": 0.94
+        }
+      }
+    },
+    "tags": [
+      "simple",
+      "super healthy",
+      "berry",
+      "fruit",
+      "vegan",
+      "paleo",
+      "whole30",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "blue",
+    "palateWeight": "medium",
+    "layer": 6,
+    "img": "images/blueberry.jpg"
+  },
+]

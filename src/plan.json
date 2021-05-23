@@ -1,0 +1,203 @@
+// Ingredient
+{
+  "name": "Blueberry",
+  "nutrition": {
+    "protein": "11"
+  },
+  "tags": [
+    "greens",
+    "protein",
+    "berry"
+  ],
+  "color": "blue",
+  "palateWeight": "heavy, medium, light",
+  "layer": 6,
+  "img": "a/path"
+}
+// Smoothie
+{
+  "name": "Smoothie", // generate from tags and other info
+  "instructions": "string", // randomize between 5
+  "ingredients": "string arr",
+  "nutrition": "obj",
+  "palateWeight": "string", // calculated from ingredients
+  "tags": "string arr", // from ingredients
+  "layers": {
+    "1": "10 oz || 1 1/4 cup",
+    "2": "1 tbsp",
+    "3": "1 cup",
+    "4": "1/2 cup",
+    "5": "1/2 cup",
+    "6": "1 cup",
+  },
+  "color": "genrated by looking at all ingredient colors",
+  "image": "from color"
+}
+// Bowl
+{
+  "name": "Smoothie", // generate from tags and other info
+  "instructions": "string", // randomize between 5
+  "ingredients": "string arr",
+  "nutrition": "obj",
+  "palateWeight": "string", // calculated from ingredients
+  "tags": "string arr", // from ingredients
+  "layers": {
+    "1": "6 oz || 3/4 cups",
+    "2": "1 tbsp",
+    "3": "1 cup",
+    "4": "1/2 cup",
+    "5": "1/2 cup",
+    "6": "1 cup",
+  },
+  "color": "genrated by looking at all ingredient colors",
+  "image": "from color"
+}
+// Basic Creation Process
+1. select a smoothie type
+2. select a liquid
+3. if simple set max ingredients random between 3 and 5 else set to random between 4 and 10
+4. if healthy or simple no sweetener - if exotic randomize sweetener or not - if decadent select a sweetener
+5. if !simple randomly select a protein or not unless flag passed to definitely include protein
+6. if healthy select greens - else randomize greens
+7. if !simple randomize soft
+8. randomize medium
+9. randomize hard
+10. calculate color, palate weight, tags, nutrition, ingredients list, and name from ingredients
+11. get image using color
+12. randomly select instructions
+// TYPES OF SMOOTHIES
+simple - less ingredients
+super healthy - no sweetener and include ingredients tagged super healthy
+exotic - includes foods that might not be something everyone knows about
+decadent - dessert
+// Category Shares
+simple
+  - only takes from simple
+super healthy
+  - takes from simple and super healthy
+  - low chance to take from exotic
+decadent
+  - takes from simple and decadent
+exotic
+  - takes from exotic
+  - low chance to take from simple
+  - low chance to take from super healthy
+  - low chance to take from decadent
+// Layers ------
+1. Liquids
+2. Powders/sweeteners
+3. Greens
+4. Soft (yogurt tofu nut butter)
+5. Medium (carrot, apple)
+6. Hard (frozen)
+// ------
+// Colors ------
+Required Image Colors (Light med dark for each)
+Red
+Green
+Purple
+Blue
+Orange
+Yellow
+White
+Brown
+// ------
+// Tags ------
+simple
+super healthy 
+exotic
+decadent 
+greens
+berry
+protein
+veggie
+fruit
+tropical
+caffeine
+nut
+vegan
+paleo 
+keto - has to stay below 20 carbs
+vegetarian
+whole30
+gluten free
+///// --------- ALL INGREDIENTS BELOW (* = done)
+// FRUITS
+Banana
+Pineapple 
+Strawberries
+Blueberries
+Raspberries
+Blackberries
+Cherries
+Peaches
+Cantaloupe
+Watermelon
+Pomegranate seeds
+Kiwi
+Acai
+Avocado
+Grapes
+Pears
+Orange
+Apples
+Papaya
+Mango
+Plum
+Nectarines
+// ------------
+// Veggies
+Zucchini
+Cucumber
+Beets
+Carrot
+Kale
+Spinach
+Romaine
+// -----------
+// Protein
+Chocolate
+Vanilla
+Unflavored
+// --------
+// Liquids
+Cold Coffee
+Cold Green Tea
+Coconut Water
+Almond Milk
+Coconut Milk
+Oat Milk
+Whole Milk
+Soy Milk
+Orange Juice
+Beet juice
+Acai Juice
+Mango Juice
+Carrot Juice
+// ---------
+// Sweeteners
+Honey
+Dates
+Maple Syrup
+Agave
+// ------------
+// Boosters
+Matcha
+Oats
+Chia seeds
+Flax seeds
+Maca
+Hemp seeds
+Almond butter
+Peanut butter
+Cacao
+Ginger
+Turmeric
+Spirulina
+Basil
+Mint
+Cinnamon
+Vanilla Extract
+Yogurt
+Silk Tofu
+

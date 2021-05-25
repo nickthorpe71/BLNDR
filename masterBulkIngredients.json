@@ -4317,23 +4317,23 @@
     "nutrition": {
       "measure": null,
       "amount": 1,
-      "calories": 26.0,
+      "calories": 29.3,
       "fiber": {
         "measure": "G",
-        "amount": 0.4
+        "amount": 2.1
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 2.42
+          "amount": 1
         },
         "fat": {
           "measure": "G",
-          "amount": null
+          "amount": 0.3
         },
         "carbs": {
           "measure": "g",
-          "amount": 0.39
+          "amount": 6.3
         }
       },
       "totalSugars": {
@@ -4343,7 +4343,7 @@
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 56.0
+          "amount": 0
         },
         "C": {
           "measure": "MG",
@@ -4361,7 +4361,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0.135
+          "amount": 0.07
         },
         "trans": {
           "measure": "G",
@@ -4375,24 +4375,24 @@
         },
         "iron": {
           "measure": "MG",
-          "amount": 2.79
+          "amount": 5.79
         },
         "potassium": {
           "measure": "MG",
-          "amount": 127
+          "amount": 197
         },
         "sodium": {
           "measure": "MG",
-          "amount": 98.0
+          "amount": 2
         }
       }
     }
   },
   {
-    "name": "Basil",
+    "name": "Chopped Basil",
     "query": "Basil",
     "nutrition": {
-      "measure": null,
+      "measure": "tbsp",
       "amount": 1,
       "calories": 0.0,
       "fiber": {
@@ -4402,65 +4402,65 @@
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0.0
+          "amount": 0.1
         },
         "fat": {
           "measure": "G",
-          "amount": null
+          "amount": 0
         },
         "carbs": {
           "measure": "g",
-          "amount": 0.0
+          "amount": 0.1
         }
       },
       "totalSugars": {
         "measure": "g",
-        "amount": null
+        "amount": 0
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": null
+          "amount": 139.8
         },
         "C": {
           "measure": "mg",
-          "amount": null
+          "amount": 0.48
         },
         "D": {
           "measure": "IU",
-          "amount": null
+          "amount": 0
         }
       },
       "lipids": {
         "cholesterol": {
           "measure": "g",
-          "amount": null
+          "amount": 0
         },
         "saturated": {
           "measure": "g",
-          "amount": null
+          "amount": 0
         },
         "trans": {
           "measure": "g",
-          "amount": null
+          "amount": 0
         }
       },
       "minerals": {
         "calcium": {
           "measure": "mg",
-          "amount": null
+          "amount": 4.8
         },
         "iron": {
           "measure": "mg",
-          "amount": null
+          "amount": 0.08
         },
         "potassium": {
           "measure": "mg",
-          "amount": null
+          "amount": 8
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0.0
+          "amount": 0.1
         }
       }
     }
@@ -4469,75 +4469,75 @@
     "name": "Mint",
     "query": "Mint",
     "nutrition": {
-      "measure": null,
+      "measure": "tbsp",
       "amount": 1,
-      "calories": 312,
+      "calories": 2,
       "fiber": {
         "measure": "g",
-        "amount": null
+        "amount": 0.4
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 62.5
+          "amount": 0.2
         },
         "fat": {
           "measure": "G",
-          "amount": null
+          "amount": 0
         },
         "carbs": {
           "measure": "g",
-          "amount": 0.0
+          "amount": 0.5
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0.0
+        "amount": 0.1
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": null
+          "amount": 102.72
         },
         "C": {
           "measure": "mg",
-          "amount": null
+          "amount": 0.76
         },
         "D": {
           "measure": "IU",
-          "amount": null
+          "amount": 0
         }
       },
       "lipids": {
         "cholesterol": {
           "measure": "g",
-          "amount": null
+          "amount": 0
         },
         "saturated": {
           "measure": "g",
-          "amount": null
+          "amount": 0.01
         },
         "trans": {
           "measure": "g",
-          "amount": null
+          "amount": 0
         }
       },
       "minerals": {
         "calcium": {
           "measure": "mg",
-          "amount": null
+          "amount": 12
         },
         "iron": {
           "measure": "mg",
-          "amount": null
+          "amount": 1
         },
         "potassium": {
           "measure": "mg",
-          "amount": null
+          "amount": 26
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0.0
+          "amount": 2
         }
       }
     }
@@ -4546,9 +4546,9 @@
     "name": "Cinnamon",
     "query": "Cinnamon",
     "nutrition": {
-      "measure": "g",
-      "amount": 0.6,
-      "calories": 0.0,
+      "measure": "tsp",
+      "amount": 1,
+      "calories": 6.0,
       "fiber": {
         "measure": "g",
         "amount": null
@@ -4556,33 +4556,33 @@
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0.0
+          "amount": 0.1
         },
         "fat": {
           "measure": "G",
-          "amount": null
+          "amount": 0
         },
         "carbs": {
           "measure": "g",
-          "amount": 0.0
+          "amount": 2
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0.0
+        "amount": 0.1
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": null
+          "amount": 8
         },
         "C": {
           "measure": "mg",
-          "amount": null
+          "amount": 0.1
         },
         "D": {
           "measure": "IU",
-          "amount": null
+          "amount": 0
         }
       },
       "lipids": {
@@ -4592,29 +4592,29 @@
         },
         "saturated": {
           "measure": "g",
-          "amount": null
+          "amount": 0
         },
         "trans": {
           "measure": "g",
-          "amount": null
+          "amount": 0
         }
       },
       "minerals": {
         "calcium": {
           "measure": "mg",
-          "amount": null
+          "amount": 26
         },
         "iron": {
           "measure": "mg",
-          "amount": null
+          "amount": 0.22
         },
         "potassium": {
           "measure": "mg",
-          "amount": null
+          "amount": 11.21
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0.0
+          "amount": 0.26
         }
       }
     }
@@ -4623,30 +4623,30 @@
     "name": "Vanilla Extract",
     "query": "Vanilla%20Extract",
     "nutrition": {
-      "measure": null,
+      "measure": "tsp",
       "amount": 1,
-      "calories": 288,
+      "calories": 12,
       "fiber": {
         "measure": "G",
-        "amount": 0.0
+        "amount": 0
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0.06
+          "amount": 0
         },
         "fat": {
           "measure": "G",
-          "amount": null
+          "amount": 0
         },
         "carbs": {
           "measure": "g",
-          "amount": 0.06
+          "amount": 0.5
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 12.6
+        "amount": 0.5
       },
       "vitamins": {
         "A": {
@@ -4669,7 +4669,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0.01
+          "amount": 0.0
         },
         "trans": {
           "measure": "G",
@@ -4679,25 +4679,25 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 11.0
+          "amount": 0.0
         },
         "iron": {
           "measure": "MG",
-          "amount": 0.12
+          "amount": 0.0
         },
         "potassium": {
           "measure": "MG",
-          "amount": 148
+          "amount": 6
         },
         "sodium": {
           "measure": "MG",
-          "amount": 9.0
+          "amount": 0.0
         }
       }
     }
   },
   {
-    "name": "Yogurt",
+    "name": "Plain Greek Yogurt",
     "query": "Yogurt",
     "nutrition": {
       "measure": "g",
@@ -4705,16 +4705,16 @@
       "calories": 73.0,
       "fiber": {
         "measure": "G",
-        "amount": 0.7
+        "amount": 0
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 8.67
+          "amount": 12
         },
         "fat": {
           "measure": "G",
-          "amount": null
+          "amount": 0.5
         },
         "carbs": {
           "measure": "g",
@@ -4723,30 +4723,30 @@
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 5.33
+        "amount": 4
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 5000.0
+          "amount": 5
         },
         "C": {
           "measure": "MG",
-          "amount": 6.0
+          "amount": 0
         },
         "D": {
           "measure": "IU",
-          "amount": null
+          "amount": 0
         }
       },
       "lipids": {
         "cholesterol": {
           "measure": "MG",
-          "amount": 10.0
+          "amount": 0
         },
         "saturated": {
           "measure": "G",
-          "amount": 1.33
+          "amount": 0.14
         },
         "trans": {
           "measure": "G",
@@ -4756,19 +4756,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 100
+          "amount": 134
         },
         "iron": {
           "measure": "MG",
-          "amount": 0.24
+          "amount": 0.09
         },
         "potassium": {
           "measure": "mg",
-          "amount": null
+          "amount": 173
         },
         "sodium": {
           "measure": "MG",
-          "amount": 167
+          "amount": 44
         }
       }
     }
@@ -4777,9 +4777,9 @@
     "name": "Silk Tofu",
     "query": "Silk%20Tofu",
     "nutrition": {
-      "measure": null,
+      "measure": "cup",
       "amount": 1,
-      "calories": 53.0,
+      "calories": 200,
       "fiber": {
         "measure": "G",
         "amount": 0.0
@@ -4787,25 +4787,25 @@
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 2.47
+          "amount": 22.47
         },
         "fat": {
           "measure": "G",
-          "amount": null
+          "amount": 9
         },
         "carbs": {
           "measure": "g",
-          "amount": 1.44
+          "amount": 8
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 5.76
+        "amount": 4.2
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 123
+          "amount": 0
         },
         "C": {
           "measure": "MG",
@@ -4813,7 +4813,7 @@
         },
         "D": {
           "measure": "IU",
-          "amount": 33.0
+          "amount": 0
         }
       },
       "lipids": {
@@ -4823,7 +4823,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0.206
+          "amount": 1.34
         },
         "trans": {
           "measure": "G",
@@ -4837,15 +4837,15 @@
         },
         "iron": {
           "measure": "MG",
-          "amount": 0.44
+          "amount": 4
         },
         "potassium": {
           "measure": "MG",
-          "amount": 123
+          "amount": 640
         },
         "sodium": {
           "measure": "MG",
-          "amount": 41.0
+          "amount": 118.74
         }
       }
     }

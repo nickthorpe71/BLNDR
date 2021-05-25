@@ -5,357 +5,327 @@ import requests
 
 allIngredients = [
     {
-        "name": "Banana",
-        "query": "Banana,%20frozen",
+        "name": "Orange Juice",
+        "query": "Orange%20Juice",
         "nutrition": []
     },
     {
-        "name": "Pineapple",
-        "query": "Pineapple,%20frozen",
+        "name": "Beet Juice",
+        "query": "Beet%20juice",
         "nutrition": []
-    }
-    # {
-    #     "name": "Strawberries",
-    #     "query": "Strawberries,%20frozen",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Blueberries",
-    #     "query": "Blueberries,%20frozen",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Raspberries",
-    #     "query": "Raspberries,%20frozen",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Blackberries",
-    #     "query": "Blackberries,%20frozen",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Cherries",
-    #     "query": "Cherries,%20frozen",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Peaches",
-    #     "query": "Peaches,%20frozen",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Cantaloupe",
-    #     "query": "Cantaloupe,%20raw",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Watermelon",
-    #     "query": "Watermelon,%20frozen",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Pomegranate seeds",
-    #     "query": "Pomegranate seeds,%20raw",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Kiwi",
-    #     "query": "Kiwi,%20frozen",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Acai",
-    #     "query": "Acai,%20frozen",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Avocado",
-    #     "query": "Avocado,%20raw",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Grapes",
-    #     "query": "Grapes,%20frozen",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Pear",
-    #     "query": "Pears,%20frozen",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Orange",
-    #     "query": "Oranges,%20raw",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Apple",
-    #     "query": "Apples,%20raw",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Papaya",
-    #     "query": "Papaya,%20raw",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Mango",
-    #     "query": "Mango,%20frozen",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Plum",
-    #     "query": "Plums,%20raw",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Nectarine",
-    #     "query": "Nectarines,%20raw",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Zucchini",
-    #     "query": "Zucchini,%20raw",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Cucumber",
-    #     "query": "Cucumber,%20raw",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Beets",
-    #     "query": "Beets,%20raw",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Carrot",
-    #     "query": "Carrot,%20raw",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Kale",
-    #     "query": "Kale,%20raw",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Spinach",
-    #     "query": "Spinach,%20raw",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Romaine",
-    #     "query": "Romaine,%20raw",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Chocolate Protein",
-    #     "query": "chocolate%20protein%20powder",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Pea Protein",
-    #     "query": "pea%20protein%20powder",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Cold Coffee",
-    #     "query": "black%20coffee",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Coconut Water",
-    #     "query": "zico%20coconut%20water",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Almond Milk",
-    #     "query": "almond%20milk",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Coconut Milk",
-    #     "query": "coconut%20milk",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Oat Mil,k"
-    #     "query": "oatly",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Whole Milk",
-    #     "query": "Whole%20Milk",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Soy Milk",
-    #     "query": "Soy%20Milk",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Orange Juice",
-    #     "query": "Orange%20Juice",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Beet Juice",
-    #     "query": "Beet%20juice",
-    #     "nutrition": []
-    # },
-    # {"name": "Acai Juice": "Acai%20Juice"},
-    # {
-    #     "name": "Mango Juice",
-    #     "query": "Mango%20Juice",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Carrot Juice",
-    #     "query": "Carrot%20Juice",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Honey",
-    #     "query": "Honey",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Dates",
-    #     "query": "Medjool%20Dates",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Maple Syrup",
-    #     "query": "Maple%20Syrup",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Agave",
-    #     "query": "Agave",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Matcha",
-    #     "query": "Matcha",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Oats",
-    #     "query": "Oats",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Chia Seeds",
-    #     "query": "Chia%20seeds",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Flax Seeds",
-    #     "query": "Flax%20seeds",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Maca",
-    #     "query": "Maca%20powder",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Hemp Seeds",
-    #     "query": "Hemp%20seeds",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Almond Butter",
-    #     "query": "Almond%20butter",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Peanut Butter",
-    #     "query": "Peanut%20butter",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Cacao",
-    #     "query": "Cacao",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Ginger",
-    #     "query": "Ginger",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Turmeric",
-    #     "query": "Turmeric",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Spirulina",
-    #     "query": "Spirulina",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Basil",
-    #     "query": "Basil",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Mint",
-    #     "query": "Mint",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Cinnamon",
-    #     "query": "Cinnamon",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Vanilla Extract",
-    #     "query": "Vanilla%20Extract",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Yogurt",
-    #     "query": "Yogurt",
-    #     "nutrition": []
-    # },
-    # {
-    #     "name": "Silk Tofu",
-    #     "query": "Silk%20Tofu",
-    #     "nutrition": []
-    # },
+    },
+    {
+        "name": "Acai Juice",
+        "query": "Acai%20Juice"
+    },
+    {
+        "name": "Mango Juice",
+        "query": "Mango%20Juice",
+        "nutrition": []
+    },
+    {
+        "name": "Carrot Juice",
+        "query": "Carrot%20Juice",
+        "nutrition": []
+    },
+    {
+        "name": "Honey",
+        "query": "Honey",
+        "nutrition": []
+    },
+    {
+        "name": "Dates",
+        "query": "Medjool%20Dates",
+        "nutrition": []
+    },
+    {
+        "name": "Maple Syrup",
+        "query": "Maple%20Syrup",
+        "nutrition": []
+    },
+    {
+        "name": "Agave",
+        "query": "Agave",
+        "nutrition": []
+    },
+    {
+        "name": "Matcha",
+        "query": "Matcha%20powder",
+        "nutrition": []
+    },
+    {
+        "name": "Oats",
+        "query": "Oats%20old%20fashioned",
+        "nutrition": []
+    },
+    {
+        "name": "Chia Seeds",
+        "query": "Chia%20seeds",
+        "nutrition": []
+    },
+    {
+        "name": "Flax Seeds",
+        "query": "Flax%20seeds",
+        "nutrition": []
+    },
+    {
+        "name": "Maca",
+        "query": "Maca%20powder",
+        "nutrition": []
+    },
+    {
+        "name": "Hemp Seeds",
+        "query": "Hemp%20seeds",
+        "nutrition": []
+    },
+    {
+        "name": "Almond Butter",
+        "query": "Almond%20butter",
+        "nutrition": []
+    },
+    {
+        "name": "Peanut Butter",
+        "query": "Peanut%20butter",
+        "nutrition": []
+    },
+    {
+        "name": "Cacao",
+        "query": "Cacao",
+        "nutrition": []
+    },
+    {
+        "name": "Ginger",
+        "query": "Ginger",
+        "nutrition": []
+    },
+    {
+        "name": "Turmeric",
+        "query": "Turmeric",
+        "nutrition": []
+    },
+    {
+        "name": "Spirulina",
+        "query": "Spirulina",
+        "nutrition": []
+    },
+    {
+        "name": "Basil",
+        "query": "Basil",
+        "nutrition": []
+    },
+    {
+        "name": "Mint",
+        "query": "Mint",
+        "nutrition": []
+    },
+    {
+        "name": "Cinnamon",
+        "query": "Cinnamon",
+        "nutrition": []
+    },
+    {
+        "name": "Vanilla Extract",
+        "query": "Vanilla%20Extract",
+        "nutrition": []
+    },
+    {
+        "name": "Yogurt",
+        "query": "Yogurt",
+        "nutrition": []
+    },
+    {
+        "name": "Silk Tofu",
+        "query": "Silk%20Tofu",
+        "nutrition": []
+    },
 ]
 
 result = []
 
 for ingredient in allIngredients:
     response = requests.get(
-        'https://api.nal.usda.gov/fdc/v1/foods/search?api_key=DEMO_KEY&query=' + ingredient.get('query'))
+        'https://api.nal.usda.gov/fdc/v1/foods/search?api_key=BAoetRxFaAFevLuLqyyNCtfzsioVeFhIFoW16YTd&query=' + ingredient.get('query'))
 
-    # ingredient["nutrition"] = response.
-    data = json.loads(response.text)
-    print(data.get("foods")[0].get("foodNutrients")[0])
+    nutritionObj = {
+        "measure": None,
+        "amount": 1,
+        "calories": None,
+        "fiber": {
+            "measure": "g",
+            "amount": None
+        },
+        "macros": {
+            "protein": {
+                "measure": "g",
+                "amount": None
+            },
+            "fat": {
+                "measure": "g",
+                "amount": None
+            },
+            "carbs": {
+                "measure": "g",
+                "amount": None
+            }
+        },
+        "totalSugars": {
+            "measure": "g",
+            "amount": None
+        },
+        "vitamins": {
+            "A": {
+                "measure": "IU",
+                "amount": None
+            },
+            "C": {
+                "measure": "mg",
+                "amount": None
+            },
+            "D": {
+                "measure": "IU",
+                "amount": None
+            }
+        },
+        "lipids": {
+            "cholesterol": {
+                "measure": "g",
+                "amount": None
+            },
+            "saturated": {
+                "measure": "g",
+                "amount": None
+            },
+            "trans": {
+                "measure": "g",
+                "amount": None
+            }
+        },
+        "minerals": {
+            "calcium": {
+                "measure": "mg",
+                "amount": None
+            },
+            "iron": {
+                "measure": "mg",
+                "amount": None
+            },
+            "potassium": {
+                "measure": "mg",
+                "amount": None
+            },
+            "sodium": {
+                "measure": "mg",
+                "amount": None
+            }
+        }
+    }
 
-# for recipe in data.values():
+    selected = json.loads(response.text).get("foods")[0]
 
-#     if recipe.get("title") is not None:
-#         if 'smoothie' in recipe.get("title").lower():
-#             cleaned_ingredients = []
+    response2 = requests.get(
+        'https://api.nal.usda.gov/fdc/v1/food/' + str(selected["fdcId"]) + '?api_key=BAoetRxFaAFevLuLqyyNCtfzsioVeFhIFoW16YTd')
 
-#             for ingredient in recipe.get("ingredients"):
-#                 entry = ingredient.replace("ADVERTISEMENT", "").strip()
-#                 if entry is not "":
-#                     cleaned_ingredients.append(entry)
+    expandedInfo = json.loads(response2.text)
 
-#             new_recipe = {
-#                 "title": recipe.get("title"),
-#                 "ingredients": cleaned_ingredients,
-#                 "instructions": recipe.get("instructions"),
-#                 "img_url": recipe.get("")
-#             }
+    measure = None
+    amount = 1
 
-#             filtered_arr.append(new_recipe)
+    if "servingSizeUnit" in expandedInfo and "servingSize" in expandedInfo:
+        measure = expandedInfo["servingSizeUnit"]
+        amount = expandedInfo["servingSize"]
 
-# with open('smoothie_data_cleaned_3.json', 'w') as f:
-#     json.dump(filtered_arr, f, indent=2)
+    def addProtein(nutrient):
+        nutritionObj["macros"]["protein"]["measure"] = nutrient["unitName"]
+        nutritionObj["macros"]["protein"]["amount"] = nutrient["value"]
+
+    def addFat(nutrient):
+        nutritionObj["macros"]["fat"]["measure"] = nutrient["unitName"]
+        nutritionObj["macros"]["carbs"]["amount"] = nutrient["value"]
+
+    def addCarbs(nutrient):
+        nutritionObj["macros"]["protein"]["measure"] = nutrient["unitName"]
+        nutritionObj["macros"]["protein"]["amount"] = nutrient["value"]
+
+    def addCals(nutrient):
+        nutritionObj["calories"] = nutrient["value"]
+
+    def addSugar(nutrient):
+        nutritionObj["totalSugars"]["measure"] = nutrient["unitName"]
+        nutritionObj["totalSugars"]["amount"] = nutrient["value"]
+
+    def addFiber(nutrient):
+        nutritionObj["fiber"]["measure"] = nutrient["unitName"]
+        nutritionObj["fiber"]["amount"] = nutrient["value"]
+
+    def addCalcium(nutrient):
+        nutritionObj["minerals"]["calcium"]["measure"] = nutrient["unitName"]
+        nutritionObj["minerals"]["calcium"]["amount"] = nutrient["value"]
+
+    def addIron(nutrient):
+        nutritionObj["minerals"]["iron"]["measure"] = nutrient["unitName"]
+        nutritionObj["minerals"]["iron"]["amount"] = nutrient["value"]
+
+    def addPotassium(nutrient):
+        nutritionObj["minerals"]["potassium"]["measure"] = nutrient["unitName"]
+        nutritionObj["minerals"]["potassium"]["amount"] = nutrient["value"]
+
+    def addSodium(nutrient):
+        nutritionObj["minerals"]["sodium"]["measure"] = nutrient["unitName"]
+        nutritionObj["minerals"]["sodium"]["amount"] = nutrient["value"]
+
+    def addCholesterol(nutrient):
+        nutritionObj["lipids"]["cholesterol"]["measure"] = nutrient["unitName"]
+        nutritionObj["lipids"]["cholesterol"]["amount"] = nutrient["value"]
+
+    def addSaturated(nutrient):
+        nutritionObj["lipids"]["saturated"]["measure"] = nutrient["unitName"]
+        nutritionObj["lipids"]["saturated"]["amount"] = nutrient["value"]
+
+    def addTrans(nutrient):
+        nutritionObj["lipids"]["trans"]["measure"] = nutrient["unitName"]
+        nutritionObj["lipids"]["trans"]["amount"] = nutrient["value"]
+
+    def addA(nutrient):
+        nutritionObj["vitamins"]["A"]["measure"] = nutrient["unitName"]
+        nutritionObj["vitamins"]["A"]["amount"] = nutrient["value"]
+
+    def addD(nutrient):
+        nutritionObj["vitamins"]["D"]["measure"] = nutrient["unitName"]
+        nutritionObj["vitamins"]["D"]["amount"] = nutrient["value"]
+
+    def addC(nutrient):
+        nutritionObj["vitamins"]["C"]["measure"] = nutrient["unitName"]
+        nutritionObj["vitamins"]["C"]["amount"] = nutrient["value"]
+
+    switcher = {
+        1003: addProtein,
+        1004: addFat,
+        1005: addCarbs,
+        1008: addCals,
+        2000: addSugar,
+        1079: addFiber,
+        1087: addCalcium,
+        1089: addIron,
+        1092: addPotassium,
+        1093: addSodium,
+        1253: addCholesterol,
+        1258: addSaturated,
+        1257: addTrans,
+        1104: addA,
+        1110: addD,
+        1162: addC,
+    }
+
+    for nutrient in selected["foodNutrients"]:
+        if nutrient.get("nutrientId") in switcher:
+            addFunction = switcher.get(nutrient.get("nutrientId"))
+            addFunction(nutrient)
+
+    ingredient["nutrition"] = nutritionObj
+    ingredient["nutrition"]["measure"] = measure
+    ingredient["nutrition"]["amount"] = amount
+
+    print(ingredient.get("name") + 'complete')
+
+with open('bulkIngredients.json', 'w') as f:
+    json.dump(allIngredients, f, indent=2)

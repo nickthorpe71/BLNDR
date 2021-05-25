@@ -1,0 +1,2081 @@
+[
+  {
+    "name": "Orange Juice",
+    "query": "Orange%20Juice",
+    "nutrition": {
+      "measure": "ml",
+      "amount": 450.0,
+      "calories": 47.0,
+      "fiber": {
+        "measure": "g",
+        "amount": null
+      },
+      "macros": {
+        "protein": {
+          "measure": "G",
+          "amount": 11.3
+        },
+        "fat": {
+          "measure": "G",
+          "amount": null
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 0.0
+        }
+      },
+      "totalSugars": {
+        "measure": "G",
+        "amount": 9.33
+      },
+      "vitamins": {
+        "A": {
+          "measure": "IU",
+          "amount": null
+        },
+        "C": {
+          "measure": "MG",
+          "amount": 25.3
+        },
+        "D": {
+          "measure": "IU",
+          "amount": null
+        }
+      },
+      "lipids": {
+        "cholesterol": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "saturated": {
+          "measure": "G",
+          "amount": 0.0
+        },
+        "trans": {
+          "measure": "G",
+          "amount": 0.0
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "measure": "MG",
+          "amount": 9.0
+        },
+        "iron": {
+          "measure": "mg",
+          "amount": null
+        },
+        "potassium": {
+          "measure": "MG",
+          "amount": 189
+        },
+        "sodium": {
+          "measure": "MG",
+          "amount": 7.0
+        }
+      }
+    }
+  },
+  {
+    "name": "Beet Juice",
+    "query": "Beet%20juice",
+    "nutrition": {
+      "measure": null,
+      "amount": 1,
+      "calories": 25.0,
+      "fiber": {
+        "measure": "G",
+        "amount": 1.1
+      },
+      "macros": {
+        "protein": {
+          "measure": "G",
+          "amount": 5.91
+        },
+        "fat": {
+          "measure": "G",
+          "amount": null
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 0.06
+        }
+      },
+      "totalSugars": {
+        "measure": "G",
+        "amount": 4.84
+      },
+      "vitamins": {
+        "A": {
+          "measure": "IU",
+          "amount": null
+        },
+        "C": {
+          "measure": "MG",
+          "amount": 2.5
+        },
+        "D": {
+          "measure": "IU",
+          "amount": null
+        }
+      },
+      "lipids": {
+        "cholesterol": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "saturated": {
+          "measure": "G",
+          "amount": 0.01
+        },
+        "trans": {
+          "measure": "g",
+          "amount": null
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "measure": "MG",
+          "amount": 12.0
+        },
+        "iron": {
+          "measure": "MG",
+          "amount": 0.57
+        },
+        "potassium": {
+          "measure": "MG",
+          "amount": 128
+        },
+        "sodium": {
+          "measure": "MG",
+          "amount": 19.0
+        }
+      }
+    }
+  },
+  {
+    "name": "Acai Juice",
+    "query": "Acai%20Juice",
+    "nutrition": {
+      "measure": "ml",
+      "amount": 240.0,
+      "calories": 52.0,
+      "fiber": {
+        "measure": "G",
+        "amount": 0.4
+      },
+      "macros": {
+        "protein": {
+          "measure": "G",
+          "amount": 10.8
+        },
+        "fat": {
+          "measure": "G",
+          "amount": null
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 0.83
+        }
+      },
+      "totalSugars": {
+        "measure": "G",
+        "amount": 9.17
+      },
+      "vitamins": {
+        "A": {
+          "measure": "IU",
+          "amount": 104
+        },
+        "C": {
+          "measure": "MG",
+          "amount": 1.0
+        },
+        "D": {
+          "measure": "IU",
+          "amount": null
+        }
+      },
+      "lipids": {
+        "cholesterol": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "saturated": {
+          "measure": "G",
+          "amount": 0.42
+        },
+        "trans": {
+          "measure": "G",
+          "amount": 0.0
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "measure": "MG",
+          "amount": 8.0
+        },
+        "iron": {
+          "measure": "MG",
+          "amount": 0.15
+        },
+        "potassium": {
+          "measure": "MG",
+          "amount": 9.0
+        },
+        "sodium": {
+          "measure": "MG",
+          "amount": 14.0
+        }
+      }
+    }
+  },
+  {
+    "name": "Mango Juice",
+    "query": "Mango%20Juice",
+    "nutrition": {
+      "measure": null,
+      "amount": 1,
+      "calories": 63.0,
+      "fiber": {
+        "measure": "G",
+        "amount": 0.0
+      },
+      "macros": {
+        "protein": {
+          "measure": "G",
+          "amount": 15.0
+        },
+        "fat": {
+          "measure": "G",
+          "amount": null
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 0.0
+        }
+      },
+      "totalSugars": {
+        "measure": "G",
+        "amount": 12.5
+      },
+      "vitamins": {
+        "A": {
+          "measure": "IU",
+          "amount": 2080.0
+        },
+        "C": {
+          "measure": "MG",
+          "amount": 2.5
+        },
+        "D": {
+          "measure": "IU",
+          "amount": null
+        }
+      },
+      "lipids": {
+        "cholesterol": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "saturated": {
+          "measure": "G",
+          "amount": 0.0
+        },
+        "trans": {
+          "measure": "G",
+          "amount": 0.0
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "measure": "MG",
+          "amount": 8.0
+        },
+        "iron": {
+          "measure": "MG",
+          "amount": 0.15
+        },
+        "potassium": {
+          "measure": "MG",
+          "amount": 142
+        },
+        "sodium": {
+          "measure": "MG",
+          "amount": 4.0
+        }
+      }
+    }
+  },
+  {
+    "name": "Carrot Juice",
+    "query": "Carrot%20Juice",
+    "nutrition": {
+      "measure": "ml",
+      "amount": 240.0,
+      "calories": 29.0,
+      "fiber": {
+        "measure": "g",
+        "amount": null
+      },
+      "macros": {
+        "protein": {
+          "measure": "G",
+          "amount": 5.83
+        },
+        "fat": {
+          "measure": "G",
+          "amount": null
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 0.0
+        }
+      },
+      "totalSugars": {
+        "measure": "G",
+        "amount": 4.58
+      },
+      "vitamins": {
+        "A": {
+          "measure": "IU",
+          "amount": 8330.0
+        },
+        "C": {
+          "measure": "mg",
+          "amount": null
+        },
+        "D": {
+          "measure": "IU",
+          "amount": null
+        }
+      },
+      "lipids": {
+        "cholesterol": {
+          "measure": "g",
+          "amount": null
+        },
+        "saturated": {
+          "measure": "g",
+          "amount": null
+        },
+        "trans": {
+          "measure": "g",
+          "amount": null
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "measure": "MG",
+          "amount": 25.0
+        },
+        "iron": {
+          "measure": "MG",
+          "amount": 0.15
+        },
+        "potassium": {
+          "measure": "MG",
+          "amount": 246
+        },
+        "sodium": {
+          "measure": "MG",
+          "amount": 100
+        }
+      }
+    }
+  },
+  {
+    "name": "Honey",
+    "query": "Honey",
+    "nutrition": {
+      "measure": null,
+      "amount": 1,
+      "calories": 304,
+      "fiber": {
+        "measure": "G",
+        "amount": 0.2
+      },
+      "macros": {
+        "protein": {
+          "measure": "G",
+          "amount": 82.4
+        },
+        "fat": {
+          "measure": "G",
+          "amount": null
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 0.0
+        }
+      },
+      "totalSugars": {
+        "measure": "G",
+        "amount": 82.1
+      },
+      "vitamins": {
+        "A": {
+          "measure": "IU",
+          "amount": 0.0
+        },
+        "C": {
+          "measure": "MG",
+          "amount": 0.5
+        },
+        "D": {
+          "measure": "IU",
+          "amount": 0.0
+        }
+      },
+      "lipids": {
+        "cholesterol": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "saturated": {
+          "measure": "G",
+          "amount": 0.0
+        },
+        "trans": {
+          "measure": "g",
+          "amount": null
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "measure": "MG",
+          "amount": 6.0
+        },
+        "iron": {
+          "measure": "MG",
+          "amount": 0.42
+        },
+        "potassium": {
+          "measure": "MG",
+          "amount": 52.0
+        },
+        "sodium": {
+          "measure": "MG",
+          "amount": 4.0
+        }
+      }
+    }
+  },
+  {
+    "name": "Dates",
+    "query": "Medjool%20Dates",
+    "nutrition": {
+      "measure": "g",
+      "amount": 40.0,
+      "calories": 275,
+      "fiber": {
+        "measure": "G",
+        "amount": 7.5
+      },
+      "macros": {
+        "protein": {
+          "measure": "G",
+          "amount": 90.0
+        },
+        "fat": {
+          "measure": "G",
+          "amount": null
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 0.0
+        }
+      },
+      "totalSugars": {
+        "measure": "G",
+        "amount": 75.0
+      },
+      "vitamins": {
+        "A": {
+          "measure": "IU",
+          "amount": null
+        },
+        "C": {
+          "measure": "mg",
+          "amount": null
+        },
+        "D": {
+          "measure": "IU",
+          "amount": null
+        }
+      },
+      "lipids": {
+        "cholesterol": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "saturated": {
+          "measure": "G",
+          "amount": 0.0
+        },
+        "trans": {
+          "measure": "G",
+          "amount": 0.0
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "measure": "MG",
+          "amount": 75000.0
+        },
+        "iron": {
+          "measure": "MG",
+          "amount": 1.0
+        },
+        "potassium": {
+          "measure": "MG",
+          "amount": 835000.0
+        },
+        "sodium": {
+          "measure": "MG",
+          "amount": 0.0
+        }
+      }
+    }
+  },
+  {
+    "name": "Maple Syrup",
+    "query": "Maple%20Syrup",
+    "nutrition": {
+      "measure": "ml",
+      "amount": 60.0,
+      "calories": 333,
+      "fiber": {
+        "measure": "G",
+        "amount": 0.0
+      },
+      "macros": {
+        "protein": {
+          "measure": "G",
+          "amount": 88.3
+        },
+        "fat": {
+          "measure": "G",
+          "amount": null
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 0.0
+        }
+      },
+      "totalSugars": {
+        "measure": "G",
+        "amount": 88.3
+      },
+      "vitamins": {
+        "A": {
+          "measure": "IU",
+          "amount": 0.0
+        },
+        "C": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "D": {
+          "measure": "IU",
+          "amount": null
+        }
+      },
+      "lipids": {
+        "cholesterol": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "saturated": {
+          "measure": "G",
+          "amount": 0.0
+        },
+        "trans": {
+          "measure": "g",
+          "amount": null
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "measure": "MG",
+          "amount": 100
+        },
+        "iron": {
+          "measure": "MG",
+          "amount": 1.8
+        },
+        "potassium": {
+          "measure": "MG",
+          "amount": 292
+        },
+        "sodium": {
+          "measure": "MG",
+          "amount": 367
+        }
+      }
+    }
+  },
+  {
+    "name": "Agave",
+    "query": "Agave",
+    "nutrition": {
+      "measure": null,
+      "amount": 1,
+      "calories": 310,
+      "fiber": {
+        "measure": "G",
+        "amount": 0.2
+      },
+      "macros": {
+        "protein": {
+          "measure": "G",
+          "amount": 76.4
+        },
+        "fat": {
+          "measure": "G",
+          "amount": null
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 0.45
+        }
+      },
+      "totalSugars": {
+        "measure": "G",
+        "amount": 68.0
+      },
+      "vitamins": {
+        "A": {
+          "measure": "IU",
+          "amount": null
+        },
+        "C": {
+          "measure": "MG",
+          "amount": 17.0
+        },
+        "D": {
+          "measure": "IU",
+          "amount": null
+        }
+      },
+      "lipids": {
+        "cholesterol": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "saturated": {
+          "measure": "G",
+          "amount": 0.0
+        },
+        "trans": {
+          "measure": "g",
+          "amount": null
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "measure": "MG",
+          "amount": 1.0
+        },
+        "iron": {
+          "measure": "MG",
+          "amount": 0.09
+        },
+        "potassium": {
+          "measure": "MG",
+          "amount": 4.0
+        },
+        "sodium": {
+          "measure": "MG",
+          "amount": 4.0
+        }
+      }
+    }
+  },
+  {
+    "name": "Matcha",
+    "query": "Matcha%20powder",
+    "nutrition": {
+      "measure": null,
+      "amount": 1,
+      "calories": 250,
+      "fiber": {
+        "measure": "G",
+        "amount": 44.5
+      },
+      "macros": {
+        "protein": {
+          "measure": "G",
+          "amount": 3.69
+        },
+        "fat": {
+          "measure": "G",
+          "amount": null
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 0.47
+        }
+      },
+      "totalSugars": {
+        "measure": "g",
+        "amount": null
+      },
+      "vitamins": {
+        "A": {
+          "measure": "IU",
+          "amount": null
+        },
+        "C": {
+          "measure": "MG",
+          "amount": 173
+        },
+        "D": {
+          "measure": "IU",
+          "amount": null
+        }
+      },
+      "lipids": {
+        "cholesterol": {
+          "measure": "g",
+          "amount": null
+        },
+        "saturated": {
+          "measure": "G",
+          "amount": 0.244
+        },
+        "trans": {
+          "measure": "G",
+          "amount": 0.009
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "measure": "MG",
+          "amount": 342
+        },
+        "iron": {
+          "measure": "MG",
+          "amount": 8.42
+        },
+        "potassium": {
+          "measure": "MG",
+          "amount": 2190.0
+        },
+        "sodium": {
+          "measure": "MG",
+          "amount": 10.0
+        }
+      }
+    }
+  },
+  {
+    "name": "Oats",
+    "query": "Oats%20old%20fashioned",
+    "nutrition": {
+      "measure": null,
+      "amount": 1,
+      "calories": 164,
+      "fiber": {
+        "measure": "G",
+        "amount": 0.5
+      },
+      "macros": {
+        "protein": {
+          "measure": "G",
+          "amount": 6.11
+        },
+        "fat": {
+          "measure": "G",
+          "amount": null
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 0.04
+        }
+      },
+      "totalSugars": {
+        "measure": "G",
+        "amount": 5.57
+      },
+      "vitamins": {
+        "A": {
+          "measure": "IU",
+          "amount": null
+        },
+        "C": {
+          "measure": "MG",
+          "amount": 8.6
+        },
+        "D": {
+          "measure": "IU",
+          "amount": null
+        }
+      },
+      "lipids": {
+        "cholesterol": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "saturated": {
+          "measure": "G",
+          "amount": 0.004
+        },
+        "trans": {
+          "measure": "g",
+          "amount": null
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "measure": "MG",
+          "amount": 10.0
+        },
+        "iron": {
+          "measure": "MG",
+          "amount": 0.06
+        },
+        "potassium": {
+          "measure": "MG",
+          "amount": 32.0
+        },
+        "sodium": {
+          "measure": "MG",
+          "amount": 4.0
+        }
+      }
+    }
+  },
+  {
+    "name": "Chia Seeds",
+    "query": "Chia%20seeds",
+    "nutrition": {
+      "measure": null,
+      "amount": 1,
+      "calories": 534,
+      "fiber": {
+        "measure": "G",
+        "amount": 27.3
+      },
+      "macros": {
+        "protein": {
+          "measure": "G",
+          "amount": 28.9
+        },
+        "fat": {
+          "measure": "G",
+          "amount": null
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 42.2
+        }
+      },
+      "totalSugars": {
+        "measure": "G",
+        "amount": 1.55
+      },
+      "vitamins": {
+        "A": {
+          "measure": "IU",
+          "amount": null
+        },
+        "C": {
+          "measure": "MG",
+          "amount": 0.6
+        },
+        "D": {
+          "measure": "IU",
+          "amount": null
+        }
+      },
+      "lipids": {
+        "cholesterol": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "saturated": {
+          "measure": "G",
+          "amount": 3.66
+        },
+        "trans": {
+          "measure": "g",
+          "amount": null
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "measure": "MG",
+          "amount": 255
+        },
+        "iron": {
+          "measure": "MG",
+          "amount": 5.73
+        },
+        "potassium": {
+          "measure": "MG",
+          "amount": 813
+        },
+        "sodium": {
+          "measure": "MG",
+          "amount": 30.0
+        }
+      }
+    }
+  },
+  {
+    "name": "Flax Seeds",
+    "query": "Flax%20seeds",
+    "nutrition": {
+      "measure": null,
+      "amount": 1,
+      "calories": 534,
+      "fiber": {
+        "measure": "G",
+        "amount": 27.3
+      },
+      "macros": {
+        "protein": {
+          "measure": "G",
+          "amount": 28.9
+        },
+        "fat": {
+          "measure": "G",
+          "amount": null
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 42.2
+        }
+      },
+      "totalSugars": {
+        "measure": "G",
+        "amount": 1.55
+      },
+      "vitamins": {
+        "A": {
+          "measure": "IU",
+          "amount": null
+        },
+        "C": {
+          "measure": "MG",
+          "amount": 0.6
+        },
+        "D": {
+          "measure": "IU",
+          "amount": null
+        }
+      },
+      "lipids": {
+        "cholesterol": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "saturated": {
+          "measure": "G",
+          "amount": 3.66
+        },
+        "trans": {
+          "measure": "g",
+          "amount": null
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "measure": "MG",
+          "amount": 255
+        },
+        "iron": {
+          "measure": "MG",
+          "amount": 5.73
+        },
+        "potassium": {
+          "measure": "MG",
+          "amount": 813
+        },
+        "sodium": {
+          "measure": "MG",
+          "amount": 30.0
+        }
+      }
+    }
+  },
+  {
+    "name": "Maca",
+    "query": "Maca%20powder",
+    "nutrition": {
+      "measure": "g",
+      "amount": 5.0,
+      "calories": 320,
+      "fiber": {
+        "measure": "G",
+        "amount": 20.0
+      },
+      "macros": {
+        "protein": {
+          "measure": "G",
+          "amount": 80.0
+        },
+        "fat": {
+          "measure": "G",
+          "amount": null
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 0.0
+        }
+      },
+      "totalSugars": {
+        "measure": "G",
+        "amount": 40.0
+      },
+      "vitamins": {
+        "A": {
+          "measure": "IU",
+          "amount": 0.0
+        },
+        "C": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "D": {
+          "measure": "IU",
+          "amount": null
+        }
+      },
+      "lipids": {
+        "cholesterol": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "saturated": {
+          "measure": "G",
+          "amount": 0.0
+        },
+        "trans": {
+          "measure": "G",
+          "amount": 0.0
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "iron": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "potassium": {
+          "measure": "MG",
+          "amount": 1600.0
+        },
+        "sodium": {
+          "measure": "MG",
+          "amount": 0.0
+        }
+      }
+    }
+  },
+  {
+    "name": "Hemp Seeds",
+    "query": "Hemp%20seeds",
+    "nutrition": {
+      "measure": "g",
+      "amount": 30.0,
+      "calories": 567,
+      "fiber": {
+        "measure": "G",
+        "amount": 3.3
+      },
+      "macros": {
+        "protein": {
+          "measure": "G",
+          "amount": 10.0
+        },
+        "fat": {
+          "measure": "G",
+          "amount": null
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 50.0
+        }
+      },
+      "totalSugars": {
+        "measure": "G",
+        "amount": 0.0
+      },
+      "vitamins": {
+        "A": {
+          "measure": "IU",
+          "amount": null
+        },
+        "C": {
+          "measure": "mg",
+          "amount": null
+        },
+        "D": {
+          "measure": "IU",
+          "amount": 0.0
+        }
+      },
+      "lipids": {
+        "cholesterol": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "saturated": {
+          "measure": "G",
+          "amount": 5.0
+        },
+        "trans": {
+          "measure": "G",
+          "amount": 0.0
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "iron": {
+          "measure": "MG",
+          "amount": 6.67
+        },
+        "potassium": {
+          "measure": "MG",
+          "amount": 1200.0
+        },
+        "sodium": {
+          "measure": "MG",
+          "amount": 0.0
+        }
+      }
+    }
+  },
+  {
+    "name": "Almond Butter",
+    "query": "Almond%20butter",
+    "nutrition": {
+      "measure": null,
+      "amount": 1,
+      "calories": 614,
+      "fiber": {
+        "measure": "G",
+        "amount": 10.3
+      },
+      "macros": {
+        "protein": {
+          "measure": "G",
+          "amount": 18.8
+        },
+        "fat": {
+          "measure": "G",
+          "amount": null
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 55.5
+        }
+      },
+      "totalSugars": {
+        "measure": "G",
+        "amount": 6.27
+      },
+      "vitamins": {
+        "A": {
+          "measure": "IU",
+          "amount": null
+        },
+        "C": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "D": {
+          "measure": "IU",
+          "amount": null
+        }
+      },
+      "lipids": {
+        "cholesterol": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "saturated": {
+          "measure": "G",
+          "amount": 6.55
+        },
+        "trans": {
+          "measure": "g",
+          "amount": null
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "measure": "MG",
+          "amount": 347
+        },
+        "iron": {
+          "measure": "MG",
+          "amount": 3.49
+        },
+        "potassium": {
+          "measure": "MG",
+          "amount": 748
+        },
+        "sodium": {
+          "measure": "MG",
+          "amount": 227
+        }
+      }
+    }
+  },
+  {
+    "name": "Peanut Butter",
+    "query": "Peanut%20butter",
+    "nutrition": {
+      "measure": null,
+      "amount": 1,
+      "calories": 597,
+      "fiber": {
+        "measure": "G",
+        "amount": 4.8
+      },
+      "macros": {
+        "protein": {
+          "measure": "G",
+          "amount": 22.3
+        },
+        "fat": {
+          "measure": "G",
+          "amount": null
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 51.1
+        }
+      },
+      "totalSugars": {
+        "measure": "G",
+        "amount": 10.5
+      },
+      "vitamins": {
+        "A": {
+          "measure": "IU",
+          "amount": null
+        },
+        "C": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "D": {
+          "measure": "IU",
+          "amount": null
+        }
+      },
+      "lipids": {
+        "cholesterol": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "saturated": {
+          "measure": "G",
+          "amount": 10.1
+        },
+        "trans": {
+          "measure": "g",
+          "amount": null
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "measure": "MG",
+          "amount": 49.0
+        },
+        "iron": {
+          "measure": "MG",
+          "amount": 1.73
+        },
+        "potassium": {
+          "measure": "MG",
+          "amount": 564
+        },
+        "sodium": {
+          "measure": "MG",
+          "amount": 429
+        }
+      }
+    }
+  },
+  {
+    "name": "Cacao",
+    "query": "Cacao",
+    "nutrition": {
+      "measure": "g",
+      "amount": 5.0,
+      "calories": 600,
+      "fiber": {
+        "measure": "G",
+        "amount": 0.0
+      },
+      "macros": {
+        "protein": {
+          "measure": "G",
+          "amount": 40.0
+        },
+        "fat": {
+          "measure": "G",
+          "amount": null
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 40.0
+        }
+      },
+      "totalSugars": {
+        "measure": "G",
+        "amount": 20.0
+      },
+      "vitamins": {
+        "A": {
+          "measure": "IU",
+          "amount": 0.0
+        },
+        "C": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "D": {
+          "measure": "IU",
+          "amount": null
+        }
+      },
+      "lipids": {
+        "cholesterol": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "saturated": {
+          "measure": "G",
+          "amount": 4.0
+        },
+        "trans": {
+          "measure": "G",
+          "amount": 0.0
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "iron": {
+          "measure": "MG",
+          "amount": 7.2
+        },
+        "potassium": {
+          "measure": "mg",
+          "amount": null
+        },
+        "sodium": {
+          "measure": "MG",
+          "amount": 0.0
+        }
+      }
+    }
+  },
+  {
+    "name": "Ginger",
+    "query": "Ginger",
+    "nutrition": {
+      "measure": null,
+      "amount": 1,
+      "calories": 0.0,
+      "fiber": {
+        "measure": "g",
+        "amount": null
+      },
+      "macros": {
+        "protein": {
+          "measure": "G",
+          "amount": 0.0
+        },
+        "fat": {
+          "measure": "G",
+          "amount": null
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 0.0
+        }
+      },
+      "totalSugars": {
+        "measure": "G",
+        "amount": 0.0
+      },
+      "vitamins": {
+        "A": {
+          "measure": "IU",
+          "amount": null
+        },
+        "C": {
+          "measure": "mg",
+          "amount": null
+        },
+        "D": {
+          "measure": "IU",
+          "amount": null
+        }
+      },
+      "lipids": {
+        "cholesterol": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "saturated": {
+          "measure": "g",
+          "amount": null
+        },
+        "trans": {
+          "measure": "g",
+          "amount": null
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "measure": "mg",
+          "amount": null
+        },
+        "iron": {
+          "measure": "mg",
+          "amount": null
+        },
+        "potassium": {
+          "measure": "mg",
+          "amount": null
+        },
+        "sodium": {
+          "measure": "MG",
+          "amount": 0.0
+        }
+      }
+    }
+  },
+  {
+    "name": "Turmeric",
+    "query": "Turmeric",
+    "nutrition": {
+      "measure": null,
+      "amount": 1,
+      "calories": 0.0,
+      "fiber": {
+        "measure": "g",
+        "amount": null
+      },
+      "macros": {
+        "protein": {
+          "measure": "G",
+          "amount": 125
+        },
+        "fat": {
+          "measure": "G",
+          "amount": null
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 0.0
+        }
+      },
+      "totalSugars": {
+        "measure": "G",
+        "amount": 0.0
+      },
+      "vitamins": {
+        "A": {
+          "measure": "IU",
+          "amount": null
+        },
+        "C": {
+          "measure": "mg",
+          "amount": null
+        },
+        "D": {
+          "measure": "IU",
+          "amount": null
+        }
+      },
+      "lipids": {
+        "cholesterol": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "saturated": {
+          "measure": "g",
+          "amount": null
+        },
+        "trans": {
+          "measure": "g",
+          "amount": null
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "measure": "mg",
+          "amount": null
+        },
+        "iron": {
+          "measure": "mg",
+          "amount": null
+        },
+        "potassium": {
+          "measure": "mg",
+          "amount": null
+        },
+        "sodium": {
+          "measure": "MG",
+          "amount": 0.0
+        }
+      }
+    }
+  },
+  {
+    "name": "Spirulina",
+    "query": "Spirulina",
+    "nutrition": {
+      "measure": null,
+      "amount": 1,
+      "calories": 26.0,
+      "fiber": {
+        "measure": "G",
+        "amount": 0.4
+      },
+      "macros": {
+        "protein": {
+          "measure": "G",
+          "amount": 2.42
+        },
+        "fat": {
+          "measure": "G",
+          "amount": null
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 0.39
+        }
+      },
+      "totalSugars": {
+        "measure": "G",
+        "amount": 0.3
+      },
+      "vitamins": {
+        "A": {
+          "measure": "IU",
+          "amount": 56.0
+        },
+        "C": {
+          "measure": "MG",
+          "amount": 0.9
+        },
+        "D": {
+          "measure": "IU",
+          "amount": 0.0
+        }
+      },
+      "lipids": {
+        "cholesterol": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "saturated": {
+          "measure": "G",
+          "amount": 0.135
+        },
+        "trans": {
+          "measure": "G",
+          "amount": 0.0
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "measure": "MG",
+          "amount": 12.0
+        },
+        "iron": {
+          "measure": "MG",
+          "amount": 2.79
+        },
+        "potassium": {
+          "measure": "MG",
+          "amount": 127
+        },
+        "sodium": {
+          "measure": "MG",
+          "amount": 98.0
+        }
+      }
+    }
+  },
+  {
+    "name": "Basil",
+    "query": "Basil",
+    "nutrition": {
+      "measure": null,
+      "amount": 1,
+      "calories": 0.0,
+      "fiber": {
+        "measure": "g",
+        "amount": null
+      },
+      "macros": {
+        "protein": {
+          "measure": "G",
+          "amount": 0.0
+        },
+        "fat": {
+          "measure": "G",
+          "amount": null
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 0.0
+        }
+      },
+      "totalSugars": {
+        "measure": "g",
+        "amount": null
+      },
+      "vitamins": {
+        "A": {
+          "measure": "IU",
+          "amount": null
+        },
+        "C": {
+          "measure": "mg",
+          "amount": null
+        },
+        "D": {
+          "measure": "IU",
+          "amount": null
+        }
+      },
+      "lipids": {
+        "cholesterol": {
+          "measure": "g",
+          "amount": null
+        },
+        "saturated": {
+          "measure": "g",
+          "amount": null
+        },
+        "trans": {
+          "measure": "g",
+          "amount": null
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "measure": "mg",
+          "amount": null
+        },
+        "iron": {
+          "measure": "mg",
+          "amount": null
+        },
+        "potassium": {
+          "measure": "mg",
+          "amount": null
+        },
+        "sodium": {
+          "measure": "MG",
+          "amount": 0.0
+        }
+      }
+    }
+  },
+  {
+    "name": "Mint",
+    "query": "Mint",
+    "nutrition": {
+      "measure": null,
+      "amount": 1,
+      "calories": 312,
+      "fiber": {
+        "measure": "g",
+        "amount": null
+      },
+      "macros": {
+        "protein": {
+          "measure": "G",
+          "amount": 62.5
+        },
+        "fat": {
+          "measure": "G",
+          "amount": null
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 0.0
+        }
+      },
+      "totalSugars": {
+        "measure": "G",
+        "amount": 0.0
+      },
+      "vitamins": {
+        "A": {
+          "measure": "IU",
+          "amount": null
+        },
+        "C": {
+          "measure": "mg",
+          "amount": null
+        },
+        "D": {
+          "measure": "IU",
+          "amount": null
+        }
+      },
+      "lipids": {
+        "cholesterol": {
+          "measure": "g",
+          "amount": null
+        },
+        "saturated": {
+          "measure": "g",
+          "amount": null
+        },
+        "trans": {
+          "measure": "g",
+          "amount": null
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "measure": "mg",
+          "amount": null
+        },
+        "iron": {
+          "measure": "mg",
+          "amount": null
+        },
+        "potassium": {
+          "measure": "mg",
+          "amount": null
+        },
+        "sodium": {
+          "measure": "MG",
+          "amount": 0.0
+        }
+      }
+    }
+  },
+  {
+    "name": "Cinnamon",
+    "query": "Cinnamon",
+    "nutrition": {
+      "measure": "g",
+      "amount": 0.6,
+      "calories": 0.0,
+      "fiber": {
+        "measure": "g",
+        "amount": null
+      },
+      "macros": {
+        "protein": {
+          "measure": "G",
+          "amount": 0.0
+        },
+        "fat": {
+          "measure": "G",
+          "amount": null
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 0.0
+        }
+      },
+      "totalSugars": {
+        "measure": "G",
+        "amount": 0.0
+      },
+      "vitamins": {
+        "A": {
+          "measure": "IU",
+          "amount": null
+        },
+        "C": {
+          "measure": "mg",
+          "amount": null
+        },
+        "D": {
+          "measure": "IU",
+          "amount": null
+        }
+      },
+      "lipids": {
+        "cholesterol": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "saturated": {
+          "measure": "g",
+          "amount": null
+        },
+        "trans": {
+          "measure": "g",
+          "amount": null
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "measure": "mg",
+          "amount": null
+        },
+        "iron": {
+          "measure": "mg",
+          "amount": null
+        },
+        "potassium": {
+          "measure": "mg",
+          "amount": null
+        },
+        "sodium": {
+          "measure": "MG",
+          "amount": 0.0
+        }
+      }
+    }
+  },
+  {
+    "name": "Vanilla Extract",
+    "query": "Vanilla%20Extract",
+    "nutrition": {
+      "measure": null,
+      "amount": 1,
+      "calories": 288,
+      "fiber": {
+        "measure": "G",
+        "amount": 0.0
+      },
+      "macros": {
+        "protein": {
+          "measure": "G",
+          "amount": 0.06
+        },
+        "fat": {
+          "measure": "G",
+          "amount": null
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 0.06
+        }
+      },
+      "totalSugars": {
+        "measure": "G",
+        "amount": 12.6
+      },
+      "vitamins": {
+        "A": {
+          "measure": "IU",
+          "amount": 0.0
+        },
+        "C": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "D": {
+          "measure": "IU",
+          "amount": 0.0
+        }
+      },
+      "lipids": {
+        "cholesterol": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "saturated": {
+          "measure": "G",
+          "amount": 0.01
+        },
+        "trans": {
+          "measure": "G",
+          "amount": 0.0
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "measure": "MG",
+          "amount": 11.0
+        },
+        "iron": {
+          "measure": "MG",
+          "amount": 0.12
+        },
+        "potassium": {
+          "measure": "MG",
+          "amount": 148
+        },
+        "sodium": {
+          "measure": "MG",
+          "amount": 9.0
+        }
+      }
+    }
+  },
+  {
+    "name": "Yogurt",
+    "query": "Yogurt",
+    "nutrition": {
+      "measure": "g",
+      "amount": 150.0,
+      "calories": 73.0,
+      "fiber": {
+        "measure": "G",
+        "amount": 0.7
+      },
+      "macros": {
+        "protein": {
+          "measure": "G",
+          "amount": 8.67
+        },
+        "fat": {
+          "measure": "G",
+          "amount": null
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 2.67
+        }
+      },
+      "totalSugars": {
+        "measure": "G",
+        "amount": 5.33
+      },
+      "vitamins": {
+        "A": {
+          "measure": "IU",
+          "amount": 5000.0
+        },
+        "C": {
+          "measure": "MG",
+          "amount": 6.0
+        },
+        "D": {
+          "measure": "IU",
+          "amount": null
+        }
+      },
+      "lipids": {
+        "cholesterol": {
+          "measure": "MG",
+          "amount": 10.0
+        },
+        "saturated": {
+          "measure": "G",
+          "amount": 1.33
+        },
+        "trans": {
+          "measure": "G",
+          "amount": 0.0
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "measure": "MG",
+          "amount": 100
+        },
+        "iron": {
+          "measure": "MG",
+          "amount": 0.24
+        },
+        "potassium": {
+          "measure": "mg",
+          "amount": null
+        },
+        "sodium": {
+          "measure": "MG",
+          "amount": 167
+        }
+      }
+    }
+  },
+  {
+    "name": "Silk Tofu",
+    "query": "Silk%20Tofu",
+    "nutrition": {
+      "measure": null,
+      "amount": 1,
+      "calories": 53.0,
+      "fiber": {
+        "measure": "G",
+        "amount": 0.0
+      },
+      "macros": {
+        "protein": {
+          "measure": "G",
+          "amount": 2.47
+        },
+        "fat": {
+          "measure": "G",
+          "amount": null
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 1.44
+        }
+      },
+      "totalSugars": {
+        "measure": "G",
+        "amount": 5.76
+      },
+      "vitamins": {
+        "A": {
+          "measure": "IU",
+          "amount": 123
+        },
+        "C": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "D": {
+          "measure": "IU",
+          "amount": 33.0
+        }
+      },
+      "lipids": {
+        "cholesterol": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "saturated": {
+          "measure": "G",
+          "amount": 0.206
+        },
+        "trans": {
+          "measure": "G",
+          "amount": 0.0
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "measure": "MG",
+          "amount": 123
+        },
+        "iron": {
+          "measure": "MG",
+          "amount": 0.44
+        },
+        "potassium": {
+          "measure": "MG",
+          "amount": 123
+        },
+        "sodium": {
+          "measure": "MG",
+          "amount": 41.0
+        }
+      }
+    }
+  }
+]

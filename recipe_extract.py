@@ -144,7 +144,7 @@ result = []
 
 for ingredient in allIngredients:
     response = requests.get(
-        'https://api.nal.usda.gov/fdc/v1/foods/search?api_key=BAoetRxFaAFevLuLqyyNCtfzsioVeFhIFoW16YTd&query=' + ingredient.get('query'))
+        'https://api.nal.usda.gov/fdc/v1/foods/search?api_key=DEMO_KEY=' + ingredient.get('query'))
 
     nutritionObj = {
         "measure": None,
@@ -223,7 +223,7 @@ for ingredient in allIngredients:
     selected = json.loads(response.text).get("foods")[0]
 
     response2 = requests.get(
-        'https://api.nal.usda.gov/fdc/v1/food/' + str(selected["fdcId"]) + '?api_key=BAoetRxFaAFevLuLqyyNCtfzsioVeFhIFoW16YTd')
+        'https://api.nal.usda.gov/fdc/v1/food/' + str(selected["fdcId"]) + '?api_key=DEMO_KEY')
 
     expandedInfo = json.loads(response2.text)
 

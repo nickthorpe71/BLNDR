@@ -1,91 +1,8 @@
 [
   {
     "name": "Frozen Blueberry",
-    "nutrition": {
-      "measure": "cup",
-      "amount": "1",
-      "calories": 71.4,
-      "fiber": {
-        "measure": "g",
-        "amount": 3.6
-      },
-      "macros": {
-        "protein": {
-          "measure": "g",
-          "amount": 0.6
-        },
-        "fat": {
-          "measure": "g",
-          "amount": 0.9
-        },
-        "carbs": {
-          "measure": "g",
-          "amount": 17
-        }
-      },
-      "totalSugars": {
-        "measure": "g",
-        "amount": 11.8
-      },
-      "vitamins": {
-        "A": {
-          "percentDailyValue": 1.9,
-          "measure": "IU",
-          "amount": 94.27
-        },
-        "C": {
-          "percentDailyValue": 4,
-          "measure": "mg",
-          "amount": 2.38
-        },
-        "D": {
-          "percentDailyValue": 0,
-          "measure": "IU",
-          "amount": 0
-        }
-      },
-      "lipids": {
-        "cholesterol": {
-          "measure": "g",
-          "amount": 0
-        },
-        "saturated": {
-          "measure": "g",
-          "amount": 0
-        },
-        "trans": {
-          "measure": "g",
-          "amount": 0
-        }
-      },
-      "minerals": {
-        "calcium": {
-          "percentDailyValue": 2.4,
-          "measure": "mg",
-          "amount": 23.8
-        },
-        "iron": {
-          "percentDailyValue": 4.5,
-          "measure": "mg",
-          "amount": 0.05
-        },
-        "potassium": {
-          "percentDailyValue": 2.7,
-          "measure": "mg",
-          "amount": 95.2
-        },
-        "sodium": {
-          "percentDailyValue": 0.2,
-          "measure": "mg",
-          "amount": 4.2
-        },
-        "zinc": {
-          "percentDailyValue": 6.3,
-          "measure": "mg",
-          "amount": 0.94
-        }
-      }
-    },
+    "pullNutritionFrom": "Blueberries",
+    "nutrition": {},
     "tags": [
       "simple",
       "super healthy",
@@ -96,11 +13,603 @@
       "whole30",
       "vegetarian",
       "gluten free",
-      "topings"
+      "toppings"
     ],
-    "color": "blue",
+    "color": "purple",
     "palateWeight": "medium",
     "layer": 6,
     "img": "images/blueberry.jpg"
+  },
+  {
+    "name": "Fresh Blueberry",
+    "pullNutritionFrom": "Blueberries",
+    "nutrition": {},
+    "tags": [
+      "simple",
+      "super healthy",
+      "berry",
+      "fruit",
+      "vegan",
+      "paleo",
+      "whole30",
+      "vegetarian",
+      "gluten free",
+      "toppings"
+    ],
+    "color": "purple",
+    "palateWeight": "medium",
+    "layer": 5,
+    "img": "images/blueberry.jpg"
+  },
+  {
+    "name": "Frozen Banana",
+    "pullNutritionFrom": "Banana",
+    "nutrition": {},
+    "tags": [
+      "simple",
+      "fruit",
+      "vegan",
+      "paleo",
+      "whole30",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "white",
+    "palateWeight": "medium",
+    "layer": 6,
+    "img": "images/banana.jpg"
+  },
+  {
+    "name": "Fresh Banana",
+    "pullNutritionFrom": "Banana",
+    "nutrition": {},
+    "tags": [
+      "simple",
+      "fruit",
+      "vegan",
+      "paleo",
+      "whole30",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "white",
+    "palateWeight": "medium",
+    "layer": 5,
+    "img": "images/banana.jpg"
+  },
+  {
+    "name": "Frozen Pineapple",
+    "pullNutritionFrom": "Pineapple",
+    "nutrition": {},
+    "tags": [
+      "simple",
+      "fruit",
+      "vegan",
+      "paleo",
+      "trpoical",
+      "whole30",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "yellow",
+    "palateWeight": "heavy",
+    "layer": 6,
+    "img": "images/pineapple.jpg"
+  },
+  {
+    "name": "Fresh Pineapple",
+    "pullNutritionFrom": "Pineapple",
+    "nutrition": {},
+    "tags": [
+      "simple",
+      "fruit",
+      "vegan",
+      "paleo",
+      "trpoical",
+      "whole30",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "yellow",
+    "palateWeight": "heavy",
+    "layer": 5,
+    "img": "images/pineapple.jpg"
+  },
+  {
+    "name": "Frozen Strawberries",
+    "pullNutritionFrom": "Strawberries",
+    "nutrition": {},
+    "tags": [
+      "simple",
+      "fruit",
+      "vegan",
+      "paleo",
+      "berry",
+      "whole30",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "red",
+    "palateWeight": "heavy",
+    "layer": 6,
+    "img": "images/strawberry.jpg"
+  },
+  {
+    "name": "Fresh Strawberries",
+    "pullNutritionFrom": "Strawberries",
+    "nutrition": {},
+    "tags": [
+      "simple",
+      "fruit",
+      "vegan",
+      "paleo",
+      "berry",
+      "whole30",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "red",
+    "palateWeight": "medium",
+    "layer": 5,
+    "img": "images/strawberry.jpg"
+  },
+  {
+    "name": "Frozen Raspberries",
+    "pullNutritionFrom": "Raspberries",
+    "nutrition": {},
+    "tags": [
+      "fruit",
+      "vegan",
+      "paleo",
+      "berry",
+      "whole30",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "red",
+    "palateWeight": "heavy",
+    "layer": 6,
+    "img": "images/raspberry.jpg"
+  },
+  {
+    "name": "Fresh Raspberries",
+    "pullNutritionFrom": "Raspberries",
+    "nutrition": {},
+    "tags": [
+      "fruit",
+      "vegan",
+      "paleo",
+      "berry",
+      "whole30",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "red",
+    "palateWeight": "heavy",
+    "layer": 5,
+    "img": "images/raspberry.jpg"
+  },
+  {
+    "name": "Frozen Blackberries",
+    "pullNutritionFrom": "Blackberries",
+    "nutrition": {},
+    "tags": [
+      "fruit",
+      "vegan",
+      "paleo",
+      "berry",
+      "whole30",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "purple",
+    "palateWeight": "medium",
+    "layer": 6,
+    "img": "images/blackberry.jpg"
+  },
+  {
+    "name": "Fresh Blackberries",
+    "pullNutritionFrom": "Blackberries",
+    "nutrition": {},
+    "tags": [
+      "fruit",
+      "vegan",
+      "paleo",
+      "berry",
+      "whole30",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "purple",
+    "palateWeight": "medium",
+    "layer": 5,
+    "img": "images/blackberry.jpg"
+  },
+  {
+    "name": "Frozen Cherries",
+    "pullNutritionFrom": "Cherries",
+    "nutrition": {},
+    "tags": [
+      "fruit",
+      "vegan",
+      "paleo",
+      "whole30",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "purple",
+    "palateWeight": "medium",
+    "layer": 6,
+    "img": "images/cherry.jpg"
+  },
+  {
+    "name": "Fresh Cherries",
+    "pullNutritionFrom": "Cherries",
+    "nutrition": {},
+    "tags": [
+      "fruit",
+      "vegan",
+      "paleo",
+      "whole30",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "purple",
+    "palateWeight": "medium",
+    "layer": 5,
+    "img": "images/cherry.jpg"
+  },
+  {
+    "name": "Frozen Peaches",
+    "pullNutritionFrom": "Peaches",
+    "nutrition": {},
+    "tags": [
+      "fruit",
+      "vegan",
+      "paleo",
+      "whole30",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "yellow",
+    "palateWeight": "medium",
+    "layer": 6,
+    "img": "images/peaches.jpg"
+  },
+  {
+    "name": "Fresh Peaches",
+    "pullNutritionFrom": "Peaches",
+    "nutrition": {},
+    "tags": [
+      "fruit",
+      "vegan",
+      "paleo",
+      "whole30",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "yellow",
+    "palateWeight": "medium",
+    "layer": 5,
+    "img": "images/peaches.jpg"
+  },
+  {
+    "name": "Frozen Cantaloupe",
+    "pullNutritionFrom": "Cantaloupe",
+    "nutrition": {},
+    "tags": [
+      "fruit",
+      "vegan",
+      "paleo",
+      "whole30",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "orange",
+    "palateWeight": "medium",
+    "layer": 6,
+    "img": "images/cantaloupe.jpg"
+  },
+  {
+    "name": "Fresh Cantaloupe",
+    "pullNutritionFrom": "Cantaloupe",
+    "nutrition": {},
+    "tags": [
+      "fruit",
+      "vegan",
+      "paleo",
+      "whole30",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "orange",
+    "palateWeight": "medium",
+    "layer": 5,
+    "img": "images/cantaloupe.jpg"
+  },
+  {
+    "name": "Frozen Watermelon",
+    "pullNutritionFrom": "Watermelon",
+    "nutrition": {},
+    "tags": [
+      "fruit",
+      "vegan",
+      "paleo",
+      "whole30",
+      "tropical",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "red",
+    "palateWeight": "medium",
+    "layer": 6,
+    "img": "images/watermelon.jpg"
+  },
+  {
+    "name": "Fresh Watermelon",
+    "pullNutritionFrom": "Watermelon",
+    "nutrition": {},
+    "tags": [
+      "fruit",
+      "vegan",
+      "paleo",
+      "whole30",
+      "tropical",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "red",
+    "palateWeight": "medium",
+    "layer": 5,
+    "img": "images/watermelon.jpg"
+  },
+  {
+    "name": "Frozen Pomegranate Seeds",
+    "pullNutritionFrom": "Pomegranate Seeds",
+    "nutrition": {},
+    "tags": [
+      "fruit",
+      "vegan",
+      "paleo",
+      "whole30",
+      "tropical",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "red",
+    "palateWeight": "medium",
+    "layer": 6,
+    "img": "images/pomegranate.jpg"
+  },
+  {
+    "name": "Fresh Pomegranate Seeds",
+    "pullNutritionFrom": "Pomegranate Seeds",
+    "nutrition": {},
+    "tags": [
+      "fruit",
+      "vegan",
+      "paleo",
+      "whole30",
+      "tropical",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "red",
+    "palateWeight": "medium",
+    "layer": 5,
+    "img": "images/pomegranate.jpg"
+  },
+  {
+    "name": "Frozen Kiwi",
+    "pullNutritionFrom": "Kiwi",
+    "nutrition": {},
+    "tags": [
+      "fruit",
+      "vegan",
+      "paleo",
+      "whole30",
+      "tropical",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "green",
+    "palateWeight": "medium",
+    "layer": 6,
+    "img": "images/kiwi.jpg"
+  },
+  {
+    "name": "Fresh Kiwi",
+    "pullNutritionFrom": "Kiwi",
+    "nutrition": {},
+    "tags": [
+      "fruit",
+      "vegan",
+      "paleo",
+      "whole30",
+      "tropical",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "green",
+    "palateWeight": "medium",
+    "layer": 5,
+    "img": "images/kiwi.jpg"
+  },
+  {
+    "name": "Frozen Unsweetened Acai",
+    "pullNutritionFrom": "Acai",
+    "nutrition": {},
+    "tags": [
+      "fruit",
+      "super healthy",
+      "exotic",
+      "vegan",
+      "paleo",
+      "whole30",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "purple",
+    "palateWeight": "medium",
+    "layer": 6,
+    "img": "images/acai.jpg"
+  },
+  {
+    "name": "Avocado",
+    "pullNutritionFrom": "Avocado",
+    "nutrition": {},
+    "tags": [
+      "super healthy",
+      "vegan",
+      "paleo",
+      "whole30",
+      "vegetarian",
+      "gluten free",
+      "keto"
+    ],
+    "color": "green",
+    "palateWeight": "light",
+    "layer": 4,
+    "img": "images/avocado.jpg"
+  },
+  {
+    "name": "Grapes",
+    "pullNutritionFrom": "Grapes",
+    "nutrition": {},
+    "tags": [
+      "fruit",
+      "vegan",
+      "paleo",
+      "whole30",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "green",
+    "palateWeight": "light",
+    "layer": 5,
+    "img": "images/grapes.jpg"
+  },
+  {
+    "name": "Pear",
+    "pullNutritionFrom": "Pear",
+    "nutrition": {},
+    "tags": [
+      "fruit",
+      "vegan",
+      "paleo",
+      "whole30",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "green",
+    "palateWeight": "light",
+    "layer": 5,
+    "img": "images/pear.jpg"
+  },
+  {
+    "name": "Orange",
+    "pullNutritionFrom": "Orange",
+    "nutrition": {},
+    "tags": [
+      "fruit",
+      "tropical",
+      "vegan",
+      "paleo",
+      "whole30",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "orange",
+    "palateWeight": "medium",
+    "layer": 5,
+    "img": "images/orange.jpg"
+  },
+  {
+    "name": "Apple",
+    "pullNutritionFrom": "Apple",
+    "nutrition": {},
+    "tags": [
+      "fruit",
+      "vegan",
+      "paleo",
+      "whole30",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "white",
+    "palateWeight": "light",
+    "layer": 5,
+    "img": "images/apple.jpg"
+  },
+  {
+    "name": "Papaya",
+    "pullNutritionFrom": "Papaya",
+    "nutrition": {},
+    "tags": [
+      "fruit",
+      "tropical",
+      "exotic",
+      "vegan",
+      "paleo",
+      "whole30",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "orange",
+    "palateWeight": "medium",
+    "layer": 5,
+    "img": "images/papaya.jpg"
+  },
+  {
+    "name": "Mango",
+    "pullNutritionFrom": "Mango",
+    "nutrition": {},
+    "tags": [
+      "fruit",
+      "tropical",
+      "vegan",
+      "paleo",
+      "whole30",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "orange",
+    "palateWeight": "medium",
+    "layer": 5,
+    "img": "images/mango.jpg"
+  },
+  {
+    "name": "Plum",
+    "pullNutritionFrom": "Plum",
+    "nutrition": {},
+    "tags": [
+      "fruit",
+      "vegan",
+      "paleo",
+      "whole30",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "purple",
+    "palateWeight": "medium",
+    "layer": 5,
+    "img": "images/plum.jpg"
+  },
+  {
+    "name": "Nectarine",
+    "pullNutritionFrom": "Nectarine",
+    "nutrition": {},
+    "tags": [
+      "fruit",
+      "vegan",
+      "paleo",
+      "whole30",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "orange",
+    "palateWeight": "medium",
+    "layer": 5,
+    "img": "images/nectarine.jpg"
   },
 ]

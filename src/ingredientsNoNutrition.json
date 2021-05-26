@@ -612,4 +612,470 @@
     "layer": 5,
     "img": "images/nectarine.jpg"
   },
+  {
+    "name": "Zucchini",
+    "pullNutritionFrom": "Zucchini",
+    "nutrition": {},
+    "tags": [
+      "veggie",
+      "vegan",
+      "paleo",
+      "whole30",
+      "vegetarian",
+      "gluten free",
+      "keto"
+    ],
+    "color": "green",
+    "palateWeight": "light",
+    "layer": 5,
+    "img": "images/zucchini.jpg"
+  },
+  {
+    "name": "Cucumber",
+    "pullNutritionFrom": "Cucumber",
+    "nutrition": {},
+    "tags": [
+      "veggie",
+      "vegan",
+      "paleo",
+      "whole30",
+      "vegetarian",
+      "gluten free",
+      "keto"
+    ],
+    "color": "green",
+    "palateWeight": "light",
+    "layer": 5,
+    "img": "images/cucumber.jpg"
+  },
+  {
+    "name": "Beets",
+    "pullNutritionFrom": "Beets",
+    "nutrition": {},
+    "tags": [
+      "veggie",
+      "super healthy",
+      "vegan",
+      "paleo",
+      "whole30",
+      "vegetarian",
+      "gluten free",
+      "keto"
+    ],
+    "color": "red",
+    "palateWeight": "heavy",
+    "layer": 5,
+    "img": "images/beets.jpg"
+  },
+  {
+    "name": "Carrot",
+    "pullNutritionFrom": "Carrot",
+    "nutrition": {},
+    "tags": [
+      "veggie",
+      "super healthy",
+      "vegan",
+      "paleo",
+      "whole30",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "orange",
+    "palateWeight": "heavy",
+    "layer": 5,
+    "img": "images/carrot.jpg"
+  },
+  {
+    "name": "Kale",
+    "pullNutritionFrom": "Kale",
+    "nutrition": {},
+    "tags": [
+      "veggie",
+      "super healthy",
+      "greens",
+      "vegan",
+      "paleo",
+      "whole30",
+      "vegetarian",
+      "gluten free",
+      "keto"
+    ],
+    "color": "green",
+    "palateWeight": "medium",
+    "layer": 3,
+    "img": "images/kale.jpg"
+  },
+  {
+    "name": "Spinach",
+    "pullNutritionFrom": "Spinach",
+    "nutrition": {},
+    "tags": [
+      "veggie",
+      "super healthy",
+      "greens",
+      "vegan",
+      "paleo",
+      "whole30",
+      "vegetarian",
+      "gluten free",
+      "keto"
+    ],
+    "color": "green",
+    "palateWeight": "light",
+    "layer": 3,
+    "img": "images/spinach.jpg"
+  },
+  {
+    "name": "Romaine",
+    "pullNutritionFrom": "Romaine",
+    "nutrition": {},
+    "tags": [
+      "veggie",
+      "super healthy",
+      "greens",
+      "vegan",
+      "paleo",
+      "whole30",
+      "vegetarian",
+      "gluten free",
+      "keto"
+    ],
+    "color": "green",
+    "palateWeight": "light",
+    "layer": 3,
+    "img": "images/romaine.jpg"
+  },
+  {
+    "name": "Chocolate Protein",
+    "pullNutritionFrom": "Chocolate Protein",
+    "nutrition": {},
+    "tags": [
+      "super healthy",
+      "high protein",
+      "vegan",
+      "whole30",
+      "vegetarian",
+      "gluten free",
+      "keto"
+    ],
+    "color": "brown",
+    "palateWeight": "medium",
+    "layer": 2,
+    "img": "images/chocolate-protein.jpg"
+  },
+  {
+    "name": "Unflavored Protein",
+    "pullNutritionFrom": "Pea Protein",
+    "nutrition": {},
+    "tags": [
+      "super healthy",
+      "high protein",
+      "vegan",
+      "whole30",
+      "vegetarian",
+      "gluten free",
+      "keto"
+    ],
+    "color": "white",
+    "palateWeight": "light",
+    "layer": 2,
+    "img": "images/pea-protein.jpg"
+  },
+  {
+    "name": "Cold Coffee",
+    "pullNutritionFrom": "Cold Coffee",
+    "nutrition": {},
+    "tags": [
+      "caffeine",
+      "vegan",
+      "vegetarian",
+      "gluten free",
+      "keto"
+    ],
+    "color": "brown",
+    "palateWeight": "heavy",
+    "layer": 1,
+    "img": "images/coffee.jpg"
+  },
+  {
+    "name": "Coconut Water",
+    "pullNutritionFrom": "Coconut Water",
+    "nutrition": {},
+    "tags": [
+      "simple",
+      "super healthy",
+      "tropical",
+      "whole30",
+      "vegan",
+      "vegetarian",
+      "gluten free",
+      "keto"
+    ],
+    "color": "clear",
+    "palateWeight": "light",
+    "layer": 1,
+    "img": "images/coconut-water.jpg"
+  },
+  {
+    "name": "Almond Milk",
+    "pullNutritionFrom": "Almond Milk",
+    "nutrition": {},
+    "tags": [
+      "simple",
+      "super healthy",
+      "decadent",
+      "whole30",
+      "vegan",
+      "paleo",
+      "vegetarian",
+      "gluten free",
+      "keto"
+    ],
+    "color": "white",
+    "palateWeight": "light",
+    "layer": 1,
+    "img": "images/almond-milk.jpg"
+  },
+  {
+    "name": "Oat Milk",
+    "pullNutritionFrom": "Oat Milk",
+    "nutrition": {},
+    "tags": [
+      "simple",
+      "whole30",
+      "decadent",
+      "vegan",
+      "paleo",
+      "vegetarian",
+      "keto"
+    ],
+    "color": "white",
+    "palateWeight": "light",
+    "layer": 1,
+    "img": "images/oat-milk.jpg"
+  },
+  {
+    "name": "Whole Milk",
+    "pullNutritionFrom": "Whole Milk",
+    "nutrition": {},
+    "tags": [
+      "simple",
+      "decadent",
+      "paleo",
+      "vegetarian",
+      "gluten free",
+      "keto"
+    ],
+    "color": "white",
+    "palateWeight": "light",
+    "layer": 1,
+    "img": "images/whole-milk.jpg"
+  },
+  {
+    "name": "Soy Milk",
+    "pullNutritionFrom": "Soy Milk",
+    "nutrition": {},
+    "tags": [
+      "simple",
+      "high protein",
+      "decadent",
+      "vegetarian",
+      "vegan"
+    ],
+    "color": "white",
+    "palateWeight": "light",
+    "layer": 1,
+    "img": "images/soy-milk.jpg"
+  },
+  {
+    "name": "Orange Juice",
+    "pullNutritionFrom": "Orange Juice",
+    "nutrition": {},
+    "tags": [
+      "simple",
+      "vegetarian",
+      "tropical",
+      "gluten free",
+      "vegan",
+      "whole30",
+      "paleo"
+    ],
+    "color": "orange",
+    "palateWeight": "medium",
+    "layer": 1,
+    "img": "images/orange-juice.jpg"
+  },
+  {
+    "name": "Beet Juice",
+    "pullNutritionFrom": "Beet Juice",
+    "nutrition": {},
+    "tags": [
+      "super healthy",
+      "vegetarian",
+      "gluten free",
+      "vegan",
+      "whole30",
+      "paleo"
+    ],
+    "color": "red",
+    "palateWeight": "heavy",
+    "layer": 1,
+    "img": "images/beet-juice.jpg"
+  },
+  {
+    "name": "Carrot Juice",
+    "pullNutritionFrom": "Carrot Juice",
+    "nutrition": {},
+    "tags": [
+      "super healthy",
+      "vegetarian",
+      "gluten free",
+      "vegan",
+      "whole30",
+      "paleo"
+    ],
+    "color": "orange",
+    "palateWeight": "medium",
+    "layer": 1,
+    "img": "images/carrot-juice.jpg"
+  },
+  {
+    "name": "Honey",
+    "pullNutritionFrom": "Honey",
+    "nutrition": {},
+    "tags": [
+      "decadent",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "clear",
+    "palateWeight": "light",
+    "layer": 2,
+    "img": "images/honey.jpg"
+  },
+  {
+    "name": "Dates",
+    "pullNutritionFrom": "Dates",
+    "nutrition": {},
+    "tags": [
+      "decadent",
+      "vegetarian",
+      "vegan",
+      "gluten free"
+    ],
+    "color": "clear",
+    "palateWeight": "light",
+    "layer": 5,
+    "img": "images/dates.jpg"
+  },
+  {
+    "name": "Maple Syrup",
+    "pullNutritionFrom": "Maple Syrup",
+    "nutrition": {},
+    "tags": [
+      "decadent",
+      "vegetarian",
+      "vegan",
+      "gluten free"
+    ],
+    "color": "clear",
+    "palateWeight": "light",
+    "layer": 2,
+    "img": "images/maple-syrup.jpg"
+  },
+  {
+    "name": "Agave",
+    "pullNutritionFrom": "Agave",
+    "nutrition": {},
+    "tags": [
+      "decadent",
+      "vegetarian",
+      "vegan",
+      "gluten free"
+    ],
+    "color": "clear",
+    "palateWeight": "light",
+    "layer": 2,
+    "img": "images/agave.jpg"
+  },
+  {
+    "name": "Matcha",
+    "pullNutritionFrom": "Matcha",
+    "nutrition": {},
+    "tags": [
+      "super healthy",
+      "caffeine",
+      "vegan",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "green",
+    "palateWeight": "light",
+    "layer": 2,
+    "img": "images/matcha.jpg"
+  },
+  {
+    "name": "Old Fashioned Oats",
+    "pullNutritionFrom": "Oats",
+    "nutrition": {},
+    "tags": [
+      "vegan",
+      "vegetarian"
+    ],
+    "color": "white",
+    "palateWeight": "medium",
+    "layer": 2,
+    "img": "images/oats.jpg"
+  },
+  {
+    "name": "Chia Seeds",
+    "pullNutritionFrom": "Chia Seeds",
+    "nutrition": {},
+    "tags": [
+      "super healthy",
+      "vegan",
+      "vegetarian",
+      "keto",
+      "paleo",
+      "whole30"
+    ],
+    "color": "clear",
+    "palateWeight": "light",
+    "layer": 2,
+    "img": "images/chia-seeds.jpg"
+  },
+  {
+    "name": "Flax Seeds",
+    "pullNutritionFrom": "Flax Seeds",
+    "nutrition": {},
+    "tags": [
+      "super healthy",
+      "vegan",
+      "vegetarian",
+      "keto",
+      "paleo",
+      "whole30"
+    ],
+    "color": "clear",
+    "palateWeight": "light",
+    "layer": 2,
+    "img": "images/flax-seeds.jpg"
+  },
+  {
+    "name": "Maca Powder",
+    "pullNutritionFrom": "Maca",
+    "nutrition": {},
+    "tags": [
+      "super healthy",
+      "vegan",
+      "vegetarian",
+      "keto",
+      "paleo",
+      "whole30"
+    ],
+    "color": "clear",
+    "palateWeight": "light",
+    "layer": 2,
+    "img": "images/maca.jpg"
+  },
 ]

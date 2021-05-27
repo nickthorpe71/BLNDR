@@ -944,6 +944,7 @@
     "pullNutritionFrom": "Honey",
     "nutrition": {},
     "tags": [
+      "booster",
       "decadent",
       "vegetarian",
       "gluten free"
@@ -958,6 +959,7 @@
     "pullNutritionFrom": "Dates",
     "nutrition": {},
     "tags": [
+      "booster",
       "decadent",
       "vegetarian",
       "vegan",
@@ -973,6 +975,7 @@
     "pullNutritionFrom": "Maple Syrup",
     "nutrition": {},
     "tags": [
+      "booster",
       "decadent",
       "vegetarian",
       "vegan",
@@ -988,6 +991,7 @@
     "pullNutritionFrom": "Agave",
     "nutrition": {},
     "tags": [
+      "booster",
       "decadent",
       "vegetarian",
       "vegan",
@@ -1003,6 +1007,7 @@
     "pullNutritionFrom": "Matcha",
     "nutrition": {},
     "tags": [
+      "booster",
       "super healthy",
       "caffeine",
       "vegan",
@@ -1032,6 +1037,7 @@
     "pullNutritionFrom": "Chia Seeds",
     "nutrition": {},
     "tags": [
+      "booster",
       "super healthy",
       "vegan",
       "vegetarian",
@@ -1049,6 +1055,7 @@
     "pullNutritionFrom": "Flax Seeds",
     "nutrition": {},
     "tags": [
+      "booster",
       "super healthy",
       "vegan",
       "vegetarian",
@@ -1066,6 +1073,7 @@
     "pullNutritionFrom": "Maca",
     "nutrition": {},
     "tags": [
+      "booster",
       "super healthy",
       "vegan",
       "vegetarian",
@@ -1078,4 +1086,241 @@
     "layer": 2,
     "img": "images/maca.jpg"
   },
+  {
+    "name": "Hemp Hearts",
+    "pullNutritionFrom": "Hemp Seeds",
+    "nutrition": {},
+    "tags": [
+      "booster",
+      "super healthy",
+      "vegan",
+      "vegetarian",
+      "keto",
+      "paleo",
+      "whole30"
+    ],
+    "color": "clear",
+    "palateWeight": "light",
+    "layer": 2,
+    "img": "images/hemp-seeds.jpg"
+  },
+  {
+    "name": "Almond Butter",
+    "pullNutritionFrom": "Almond Butter",
+    "nutrition": {},
+    "tags": [
+      "booster",
+      "decadent",
+      "vegan",
+      "vegetarian",
+      "keto",
+      "paleo",
+      "whole30",
+      "nut"
+    ],
+    "color": "brown",
+    "palateWeight": "heavy",
+    "layer": 2,
+    "img": "images/almond-butter.jpg"
+  },
+  {
+    "name": "Peanut Butter",
+    "pullNutritionFrom": "Peanut Butter",
+    "nutrition": {},
+    "tags": [
+      "booster",
+      "decadent",
+      "simple",
+      "vegan",
+      "vegetarian",
+      "keto",
+      "paleo",
+      "whole30",
+      "nut"
+    ],
+    "color": "brown",
+    "palateWeight": "heavy",
+    "layer": 2,
+    "img": "images/peanut-butter.jpg"
+  },
+  {
+    "name": "Cacao",
+    "pullNutritionFrom": "Cacao",
+    "nutrition": {},
+    "tags": [
+      "booster",
+      "decadent",
+      "vegan",
+      "vegetarian",
+      "keto",
+      "paleo",
+      "whole30"
+    ],
+    "color": "brown",
+    "palateWeight": "medium",
+    "layer": 2,
+    "img": "images/cacao.jpg"
+  },
+  {
+    "name": "Raw Ginger",
+    "pullNutritionFrom": "Raw Ginger",
+    "nutrition": {},
+    "tags": [
+      "booster",
+      "super healthy",
+      "vegan",
+      "exotic",
+      "vegetarian",
+      "keto",
+      "paleo",
+      "whole30",
+      "gluten free"
+    ],
+    "color": "clear",
+    "palateWeight": "heavy",
+    "layer": 5,
+    "img": "images/ginger.jpg"
+  },
+  {
+    "name": "Turmeric",
+    "pullNutritionFrom": "Turmeric",
+    "nutrition": {},
+    "tags": [
+      "booster",
+      "super healthy",
+      "vegan",
+      "vegetarian",
+      "keto",
+      "paleo",
+      "whole30",
+      "gluten free"
+    ],
+    "color": "orange",
+    "palateWeight": "heavy",
+    "layer": 2,
+    "img": "images/turmeric.jpg"
+  },
+  {
+    "name": "Spirulina",
+    "pullNutritionFrom": "Spirulina",
+    "nutrition": {},
+    "tags": [
+      "booster",
+      "super healthy",
+      "vegan",
+      "vegetarian",
+      "keto",
+      "paleo",
+      "whole30",
+      "gluten free"
+    ],
+    "color": "green",
+    "palateWeight": "medium",
+    "layer": 2,
+    "img": "images/spirulina.jpg"
+  },
+  {
+    "name": "Chopped Basil",
+    "pullNutritionFrom": "Chopped Basil",
+    "nutrition": {},
+    "tags": [
+      "booster",
+      "super healthy",
+      "vegan",
+      "vegetarian",
+      "keto",
+      "paleo",
+      "whole30",
+      "gluten free"
+    ],
+    "color": "green",
+    "palateWeight": "heavy",
+    "layer": 3,
+    "img": "images/basil.jpg"
+  },
+  {
+    "name": "Mint",
+    "pullNutritionFrom": "Mint",
+    "nutrition": {},
+    "tags": [
+      "booster",
+      "super healthy",
+      "vegan",
+      "vegetarian",
+      "keto",
+      "paleo",
+      "whole30",
+      "gluten free"
+    ],
+    "color": "green",
+    "palateWeight": "heavy",
+    "layer": 3,
+    "img": "images/mint.jpg"
+  },
+  {
+    "name": "Cinnamon",
+    "pullNutritionFrom": "Cinnamon",
+    "nutrition": {},
+    "tags": [
+      "booster",
+      "decadent",
+      "vegan",
+      "vegetarian",
+      "keto",
+      "paleo",
+      "whole30",
+      "gluten free"
+    ],
+    "color": "clear",
+    "palateWeight": "heavy",
+    "layer": 2,
+    "img": "images/cinnamon.jpg"
+  },
+  {
+    "name": "Vanilla Extract",
+    "pullNutritionFrom": "Vanilla Extract",
+    "nutrition": {},
+    "tags": [
+      "booster",
+      "decadent",
+      "vegan",
+      "vegetarian",
+      "keto",
+      "paleo",
+      "whole30",
+      "gluten free"
+    ],
+    "color": "clear",
+    "palateWeight": "medium",
+    "layer": 3,
+    "img": "images/vanilla-extract.jpg"
+  },
+  {
+    "name": "Plain Greek Yogurt",
+    "pullNutritionFrom": "Plain Greek Yogurt",
+    "nutrition": {},
+    "tags": [
+      "vegetarian",
+      "keto",
+      "high protein"
+    ],
+    "color": "white",
+    "palateWeight": "heavy",
+    "layer": 4,
+    "img": "images/greek-yogurt.jpg"
+  },
+  {
+    "name": "Silk Tofu",
+    "pullNutritionFrom": "Silk Tofu",
+    "nutrition": {},
+    "tags": [
+      "vegan",
+      "vegetarian",
+      "high protein"
+    ],
+    "color": "white",
+    "palateWeight": "light",
+    "layer": 4,
+    "img": "images/silk-tofu.jpg"
+  }
 ]

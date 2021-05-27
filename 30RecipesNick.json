@@ -1,0 +1,416 @@
+[
+  {
+    "title": "Tofuberry",
+    "Category": "healthy",
+    "ingredients": [
+      "1/4 cup diced silken tofu",
+      "2 tablespoons soy milk",
+      "1/2 cup raspberries",
+      "1/4 banana",
+      "2 cups orange juice"
+    ],
+    "instructions": "Place tofu, soy milk, yogurt, raspberries, banana, and orange juice in a blender. Blend until smooth. Pour in glasses over ice or vanilla ice cream.\n",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg"
+  },
+  {
+    "title": "Berry Apricot",
+    "Category": "healthy",
+    "ingredients": [
+      "1 1/2 cups almond milk",
+      "1/2 banana",
+      "1 cup mixed frozen berries",
+      "2 fresh apricots, pitted",
+      "1 tablespoon chia seeds",
+      "1 scoop protein powder"
+    ],
+    "instructions": "Place all ingredients into blender and blend on high until smooth.\n",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg"
+  },
+  {
+    "title": "Avocado Banana Nut",
+    "Category": "healthy",
+    "ingredients": [
+      "1 cup almond milk",
+      "1 avocado, peeled and pitted",
+      "1 frozen banana",
+      "3 tablespoons creamy peanut butter",
+      "2 cubes ice cubes",
+      "1 teaspoon vanilla extract (optional)"
+    ],
+    "instructions": "Blend almond milk, avocado, banana, peanut butter, and vanilla extract in a blender until smooth.\n",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg"
+  },
+  {
+    "title": "Papaya Passion",
+    "Category": "dessert",
+    "ingredients": [
+      "1 cup frozen papaya - peeled, seeded and cubed",
+      "1 cup almond milk",
+      "1 tbsp agave",
+      "1 frozen banana"
+    ],
+    "instructions": "Place papaya, almond milk, agave, condensed milk, and frozen banana in a blender. Blend until smooth. Serve immediately.\n",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg"
+  },
+  {
+    "title": "Cucumber Pear",
+    "Category": "healthy",
+    "ingredients": [
+      "1/4 cucumber, chopped",
+      "1 pear, chopped",
+      "1/2 cup frozen pineapple",
+      "1 tablespoon chopped fresh parsley",
+      "1/2 teaspoon grated fresh ginger",
+      "1 cup water, or as desired"
+    ],
+    "instructions": "Layer cucumber, pear, pineapple, white beans, parsley, and ginger in a blender; add water. Cover and blend mixture until smooth, adding more water for a thinner smoothie.\n",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg"
+  },
+  {
+    "title": "PB&J",
+    "Category": "decadent",
+    "ingredients": [
+      "3/4 cup frozen strawberries",
+      "3/4 cup milk",
+      "1 1/2 tablespoons peanut butter",
+      "1 tablespoon rolled oats",
+      "2 teaspoons honey"
+    ],
+    "instructions": "Blend strawberries, milk, peanut butter, and oats together in a blender until smooth.\n",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg"
+  },
+  {
+    "title": "Matcha-Berry Swirl",
+    "Category": "healthy",
+    "ingredients": [
+      "2 cups fresh spinach",
+      "2 cups orange juice, divided",
+      "1 cup frozen peaches",
+      "1 cup frozen pineapple chunks",
+      "2 frozen bananas, halved, divided",
+      "2 teaspoons green tea powder (matcha)",
+      "1 cup frozen raspberries",
+      "1 cup frozen strawberries"
+    ],
+    "instructions": "Combine spinach, 1 cup orange juice, peaches, pineapple, 1 halved banana, and green tea powder in a blender; blend until combined. Pour smoothie into a glass.\nRinse out the blender.\nCombine 1 cup orange juice, raspberries, strawberries, and 1 halved banana in the blender; blend until combined. Pour berry smoothie into a separate glass.\nCombine smoothies by pouring them at the same time from opposite sides of the serving glass.\n",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg"
+  },
+  {
+    "title": "Any Way You Want It Kale",
+    "Category": "healthy",
+    "ingredients": [
+      "2 cups kale",
+      "1/4 cup Greek yogurt",
+      "3 tablespoons peanut butter (optional)",
+      "1/2 cup milk",
+      "1/2 frozen banana",
+      "3 frozen strawberries, or more to taste",
+      "1 tbsp maple syrup"
+    ],
+    "instructions": "Blend kale, yogurt, and peanuts together in a blender until smooth. Add milk, banana, strawberries, and maple syrup and blend until desired consistency is reached.\n",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg"
+  },
+  {
+    "title": "New Year Detox Green",
+    "Category": "healthy",
+    "ingredients": [
+      "8 fluid ounces coconut water",
+      "1/2 cup green tea, chilled",
+      "1/2 cup frozen sliced banana",
+      "1/2 cup packed fresh spinach",
+      "1 scoop protein powder (such as Vega\u00ae)",
+      "1 tablespoon chopped fresh mint"
+    ],
+    "instructions": "Combine coconut water, green tea, banana, spinach, protein powder, and mint in a blender; blend until smooth, 1 to 2 minutes.\n",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg"
+  },
+  {
+    "title": "Blueberry Mango",
+    "Category": "healthy",
+    "ingredients": [
+      "1 tablespoon chia seeds",
+      "1/2 cup greek yogurt",
+      "1/2 cup mango juice",
+      "1/4 cup frozen blueberries",
+      "1/4 cup frozen mango",
+      "1/2 teaspoon vanilla extract"
+    ],
+    "instructions": "Grind chia seeds in a food processor until pulverized; add yogurt, mango juice, blueberries, mango, and vanilla extract and blend until smooth.\n",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg"
+  },
+  {
+    "title": "Quick Kale and Banana Smoothie",
+    "Category": "healthy",
+    "ingredients": [
+      "2 cups chopped kale",
+      "1 cup frozen banana",
+      "1 cup milk",
+      "1/2 cup frozen strawberries, or more to taste"
+    ],
+    "instructions": "Blend kale, banana, coconut milk, and strawberries together in a blender until smooth.\n",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg"
+  },
+  {
+    "title": "Paleo Apple Pie",
+    "Category": "healthy",
+    "ingredients": [
+      "1 apple, roughly chopped",
+      "1/4 cup frozen pineapple chunks",
+      "1 tablespoon almond butter",
+      "1 teaspoon flax seeds",
+      "1/2 teaspoon vanilla extract",
+      "1/4 teaspoon ground cinnamon, or as desired",
+      "1 cup almond milk"
+    ],
+    "instructions": "Layer apple, pineapple, cashew butter, coconut, flax meal, vanilla extract, and cinnamon into a blender; add almond milk. Blend mixture until smooth.\n",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg"
+  },
+  {
+    "title": "Mango Pineapple Green Smoothie",
+    "Category": "healthy",
+    "ingredients": [
+      "2/3 cup frozen pineapple chunks",
+      "1 cup frozen mango chunks",
+      "1 frozen banana, sliced",
+      "2/3 cup fresh spinach",
+      "1/3 cup orange juice"
+    ],
+    "instructions": "Place pineapple, mango, banana, spinach, and orange juice, respectively, in a blender and blend until smooth.\n",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg"
+  },
+  {
+    "title": "Perfect Peach Smoothie",
+    "Category": "healthy",
+    "ingredients": [
+      "1 large peach, sliced and frozen",
+      "1 banana, cut into pieces and frozen",
+      "1/2 cup orange juice",
+      "1/2 cup soy milk",
+      "1 tablespoon ground flax seed (optional)"
+    ],
+    "instructions": "Blend peach, banana, orange juice, soy milk, and flax seed in a blender until smooth.\n",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg"
+  },
+  {
+    "title": "Chocolate Peanut Banana Smoothie",
+    "Category": "healthy",
+    "ingredients": [
+      "1 cup unsweetened almond milk",
+      "1 frozen banana, cut into chunks",
+      "2 tablespoons smooth peanut butter",
+      "2 teaspoons cacao"
+    ],
+    "instructions": "Blend almond milk, banana, peanut butter, and cocoa powder together in a blender until smooth.\n",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg"
+  },
+  {
+    "title": "The Boss!",
+    "Category": "healthy",
+    "ingredients": [
+      "2 cups milk",
+      "15 slices frozen peach, or more to taste",
+      "1 banana",
+      "3 1/2 ounces greek yogurt"
+    ],
+    "instructions": "Pour milk into a blender; add peaches, banana, and yogurt. Blend mixture until smooth.\n",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg"
+  },
+  {
+    "title": "Morning Smoothie",
+    "Category": "healthy",
+    "ingredients": [
+      "1 banana",
+      "1/3 cup frozen chopped spinach",
+      "1/2 cup frozen mixed fruit",
+      "1 tablespoon flax seed",
+      "1 scoop unflavored protein powder",
+      "1 tablespoon chia seeds",
+      "1/2 teaspoon matcha green tea powder",
+      "1 cup water"
+    ],
+    "instructions": "Layer banana, spinach, mixed fruit, flax meal, protein powder, chia seeds, and matcha powder in a blender in the order listed; add enough water to cover. Cover blender and blend until smooth.\n",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg"
+  },
+  {
+    "title": "Blueberry Vanilla Graham Protein Smoothie",
+    "Category": "healthy",
+    "ingredients": [
+      "1 cup coconut water",
+      "1 banana, frozen",
+      "3/4 cup fresh blueberries",
+      "1/2 cup spinach",
+      "2 dates, pitted and chopped",
+      "1 tablespoon almond butter",
+      "1 tablespoon hemp hearts",
+      "1 tablespoon flax seeds",
+      "1 tablespoon oats",
+      "1 scoop unflavored protein powder (optional)",
+      "2 tablespoons graham cracker crumbs"
+    ],
+    "instructions": "Combine coconut water, banana, blueberries, kale, spinach, dates, almond butter, hemp seed hearts, flax seeds, oats, and protein powder in a blender. Cover and puree until smooth. Top with graham cracker crumbs.\n",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg"
+  },
+  {
+    "title": "Moring Coconut Smoothie",
+    "Category": "healthy",
+    "ingredients": [
+      "1 frozen banana",
+      "1 cup sliced frozen peaches",
+      "1 cup coconut milk",
+      "1 tablespoon almond butter"
+    ],
+    "instructions": "Layer bananas, peaches, coconut milk, moringa powder, and almond butter in a blender; add water. Blend mixture until very smooth, at least 1 minute.\n",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg"
+  },
+  {
+    "title": "Uncle Monkey Smoothie",
+    "Category": "healthy",
+    "ingredients": [
+      "2 frozen bananas",
+      "3 tablespoons peanut butter",
+      "1 cup milk",
+      "1 tablespoon cacao"
+    ],
+    "instructions": "Blend bananas, peanut butter, milk, and cacao, together in a blender until smooth.\n",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg"
+  },
+  {
+    "title": "Green Tea Pear Smoothie",
+    "Category": "healthy",
+    "ingredients": [
+      "1 cup almond milk",
+      "1 scoop unfalvored protein powder",
+      "1 cup fresh spinach",
+      "1 pear, cored",
+      "2 tablespoons chopped cashews",
+      "1/2 teaspoon green tea powder (matcha)"
+    ],
+    "instructions": "Mix almond milk and protein powder together in a cup; pour into a blender. Add spinach, pear, cashews, and green tea powder; blend until smooth.\n",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg"
+  },
+  {
+    "title": "Elvis Smoothie (Almond and Banana)",
+    "Category": "healthy",
+    "ingredients": [
+      "2 large frozen bananas",
+      "2 cups milk",
+      "1 tablespoon almond butter",
+      "1 teaspoon vanilla extract",
+      "1 pinch ground cinnamon"
+    ],
+    "instructions": "Place banana chunks into a sealable plastic bag and freeze until solid, 1 to 2 hours to overnight.\nPlace frozen bananas into a blender with skim milk, almond butter, and vanilla extract; ,blend until smooth. Pour into a large glass and garnish with a pinch of ground cinnamon to serve.\n",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg"
+  },
+  {
+    "title": "Zucchini and Carrot Smoothie",
+    "Category": "healthy",
+    "ingredients": [
+      "1 zucchini - peeled, grated, and chopped",
+      "1 carrot - peeled, grated, and chopped",
+      "1/2 cup plain fat-free Greek yogurt",
+      "1/2 cup 1% milk",
+      "2 tablespoons rolled oats",
+      "2 tablespoons honey",
+      "1 tablespoon flax seeds"
+    ],
+    "instructions": "Blend zucchini, carrot, yogurt, milk, oats, honey, and flax seeds in a blender until smooth.\n",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg"
+  },
+  {
+    "title": "Lean Green Smoothie",
+    "Category": "healthy",
+    "ingredients": [
+      "2 cups frozen cantaloupe",
+      "1 cup grapes",
+      "1 cucumber, peeled and chopped",
+      "1/2 cup broccoli florets (optional)",
+      "1 tbsp mint"
+    ],
+    "instructions": "Place the honeydew melon, ice cubes, grapes, cucumber, broccoli, and mint into a blender. Cover, and puree until smooth.\n",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg"
+  },
+  {
+    "title": "Skinny Black Forest Smoothie",
+    "Category": "healthy",
+    "ingredients": [
+      "2 cups baby spinach",
+      "1 cup frozen cherries",
+      "1 cup almond milk",
+      "1/4 cup rolled oats",
+      "2 tablespoons cacao",
+      "1 teaspoon chia seeds, or to taste (optional)"
+    ],
+    "instructions": "Place baby spinach, cherries, almond milk, rolled oats, cocoa powder, and sweetener in a blender. Blend until smooth, about 2 minutes. Pour into a glass and top with chia seeds.\n",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg"
+  },
+  {
+    "title": "Nectarine Sunshine Smoothie",
+    "Category": "healthy",
+    "ingredients": [
+      "1 cup frozen nectarines",
+      "1/2 cup frozen banana",
+      "1/2 cup orange",
+      "1 cup orange juice",
+      "1 tablespoon agave"
+    ],
+    "instructions": "Place the nectarines, frozen banana chunks, orange, orange juice, and agave into a blender, and blend until smooth.\n",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg"
+  },
+  {
+    "title": "Carrot Cake Smoothie",
+    "Category": "healthy",
+    "ingredients": [
+      "1 large carrot, peeled and diced",
+      "1/4 cup frozen mango chunks",
+      "1 large fresh peach, chopped",
+      "1/4 cup soy milk",
+      "1 tablespoon ground cinnamon",
+      "1 teaspoon ground allspice",
+      "1 teaspoon ground ginger"
+    ],
+    "instructions": "Pulse carrot and mango together in a blender until roughly chopped. Add peach, soy milk, cinnamon, allspice, and ginger; blend until smooth.\n",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg"
+  },
+  {
+    "title": "Good-To-Go Morning Smoothie",
+    "Category": "healthy",
+    "ingredients": [
+      "2 cups fresh spinach",
+      "1 cup rolled oats",
+      "1 cup orange juice",
+      "1 cup frozen banana",
+      "2 tablespoons peanut butter"
+    ],
+    "instructions": "Blend spinach, oats, apple juice, banana, and peanut butter together in a blender or food processor until smooth.\n",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg"
+  },
+  {
+    "title": "Jumping Ginger Smoothie",
+    "Category": "healthy",
+    "ingredients": [
+      "1 cups water",
+      "1 avocado, peeled, and pitted",
+      "1/2 cup fresh parsley",
+      "1 carrot, cut into chunks",
+      "1 leaf kale leaf, or more to taste",
+      "1 (1 inch) piece fresh ginger root, or more to taste",
+      "1 frozen banana",
+      "1 tablespoon flax seeds (optional)"
+    ],
+    "instructions": "Blend water, avocado, parsley, apple, carrot, lemon, kale, ginger, ice cubes, and flax seeds in a blender on high until smooth, 10 to 15 seconds.\n",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg"
+  },
+  {
+    "title": "Purple Monstrosity Fruit Smoothie",
+    "Category": "healthy",
+    "ingredients": [
+      "1 frozen banana",
+      "1/2 cup frozen blueberries",
+      "1 cup orange juice",
+      "1 tablespoon honey (optional)",
+      "1 teaspoon vanilla extract (optional)"
+    ],
+    "instructions": "Place bananas, blueberries and juice in a blender, puree. Use honey and/or vanilla to taste. Use more or less liquid depending on the thickness you want for your smoothie.\n",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg"
+  }
+]

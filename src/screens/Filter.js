@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
-import { View, Text, StyleSheet, Button } from 'react-native';
+import React, { useState, useEffect } from 'react';
+import { View, Text, StyleSheet, Button, FlatList } from 'react-native';
 import { SearchBar, Switch } from 'react-native-elements';
 import Carousel from 'react-native-snap-carousel';
 
+const allRecipes = require('../selectedRecipes.json');
+
 const Filter = ({ history }) => {
-  const [search, setSearch] = useState('');
   const [activeIndex, setActiveIndex] = useState(0);
   const [includeToggle, setIncludeToggle] = useState(0);
   const [carouselItems, setCarouselItems] = useState([
@@ -29,6 +30,35 @@ const Filter = ({ history }) => {
       text: 'Text 5',
     },
   ]);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [filteredRecipes, setFilteredRecipes] = useState([]);
+  const [masterRecipes, setMasterRecipes] = useState([]);
+
+  useEffect(() => {
+    setFilteredRecipes(allRecipes);
+    setMasterRecipes(allRecipes);
+  }, []);
+
+  const onClickItem = item => {
+    alert(' Title : ' + item.title);
+  };
+
+  const searchFilterFunction = text => {
+    if (text) {
+      const newData = masterRecipes.filter(item => {
+        const itemData = item.title
+          ? item.title.toUpperCase()
+          : ''.toUpperCase();
+        const textData = text.toUpperCase();
+        return itemData.indexOf(textData) > -1;
+      });
+      setFilteredRecipes(newData);
+      setSearchTerm(text);
+    } else {
+      setFilteredRecipes(masterRecipes);
+      setSearchTerm(text);
+    }
+  };
 
   const renderCarouselItem = ({ item, index }) => {
     return (
@@ -39,7 +69,28 @@ const Filter = ({ history }) => {
     );
   };
 
-  // Search Bar Ref: https://snack.expo.io/embedded/@aboutreact/example-of-search-bar-in-react-native?preview=true&platform=ios&iframeId=qn4os3zz2g&theme=dark
+  const RenderItem = ({ item }) => {
+    return (
+      // Flat List Item
+      <Text style={styles.itemStyle} onPress={() => onClickItem(item)}>
+        {''}
+        {item.title.toUpperCase()}
+      </Text>
+    );
+  };
+
+  const RenderItemSeparator = () => {
+    return (
+      // Flat List Item Separator
+      <View
+        style={{
+          height: 0.5,
+          width: '100%',
+          backgroundColor: '#C8C8C8',
+        }}
+      />
+    );
+  };
 
   return (
     <View style={styles.filterContainerOuter}>
@@ -58,8 +109,9 @@ const Filter = ({ history }) => {
             searchIcon={{ size: 24 }}
             placeholder="Search"
             lightTheme={true}
-            onChangeText={setSearch}
-            value={search}
+            onChangeText={text => searchFilterFunction(text)}
+            onClear={text => searchFilterFunction('')}
+            value={searchTerm}
           />
           <Switch
             style={styles.filterSwitch}
@@ -84,6 +136,15 @@ const Filter = ({ history }) => {
       <View>
         <Button title="FIND RECIPE" onPress={() => history.push('/results')} />
       </View>
+      {/* Temporary for search testing */}
+      <View style={styles.filterResults}>
+        <FlatList
+          data={filteredRecipes}
+          keyExtractor={(item, index) => index.toString()}
+          ItemSeparatorComponent={RenderItemSeparator}
+          renderItem={RenderItem}
+        />
+      </View>
     </View>
   );
 };
@@ -91,13 +152,13 @@ const Filter = ({ history }) => {
 const styles = StyleSheet.create({
   filterContainerOuter: {
     flex: 1,
-    justifyContent: 'space-evenly',
+    // justifyContent: 'space-evenly',
   },
   filterContainer: {
     flex: 1,
     justifyContent: 'center',
     flexDirection: 'row',
-    paddingTop: 100,
+    paddingTop: 30,
     maxHeight: 420,
   },
   filterLeft: {
@@ -121,6 +182,10 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     paddingBottom: 10,
   },
+  filterResults: {
+    flex: 1,
+    marginBottom: 30,
+  },
   carouselItem: {
     backgroundColor: '#ddd',
     borderRadius: 5,
@@ -130,6 +195,9 @@ const styles = StyleSheet.create({
   },
   filterSwitch: {
     margin: 12,
+  },
+  itemStyle: {
+    padding: 10,
   },
 });
 

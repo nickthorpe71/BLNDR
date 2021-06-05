@@ -473,7 +473,7 @@
     "img": "images/avocado.jpg"
   },
   {
-    "name": "Grapes",
+    "name": "Red Grapes",
     "pullNutritionFrom": "Grapes",
     "nutrition": {},
     "tags": [
@@ -487,7 +487,24 @@
     "color": "green",
     "palateWeight": "light",
     "layer": 5,
-    "img": "images/grapes.jpg"
+    "img": "images/red-grapes.jpg"
+  },
+  {
+    "name": "Green Grapes",
+    "pullNutritionFrom": "Grapes",
+    "nutrition": {},
+    "tags": [
+      "fruit",
+      "vegan",
+      "paleo",
+      "whole30",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "green",
+    "palateWeight": "light",
+    "layer": 5,
+    "img": "images/green-grapes.jpg"
   },
   {
     "name": "Pear",
@@ -525,7 +542,7 @@
     "img": "images/orange.jpg"
   },
   {
-    "name": "Apple",
+    "name": "Red Apple",
     "pullNutritionFrom": "Apple",
     "nutrition": {},
     "tags": [
@@ -539,7 +556,24 @@
     "color": "white",
     "palateWeight": "light",
     "layer": 5,
-    "img": "images/apple.jpg"
+    "img": "images/red-apple.jpg"
+  },
+  {
+    "name": "Green Apple",
+    "pullNutritionFrom": "Apple",
+    "nutrition": {},
+    "tags": [
+      "fruit",
+      "vegan",
+      "paleo",
+      "whole30",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "white",
+    "palateWeight": "light",
+    "layer": 5,
+    "img": "images/green-apple.jpg"
   },
   {
     "name": "Papaya",

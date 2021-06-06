@@ -71,18 +71,28 @@ with open('ingredientsWithNutrition.json', 'r') as ingredients:
 
 recipesWithNutrition = []
 
-for recipe in recipe_data[0:1]:
-    recipe["autoIngredient"] = []
+for recipe in recipe_data:
+    recipe["autoIngredients"] = []
 
     for innerIngredient in recipe.get("ingredients"):
         for outerIngredient in ingredient_data:
             match = fuzz.token_set_ratio(
                 wash_ingredient(innerIngredient), outerIngredient["name"].lower())
-            if(match > 95):
-                recipe["autoIngredient"].append(outerIngredient["name"])
+            if(match > 75):
+                recipe["autoIngredients"].append(outerIngredient["name"])
 
-    recipesWithNutrition.append(recipe)
+    if "Orange" in recipe["autoIngredients"] and "Orange Juice" in recipe["autoIngredients"]:
+        recipe["autoIngredients"].remove("Orange")
 
+    if "Bananas" in recipe["autoIngredients"] and "Frozen Banana" in recipe["autoIngredients"]:
+        recipe["autoIngredients"].remove("Bananas")
+
+    if len(recipe["autoIngredients"]) >= len(recipe["ingredients"]) - 1 and len(recipe["autoIngredients"]) <= len(recipe["ingredients"]) + 1:
+        recipesWithNutrition.append(recipe)
+
+
+print('dropped: ' + str(len(recipe_data) - len(recipesWithNutrition)))
+print('remaining: ' + str(len(recipesWithNutrition)))
 
 with open('recipesWithNutrition.json', 'w') as f:
     json.dump(recipesWithNutrition, f, indent=2)

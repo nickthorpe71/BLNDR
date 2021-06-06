@@ -78,7 +78,7 @@
       }
     },
     "layer": 6,
-    "name": "Frozen Blueberry",
+    "name": "Blueberry",
     "pullNutritionFrom": "Blueberries",
     "tags": [
       "simple",
@@ -94,6 +94,100 @@
     ],
     "color": "purple",
     "img": "images/blueberry.jpg",
+    "palateWeight": "medium"
+  },
+  {
+    "nutrition": {
+      "query": "Banana,%20frozen",
+      "name": "Banana",
+      "nutrition": {
+        "fiber": {
+          "amount": 2.6,
+          "measure": "G"
+        },
+        "vitamins": {
+          "A": {
+            "amount": 74.0,
+            "measure": "IU"
+          },
+          "C": {
+            "amount": 10.7,
+            "measure": "MG"
+          },
+          "D": {
+            "amount": 0.0,
+            "measure": "IU"
+          }
+        },
+        "calories": 89.0,
+        "macros": {
+          "protein": {
+            "amount": 1.09,
+            "measure": "G"
+          },
+          "carbs": {
+            "amount": 27,
+            "measure": "g"
+          },
+          "fat": {
+            "amount": 0.4,
+            "measure": "G"
+          }
+        },
+        "amount": 1,
+        "lipids": {
+          "trans": {
+            "amount": 0.0,
+            "measure": "G"
+          },
+          "saturated": {
+            "amount": 0.112,
+            "measure": "G"
+          },
+          "cholesterol": {
+            "amount": 0.0,
+            "measure": "MG"
+          }
+        },
+        "measure": "cup",
+        "totalSugars": {
+          "amount": 14.2,
+          "measure": "G"
+        },
+        "minerals": {
+          "calcium": {
+            "amount": 5.5,
+            "measure": "MG"
+          },
+          "potassium": {
+            "amount": 358,
+            "measure": "MG"
+          },
+          "iron": {
+            "amount": 0.26,
+            "measure": "MG"
+          },
+          "sodium": {
+            "amount": 1.0,
+            "measure": "MG"
+          }
+        }
+      }
+    },
+    "layer": 6,
+    "name": "Bananas",
+    "pullNutritionFrom": "Banana",
+    "tags": [
+      "simple",
+      "fruit",
+      "vegan",
+      "paleo",
+      "whole30",
+      "vegetarian",
+      "gluten free"
+    ],
+    "color": "white",
+    "img": "images/banana.jpg",
     "palateWeight": "medium"
   },
   {
@@ -269,7 +363,7 @@
       }
     },
     "layer": 6,
-    "name": "Frozen Pineapple",
+    "name": "Pineapple",
     "pullNutritionFrom": "Pineapple",
     "tags": [
       "simple",
@@ -364,7 +458,7 @@
       }
     },
     "layer": 6,
-    "name": "Frozen Strawberries",
+    "name": "Strawberries",
     "pullNutritionFrom": "Strawberries",
     "tags": [
       "simple",
@@ -459,7 +553,7 @@
       }
     },
     "layer": 6,
-    "name": "Frozen Raspberries",
+    "name": "Raspberries",
     "pullNutritionFrom": "Raspberries",
     "tags": [
       "fruit",
@@ -553,7 +647,7 @@
       }
     },
     "layer": 6,
-    "name": "Frozen Blackberries",
+    "name": "Blackberries",
     "pullNutritionFrom": "Blackberries",
     "tags": [
       "fruit",
@@ -647,7 +741,7 @@
       }
     },
     "layer": 6,
-    "name": "Frozen Cherries",
+    "name": "Cherries",
     "pullNutritionFrom": "Cherries",
     "tags": [
       "fruit",
@@ -740,7 +834,7 @@
       }
     },
     "layer": 6,
-    "name": "Frozen Peaches",
+    "name": "Peaches",
     "pullNutritionFrom": "Peaches",
     "tags": [
       "fruit",
@@ -833,7 +927,7 @@
       }
     },
     "layer": 6,
-    "name": "Frozen Cantaloupe",
+    "name": "Cantaloupe",
     "pullNutritionFrom": "Cantaloupe",
     "tags": [
       "fruit",
@@ -926,7 +1020,7 @@
       }
     },
     "layer": 6,
-    "name": "Frozen Watermelon",
+    "name": "Watermelon",
     "pullNutritionFrom": "Watermelon",
     "tags": [
       "fruit",
@@ -1020,7 +1114,7 @@
       }
     },
     "layer": 6,
-    "name": "Frozen Pomegranate Seeds",
+    "name": "Pomegranate Seeds",
     "pullNutritionFrom": "Pomegranate Seeds",
     "tags": [
       "fruit",
@@ -1114,7 +1208,7 @@
       }
     },
     "layer": 6,
-    "name": "Frozen Kiwi",
+    "name": "Kiwi",
     "pullNutritionFrom": "Kiwi",
     "tags": [
       "fruit",
@@ -1208,7 +1302,7 @@
       }
     },
     "layer": 6,
-    "name": "Frozen Unsweetened Acai",
+    "name": "Unsweetened Acai",
     "pullNutritionFrom": "Acai",
     "tags": [
       "fruit",
@@ -4486,7 +4580,7 @@
       }
     },
     "layer": 2,
-    "name": "Old Fashioned Oats",
+    "name": "Oats",
     "pullNutritionFrom": "Oats",
     "tags": [
       "vegan",
@@ -5236,7 +5330,7 @@
       }
     },
     "layer": 5,
-    "name": "Raw Ginger",
+    "name": "Ginger",
     "pullNutritionFrom": "Raw Ginger",
     "tags": [
       "booster",
@@ -6813,7 +6907,7 @@
       }
     },
     "layer": 1,
-    "name": "Cold Green Tea",
+    "name": "Green Tea",
     "pullNutritionFrom": "Cold Green Tea",
     "tags": [
       "vegetarian",

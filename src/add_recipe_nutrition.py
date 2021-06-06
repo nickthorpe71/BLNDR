@@ -4,9 +4,12 @@ import re
 
 
 def wash_ingredient(ingredient):
+    # remove numbers
     result = ''.join([i for i in ingredient if not i.isdigit()])
+    # remove symbols
     result = re.sub(r'[^\w]', ' ', result)
-    result = re.sub(r"^\s+|\s+$", "", result)
+    # shift to lower
+    result = result.lower()
 
     measurements = [
         'teaspoon',
@@ -38,19 +41,24 @@ def wash_ingredient(ingredient):
         'into',
         'chunks',
         'hulled',
-        'in',
         'half',
         'container',
         'such',
-        'as',
-        'uv',
     ]
 
-    for measurement in measurements:
-        measurements.append(measurement + 's')
+    measurements_plurals = []
 
+    # add plurals
     for measurement in measurements:
-        result.replace(measurement, '')
+        measurements_plurals.append(measurement)
+        measurements_plurals.append(measurement + 's')
+
+    # remove measurements
+    for measurement in measurements_plurals:
+        result = result.replace(measurement, '')
+
+    # trim white space from ends
+    result = re.sub(r"^\s+|\s+$", "", result)
 
     return result
 
@@ -63,19 +71,14 @@ with open('ingredientsWithNutrition.json', 'r') as ingredients:
 
 recipesWithNutrition = []
 
-for recipe in recipe_data[0:2]:
+for recipe in recipe_data[0:1]:
     recipe["autoIngredient"] = []
 
-    # parse each ingredient string to see if it matches any ingredients
-    # if it does add that ingredient name to autoIngredient prop
-
     for innerIngredient in recipe.get("ingredients"):
-        test = wash_ingredient(innerIngredient)
-        print(test)
         for outerIngredient in ingredient_data:
             match = fuzz.token_set_ratio(
-                innerIngredient.lower(), outerIngredient["name"].lower())
-            if(match > 70):
+                wash_ingredient(innerIngredient), outerIngredient["name"].lower())
+            if(match > 95):
                 recipe["autoIngredient"].append(outerIngredient["name"])
 
     recipesWithNutrition.append(recipe)

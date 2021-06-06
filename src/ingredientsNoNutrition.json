@@ -1356,5 +1356,157 @@
     "palateWeight": "light",
     "layer": 4,
     "img": "images/silk-tofu.jpg"
+  },
+  {
+    "name": "Low Fat Yogurt",
+    "pullNutritionFrom": "Low Fat Yogurt",
+    "nutrition": {},
+    "tags": [
+      "vegetarian",
+      "keto",
+      "high protein"
+    ],
+    "color": "white",
+    "palateWeight": "heavy",
+    "layer": 4,
+    "img": "images/low-fat-yogurt.jpg"
+  },
+  {
+    "name": "Honeydew Melon",
+    "pullNutritionFrom": "Honeydew Melon",
+    "nutrition": {},
+    "tags": [
+      "vegetarian",
+      "vegan",
+      "keto",
+      "fruit",
+      "whole30",
+      "gluten free"
+    ],
+    "color": "green",
+    "palateWeight": "light",
+    "layer": 5,
+    "img": "images/greek-yogurt.jpg"
+  },
+  {
+    "name": "Skim Milk",
+    "pullNutritionFrom": "Skim Milk",
+    "nutrition": {},
+    "tags": [
+      "vegetarian",
+      "keto"
+    ],
+    "color": "white",
+    "palateWeight": "light",
+    "layer": 1,
+    "img": "images/skim-milk.jpg"
+  },
+  {
+    "name": "Cranberry Juice",
+    "pullNutritionFrom": "Cranberry Juice",
+    "nutrition": {},
+    "tags": [
+      "vegetarian",
+      "vegan"
+    ],
+    "color": "red",
+    "palateWeight": "heavy",
+    "layer": 1,
+    "img": "images/cranberry-juice.jpg"
+  },
+  {
+    "name": "Grape Juice",
+    "pullNutritionFrom": "Grape Juice",
+    "nutrition": {},
+    "tags": [
+      "vegetarian",
+      "vegan"
+    ],
+    "color": "purple",
+    "palateWeight": "medium",
+    "layer": 1,
+    "img": "images/grape-juice.jpg"
+  },
+  {
+    "name": "Strawberry Jam",
+    "pullNutritionFrom": "Strawberry Jam",
+    "nutrition": {},
+    "tags": [
+      "vegetarian",
+      "vegan"
+    ],
+    "color": "red",
+    "palateWeight": "medium",
+    "layer": 2,
+    "img": "images/strawberry-jam.jpeg"
+  },
+  {
+    "name": "Granola",
+    "pullNutritionFrom": "Granola",
+    "nutrition": {},
+    "tags": [
+      "vegetarian"
+    ],
+    "color": "brown",
+    "palateWeight": "medium",
+    "layer": 2,
+    "img": "images/granola.jpg"
+  },
+  {
+    "name": "Lemon Juice",
+    "pullNutritionFrom": "Lemon Juice",
+    "nutrition": {},
+    "tags": [
+      "vegetarian",
+      "vegan",
+      "whole30"
+    ],
+    "color": "clear",
+    "palateWeight": "heavy",
+    "layer": 1,
+    "img": "images/lemon-juice.jpg"
+  },
+  {
+    "name": "Lime Juice",
+    "pullNutritionFrom": "Lime Juice",
+    "nutrition": {},
+    "tags": [
+      "vegetarian",
+      "vegan",
+      "whole30"
+    ],
+    "color": "clear",
+    "palateWeight": "medium",
+    "layer": 1,
+    "img": "images/lime-juice.jpg"
+  },
+  {
+    "name": "Cold Green Tea",
+    "pullNutritionFrom": "Cold Green Tea",
+    "nutrition": {},
+    "tags": [
+      "vegetarian",
+      "keto",
+      "vegan"
+    ],
+    "color": "green",
+    "palateWeight": "medium",
+    "layer": 1,
+    "img": "images/cold-green-tea.jpg"
+  },
+  {
+    "name": "Broccoli Florets",
+    "pullNutritionFrom": "Broccoli Florets",
+    "nutrition": {},
+    "tags": [
+      "vegetarian",
+      "keto",
+      "greens",
+      "veggie"
+    ],
+    "color": "green",
+    "palateWeight": "medium",
+    "layer": 3,
+    "img": "images/broccoli-florets.jpg"
   }
 ]

@@ -15,7 +15,7 @@ for ingredient in ingredient_data:
 
     for item in nutrition_data:
         if item.get("name") == ingredient.get("pullNutritionFrom"):
-            ingredient["nutrition"] = item
+            ingredient["nutrition"] = item["nutrition"]
 
     allIngredients.append(ingredient)
 

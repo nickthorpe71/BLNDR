@@ -3,6 +3,29 @@ from fuzzywuzzy import fuzz
 import re
 
 
+def convert_to_float(frac_str):
+    if '/' in frac_str:
+        try:
+            return float(frac_str)
+        except ValueError:
+            num, denom = frac_str.split('/')
+            try:
+                leading, num = num.split(' ')
+                whole = float(leading)
+            except ValueError:
+                whole = 0
+            frac = float(num) / float(denom)
+            return whole - frac if whole < 0 else whole + frac
+    try:
+        return float(frac_str)
+    except ValueError:
+        return 1
+
+
+def has_numbers(input_str):
+    return any(char.isdigit() for char in input_str)
+
+
 def wash_ingredient(ingredient):
     # remove numbers
     result = ''.join([i for i in ingredient if not i.isdigit()])
@@ -75,11 +98,22 @@ for recipe in recipe_data:
     recipe["autoIngredients"] = []
 
     for innerIngredient in recipe.get("ingredients"):
+        inner_split = innerIngredient.split(' ')
+
         for outerIngredient in ingredient_data:
-            match = fuzz.token_set_ratio(
-                wash_ingredient(innerIngredient), outerIngredient["name"].lower())
+            match = fuzz.token_set_ratio(wash_ingredient(
+                innerIngredient), outerIngredient["name"].lower())
             if(match > 75):
-                recipe["autoIngredients"].append(outerIngredient["name"])
+                measure_index = 1
+                amount = inner_split[0]
+                if has_numbers(inner_split[1]):
+                    amount += ' ' + inner_split[1]
+                    measure_index += 1
+
+                measure = inner_split[measure_index]
+
+                recipe["autoIngredients"].append(
+                    {'name': outerIngredient["name"], 'measure': measure, 'amount': convert_to_float(amount)})
 
     if "Orange" in recipe["autoIngredients"] and "Orange Juice" in recipe["autoIngredients"]:
         recipe["autoIngredients"].remove("Orange")

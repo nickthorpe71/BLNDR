@@ -175,101 +175,7 @@
       }
     },
     "layer": 6,
-    "name": "Bananas",
-    "pullNutritionFrom": "Banana",
-    "tags": [
-      "simple",
-      "fruit",
-      "vegan",
-      "paleo",
-      "whole30",
-      "vegetarian",
-      "gluten free"
-    ],
-    "color": "white",
-    "img": "images/banana.jpg",
-    "palateWeight": "medium"
-  },
-  {
-    "nutrition": {
-      "query": "Banana,%20frozen",
-      "name": "Banana",
-      "nutrition": {
-        "fiber": {
-          "amount": 2.6,
-          "measure": "G"
-        },
-        "vitamins": {
-          "A": {
-            "amount": 74.0,
-            "measure": "IU"
-          },
-          "C": {
-            "amount": 10.7,
-            "measure": "MG"
-          },
-          "D": {
-            "amount": 0.0,
-            "measure": "IU"
-          }
-        },
-        "calories": 89.0,
-        "macros": {
-          "protein": {
-            "amount": 1.09,
-            "measure": "G"
-          },
-          "carbs": {
-            "amount": 27,
-            "measure": "g"
-          },
-          "fat": {
-            "amount": 0.4,
-            "measure": "G"
-          }
-        },
-        "amount": 1,
-        "lipids": {
-          "trans": {
-            "amount": 0.0,
-            "measure": "G"
-          },
-          "saturated": {
-            "amount": 0.112,
-            "measure": "G"
-          },
-          "cholesterol": {
-            "amount": 0.0,
-            "measure": "MG"
-          }
-        },
-        "measure": "cup",
-        "totalSugars": {
-          "amount": 14.2,
-          "measure": "G"
-        },
-        "minerals": {
-          "calcium": {
-            "amount": 5.5,
-            "measure": "MG"
-          },
-          "potassium": {
-            "amount": 358,
-            "measure": "MG"
-          },
-          "iron": {
-            "amount": 0.26,
-            "measure": "MG"
-          },
-          "sodium": {
-            "amount": 1.0,
-            "measure": "MG"
-          }
-        }
-      }
-    },
-    "layer": 6,
-    "name": "Frozen Banana",
+    "name": "Banana",
     "pullNutritionFrom": "Banana",
     "tags": [
       "simple",
@@ -1491,100 +1397,7 @@
       }
     },
     "layer": 5,
-    "name": "Red Grapes",
-    "pullNutritionFrom": "Grapes",
-    "tags": [
-      "fruit",
-      "vegan",
-      "paleo",
-      "whole30",
-      "vegetarian",
-      "gluten free"
-    ],
-    "color": "green",
-    "img": "images/red-grapes.jpg",
-    "palateWeight": "light"
-  },
-  {
-    "nutrition": {
-      "query": "Grapes,%20frozen",
-      "name": "Grapes",
-      "nutrition": {
-        "fiber": {
-          "amount": 0.7,
-          "measure": "G"
-        },
-        "vitamins": {
-          "A": {
-            "amount": 45.0,
-            "measure": "IU"
-          },
-          "C": {
-            "amount": 2.3,
-            "measure": "MG"
-          },
-          "D": {
-            "amount": 0.0,
-            "measure": "IU"
-          }
-        },
-        "calories": 55.0,
-        "macros": {
-          "protein": {
-            "amount": 0.52,
-            "measure": "G"
-          },
-          "carbs": {
-            "amount": 13.7,
-            "measure": "g"
-          },
-          "fat": {
-            "amount": 0.1,
-            "measure": "G"
-          }
-        },
-        "amount": 0.5,
-        "lipids": {
-          "trans": {
-            "amount": 0.0,
-            "measure": "G"
-          },
-          "saturated": {
-            "amount": 0.4,
-            "measure": "G"
-          },
-          "cholesterol": {
-            "amount": 0.0,
-            "measure": "MG"
-          }
-        },
-        "measure": "cup",
-        "totalSugars": {
-          "amount": 11.7,
-          "measure": "G"
-        },
-        "minerals": {
-          "calcium": {
-            "amount": 7.54,
-            "measure": "MG"
-          },
-          "potassium": {
-            "amount": 145,
-            "measure": "MG"
-          },
-          "iron": {
-            "amount": 0.24,
-            "measure": "MG"
-          },
-          "sodium": {
-            "amount": 1.51,
-            "measure": "MG"
-          }
-        }
-      }
-    },
-    "layer": 5,
-    "name": "Green Grapes",
+    "name": "Grapes",
     "pullNutritionFrom": "Grapes",
     "tags": [
       "fruit",
@@ -1876,99 +1689,6 @@
     ],
     "color": "white",
     "img": "images/red-apple.jpg",
-    "palateWeight": "light"
-  },
-  {
-    "nutrition": {
-      "query": "Apples,%20raw",
-      "name": "Apple",
-      "nutrition": {
-        "fiber": {
-          "amount": 3.08,
-          "measure": "G"
-        },
-        "vitamins": {
-          "A": {
-            "amount": 67.5,
-            "measure": "IU"
-          },
-          "C": {
-            "amount": 5.75,
-            "measure": "mg"
-          },
-          "D": {
-            "amount": 0,
-            "measure": "IU"
-          }
-        },
-        "calories": 65,
-        "macros": {
-          "protein": {
-            "amount": 0.3,
-            "measure": "G"
-          },
-          "carbs": {
-            "amount": 17.3,
-            "measure": "g"
-          },
-          "fat": {
-            "amount": 0.21,
-            "measure": "G"
-          }
-        },
-        "amount": 1,
-        "lipids": {
-          "trans": {
-            "amount": 0,
-            "measure": "g"
-          },
-          "saturated": {
-            "amount": 0.04,
-            "measure": "g"
-          },
-          "cholesterol": {
-            "amount": 0,
-            "measure": "g"
-          }
-        },
-        "measure": "cup",
-        "totalSugars": {
-          "amount": 13.3,
-          "measure": "G"
-        },
-        "minerals": {
-          "calcium": {
-            "amount": 7.5,
-            "measure": "MG"
-          },
-          "potassium": {
-            "amount": 133.75,
-            "measure": "MG"
-          },
-          "iron": {
-            "amount": 0.15,
-            "measure": "MG"
-          },
-          "sodium": {
-            "amount": 1.25,
-            "measure": "MG"
-          }
-        }
-      }
-    },
-    "layer": 5,
-    "name": "Green Apple",
-    "pullNutritionFrom": "Apple",
-    "tags": [
-      "fruit",
-      "vegan",
-      "paleo",
-      "whole30",
-      "vegetarian",
-      "gluten free"
-    ],
-    "color": "white",
-    "img": "images/green-apple.jpg",
     "palateWeight": "light"
   },
   {
@@ -3184,7 +2904,7 @@
       }
     },
     "layer": 2,
-    "name": "Unflavored Protein",
+    "name": "Protein",
     "pullNutritionFrom": "Pea Protein",
     "tags": [
       "super healthy",
@@ -5934,7 +5654,7 @@
   {
     "nutrition": {
       "query": "Silk%20Tofu",
-      "name": "Silk Tofu",
+      "name": "Tofu",
       "nutrition": {
         "fiber": {
           "amount": 0.0,
@@ -6010,7 +5730,7 @@
       }
     },
     "layer": 4,
-    "name": "Silk Tofu",
+    "name": "Tofu",
     "pullNutritionFrom": "Silk Tofu",
     "tags": [
       "vegan",
@@ -6997,7 +6717,7 @@
       }
     },
     "layer": 3,
-    "name": "Broccoli Florets",
+    "name": "Broccoli",
     "pullNutritionFrom": "Broccoli Florets",
     "tags": [
       "vegetarian",

@@ -95,34 +95,49 @@ with open('ingredientsWithNutrition.json', 'r') as ingredients:
 recipesWithNutrition = []
 
 for recipe in recipe_data:
-    recipe["autoIngredients"] = []
+	recipe["autoIngredients"] = []
 
-    for innerIngredient in recipe.get("ingredients"):
-        inner_split = innerIngredient.split(' ')
+	for innerIngredient in recipe.get("ingredients"):
+		inner_split = innerIngredient.split(' ')
 
-        for outerIngredient in ingredient_data:
-            match = fuzz.token_set_ratio(wash_ingredient(
-                innerIngredient), outerIngredient["name"].lower())
-            if(match > 75):
-                measure_index = 1
-                amount = inner_split[0]
-                if has_numbers(inner_split[1]):
-                    amount += ' ' + inner_split[1]
-                    measure_index += 1
+		for outerIngredient in ingredient_data:
+			outer_split = outerIngredient["name"].split(' ')
+			full_match = True
+			already_contains = False
 
-                measure = inner_split[measure_index]
+			for ingredient in recipe["autoIngredients"]:
+				if "Orange" in ingredient["name"].split() and "Orange" in outerIngredient["name"].split():
+					already_contains = True
+				if "Almond" in ingredient["name"].split() and "Almond" in outerIngredient["name"].split():
+					already_contains = True
+				
+			
+			if already_contains:
+				continue
 
-                recipe["autoIngredients"].append(
-                    {'name': outerIngredient["name"], 'measure': measure, 'amount': convert_to_float(amount)})
+			for outer_match_item in outer_split:
+				match = fuzz.token_set_ratio(wash_ingredient(innerIngredient), outer_match_item.lower())
+				if(match < 95):
+					full_match = False
 
-    if "Orange" in recipe["autoIngredients"] and "Orange Juice" in recipe["autoIngredients"]:
-        recipe["autoIngredients"].remove("Orange")
+				if(full_match):
+					measure_index = 1
+					amount = inner_split[0]
 
-    if "Bananas" in recipe["autoIngredients"] and "Frozen Banana" in recipe["autoIngredients"]:
-        recipe["autoIngredients"].remove("Bananas")
+					if has_numbers(inner_split[1]):
+						amount += ' ' + inner_split[1]
+						measure_index += 1
 
-    if len(recipe["autoIngredients"]) >= len(recipe["ingredients"]) - 1 and len(recipe["autoIngredients"]) <= len(recipe["ingredients"]) + 1:
-        recipesWithNutrition.append(recipe)
+					measure = inner_split[measure_index]
+
+					recipe["autoIngredients"].append(
+						{'name': outerIngredient["name"], 'measure': measure, 'amount': convert_to_float(amount)})
+					break
+
+	if len(recipe["autoIngredients"]) >= len(recipe["ingredients"]) - 2 and len(recipe["autoIngredients"]) <= len(recipe["ingredients"]) + 2:
+		recipesWithNutrition.append(recipe)
+
+	
 
 
 print('dropped: ' + str(len(recipe_data) - len(recipesWithNutrition)))

@@ -5696,5 +5696,82 @@
         }
       }
     }
+  },
+  {
+    "name": "Water",
+    "query": "Water",
+    "nutrition": {
+      "measure": "cup",
+      "amount": 1,
+      "calories": 0,
+      "fiber": {
+        "measure": "G",
+        "amount": 0
+      },
+      "macros": {
+        "protein": {
+          "measure": "G",
+          "amount": 0
+        },
+        "fat": {
+          "measure": "G",
+          "amount": 0
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 0
+        }
+      },
+      "totalSugars": {
+        "measure": "G",
+        "amount": 0
+      },
+      "vitamins": {
+        "A": {
+          "measure": "IU",
+          "amount": 0
+        },
+        "C": {
+          "measure": "MG",
+          "amount": 0
+        },
+        "D": {
+          "measure": "IU",
+          "amount": 0
+        }
+      },
+      "lipids": {
+        "cholesterol": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "saturated": {
+          "measure": "G",
+          "amount": 0
+        },
+        "trans": {
+          "measure": "G",
+          "amount": 0.0
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "measure": "MG",
+          "amount": 0
+        },
+        "iron": {
+          "measure": "MG",
+          "amount": 0
+        },
+        "potassium": {
+          "measure": "MG",
+          "amount": 0
+        },
+        "sodium": {
+          "measure": "MG",
+          "amount": 0
+        }
+      }
+    }
   }
 ]

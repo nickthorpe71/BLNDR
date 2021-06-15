@@ -95,49 +95,124 @@ with open('ingredientsWithNutrition.json', 'r') as ingredients:
 recipesWithNutrition = []
 
 for recipe in recipe_data:
-	recipe["autoIngredients"] = []
+    recipe["autoIngredients"] = []
+    recipe["totalNutrition"] = {
+        "measure": "cup",
+        "amount": 1,
+        "calories": 0,
+        "fiber": {
+            "measure": "G",
+            "amount": 0
+        },
+        "macros": {
+            "protein": {
+                "measure": "G",
+                "amount": 0
+            },
+            "fat": {
+                "measure": "G",
+                "amount": 0
+            },
+            "carbs": {
+                "measure": "g",
+                "amount": 0
+            }
+        },
+        "totalSugars": {
+            "measure": "G",
+            "amount": 0
+        },
+        "vitamins": {
+            "A": {
+                "measure": "IU",
+                "amount": 0
+            },
+            "C": {
+                "measure": "MG",
+                "amount": 0
+            },
+            "D": {
+                "measure": "IU",
+                "amount": 0
+            }
+        },
+        "lipids": {
+            "cholesterol": {
+                "measure": "MG",
+                "amount": 0.0
+            },
+            "saturated": {
+                "measure": "G",
+                "amount": 0
+            },
+            "trans": {
+                "measure": "G",
+                "amount": 0.0
+            }
+        },
+        "minerals": {
+            "calcium": {
+                "measure": "MG",
+                "amount": 0
+            },
+            "iron": {
+                "measure": "MG",
+                "amount": 0
+            },
+            "potassium": {
+                "measure": "MG",
+                "amount": 0
+            },
+            "sodium": {
+                "measure": "MG",
+                "amount": 0
+            }
+        }
+    }
 
-	for innerIngredient in recipe.get("ingredients"):
-		inner_split = innerIngredient.split(' ')
+    for innerIngredient in recipe.get("ingredients"):
+        inner_split = innerIngredient.split(' ')
 
-		for outerIngredient in ingredient_data:
-			outer_split = outerIngredient["name"].split(' ')
-			full_match = True
-			already_contains = False
+        for outerIngredient in ingredient_data:
+            outer_split = outerIngredient["name"].split(' ')
+            full_match = True
+            already_contains = False
 
-			for ingredient in recipe["autoIngredients"]:
-				if "Orange" in ingredient["name"].split() and "Orange" in outerIngredient["name"].split():
-					already_contains = True
-				if "Almond" in ingredient["name"].split() and "Almond" in outerIngredient["name"].split():
-					already_contains = True
-				
-			
-			if already_contains:
-				continue
+            for ingredient in recipe["autoIngredients"]:
+                if "Orange" in ingredient["name"].split() and "Orange" in outerIngredient["name"].split():
+                    already_contains = True
+                if "Almond" in ingredient["name"].split() and "Almond" in outerIngredient["name"].split():
+                    already_contains = True
 
-			for outer_match_item in outer_split:
-				match = fuzz.token_set_ratio(wash_ingredient(innerIngredient), outer_match_item.lower())
-				if(match < 95):
-					full_match = False
+            if already_contains:
+                continue
 
-				if(full_match):
-					measure_index = 1
-					amount = inner_split[0]
+            for outer_match_item in outer_split:
+                match = fuzz.token_set_ratio(wash_ingredient(
+                    innerIngredient), outer_match_item.lower())
+                if(match < 95):
+                    full_match = False
 
-					if has_numbers(inner_split[1]):
-						amount += ' ' + inner_split[1]
-						measure_index += 1
+                if(full_match):
+                    measure_index = 1
+                    amount = inner_split[0]
 
-					measure = inner_split[measure_index]
+                    if has_numbers(inner_split[1]):
+                        amount += ' ' + inner_split[1]
+                        measure_index += 1
 
-					recipe["autoIngredients"].append(
-						{'name': outerIngredient["name"], 'measure': measure, 'amount': convert_to_float(amount)})
-					break
+                    measure = inner_split[measure_index]
 
-	if len(recipe["autoIngredients"]) >= len(recipe["ingredients"]) - 2 and len(recipe["autoIngredients"]) <= len(recipe["ingredients"]) + 2:
-		recipesWithNutrition.append(recipe)
+                    float_amount = convert_to_float(amount)
 
-	
+                    recipe["autoIngredients"].append(
+                        {'name': outerIngredient["name"], 'measure': measure, 'amount': float_amount})
+
+                    recipe["totalNutrition"]["calories"] += outerIngredient["nutrition"]["nutrition"]["calories"] * float_amount
+                    break
+
+    if len(recipe["autoIngredients"]) >= len(recipe["ingredients"]) - 2 and len(recipe["autoIngredients"]) <= len(recipe["ingredients"]) + 2:
+        recipesWithNutrition.append(recipe)
 
 
 print('dropped: ' + str(len(recipe_data) - len(recipesWithNutrition)))

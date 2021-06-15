@@ -183,6 +183,8 @@ for recipe in recipe_data:
                     already_contains = True
                 if "Almond" in ingredient["name"].split() and "Almond" in outerIngredient["name"].split():
                     already_contains = True
+                if "Carrot" in ingredient["name"].split() and "Carrot" in outerIngredient["name"].split():
+                    already_contains = True
 
             if already_contains:
                 continue
@@ -208,10 +210,13 @@ for recipe in recipe_data:
                     recipe["autoIngredients"].append(
                         {'name': outerIngredient["name"], 'measure': measure, 'amount': float_amount})
 
+                    # TODO: repeat this line for all nutrition
                     recipe["totalNutrition"]["calories"] += outerIngredient["nutrition"]["nutrition"]["calories"] * float_amount
                     break
 
-    if len(recipe["autoIngredients"]) >= len(recipe["ingredients"]) - 2 and len(recipe["autoIngredients"]) <= len(recipe["ingredients"]) + 2:
+    lower = len(recipe["ingredients"]) - 2
+    upper = len(recipe["ingredients"]) + 2
+    if len(recipe["autoIngredients"]) >= lower and len(recipe["autoIngredients"]) <= upper:
         recipesWithNutrition.append(recipe)
 
 

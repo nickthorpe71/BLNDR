@@ -448,7 +448,7 @@
       "3/4 cup frozen strawberries",
       "3/4 cup almond milk",
       "1 1/2 tablespoons peanut butter",
-      "1 tablespoon rolled oats",
+      "1/16 cup rolled oats",
       "2 teaspoons honey"
     ],
     "instructions": "Blend strawberries, milk, peanut butter, and oats together in a blender until smooth.\n",
@@ -471,8 +471,8 @@
       },
       {
         "name": "Oats",
-        "measure": "tablespoon",
-        "amount": 1.0
+        "measure": "cup",
+        "amount": 0.0625
       },
       {
         "name": "Honey",
@@ -483,7 +483,7 @@
     "totalNutrition": {
       "measure": "cup",
       "amount": 1,
-      "calories": 496.85,
+      "calories": 356.225,
       "fiber": {
         "measure": "G",
         "amount": 0
@@ -694,7 +694,7 @@
       "3 tablespoons peanut butter (optional)",
       "1/2 cup almond milk",
       "1/2 frozen banana",
-      "3 frozen strawberries, or more to taste",
+      "1/4 cup frozen strawberries",
       "1 tbsp maple syrup"
     ],
     "instructions": "Blend kale, yogurt, and peanuts together in a blender until smooth. Add milk, banana, strawberries, and maple syrup and blend until desired consistency is reached.\n",
@@ -727,8 +727,8 @@
       },
       {
         "name": "Strawberries",
-        "measure": "frozen",
-        "amount": 3.0
+        "measure": "cup",
+        "amount": 0.25
       },
       {
         "name": "Maple Syrup",
@@ -739,7 +739,7 @@
     "totalNutrition": {
       "measure": "cup",
       "amount": 1,
-      "calories": 604.75,
+      "calories": 453.50000000000006,
       "fiber": {
         "measure": "G",
         "amount": 0
@@ -814,7 +814,7 @@
     "title": "New Year Detox Green",
     "Category": "healthy",
     "ingredients": [
-      "8 fluid ounces coconut water",
+      "1 cup coconut water",
       "1/2 cup green tea, chilled",
       "1/2 cup frozen sliced banana",
       "1/2 cup packed fresh spinach",
@@ -826,8 +826,8 @@
     "autoIngredients": [
       {
         "name": "Coconut Water",
-        "measure": "fluid",
-        "amount": 8.0
+        "measure": "cup",
+        "amount": 1.0
       },
       {
         "name": "Green Tea",
@@ -858,7 +858,7 @@
     "totalNutrition": {
       "measure": "cup",
       "amount": 1,
-      "calories": 535.95,
+      "calories": 206.95,
       "fiber": {
         "measure": "G",
         "amount": 0
@@ -1382,7 +1382,7 @@
     "title": "Perfect Peach Smoothie",
     "Category": "healthy",
     "ingredients": [
-      "1 large peach, sliced and frozen",
+      "3/4 cups frozen peaches",
       "1 banana, cut into pieces and frozen",
       "1/2 cup orange juice",
       "1/2 cup soy milk",
@@ -1391,6 +1391,11 @@
     "instructions": "Blend peach, banana, orange juice, soy milk, and flax seed in a blender until smooth.\n",
     "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg",
     "autoIngredients": [
+      {
+        "name": "Peaches",
+        "measure": "cups",
+        "amount": 0.75
+      },
       {
         "name": "Banana",
         "measure": "banana,",
@@ -1415,7 +1420,7 @@
     "totalNutrition": {
       "measure": "cup",
       "amount": 1,
-      "calories": 204.6,
+      "calories": 255.6,
       "fiber": {
         "measure": "G",
         "amount": 0
@@ -1603,9 +1608,9 @@
     "Category": "healthy",
     "ingredients": [
       "2 cups almond milk",
-      "15 slices frozen peach, or more to taste",
+      "1/2 cups frozen peaches",
       "1 banana",
-      "3 1/2 ounces greek yogurt"
+      "1/2 cup greek yogurt"
     ],
     "instructions": "Pour milk into a blender; add peaches, banana, and yogurt. Blend mixture until smooth.\n",
     "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg",
@@ -1616,20 +1621,25 @@
         "amount": 2.0
       },
       {
+        "name": "Peaches",
+        "measure": "cups",
+        "amount": 0.5
+      },
+      {
         "name": "Banana",
         "measure": "banana",
         "amount": 1.0
       },
       {
         "name": "Greek Yogurt",
-        "measure": "ounces",
-        "amount": 3.5
+        "measure": "cup",
+        "amount": 0.5
       }
     ],
     "totalNutrition": {
       "measure": "cup",
       "amount": 1,
-      "calories": 432.5,
+      "calories": 247.5,
       "fiber": {
         "measure": "G",
         "amount": 0
@@ -1831,14 +1841,14 @@
     "Category": "healthy",
     "ingredients": [
       "1 cup coconut water",
-      "1 banana, frozen",
+      "3/4 cup banana frozen",
       "3/4 cup fresh blueberries",
       "1/2 cup spinach",
-      "2 dates, pitted and chopped",
+      "1 handful dates (about 4) pitted",
       "1 tablespoon almond butter",
       "1 tablespoon hemp hearts",
       "1 tablespoon flax seeds",
-      "1 tablespoon oats",
+      "1/16 cup oats",
       "1 scoop unflavored protein powder (optional)",
       "2 tablespoons graham cracker crumbs"
     ],
@@ -1852,8 +1862,8 @@
       },
       {
         "name": "Banana",
-        "measure": "banana,",
-        "amount": 1.0
+        "measure": "cup",
+        "amount": 0.75
       },
       {
         "name": "Spinach",
@@ -1862,8 +1872,8 @@
       },
       {
         "name": "Dates",
-        "measure": "dates,",
-        "amount": 2.0
+        "measure": "handful",
+        "amount": 1.0
       },
       {
         "name": "Almond Milk",
@@ -1882,8 +1892,8 @@
       },
       {
         "name": "Oats",
-        "measure": "tablespoon",
-        "amount": 1.0
+        "measure": "cup",
+        "amount": 0.0625
       },
       {
         "name": "Protein",
@@ -1894,7 +1904,7 @@
     "totalNutrition": {
       "measure": "cup",
       "amount": 1,
-      "calories": 1096.25,
+      "calories": 658.375,
       "fiber": {
         "measure": "G",
         "amount": 0
@@ -1970,7 +1980,7 @@
     "Category": "healthy",
     "ingredients": [
       "1 frozen banana",
-      "1 cup sliced frozen peaches",
+      "1 cup frozen peaches",
       "1 cup coconut milk",
       "1 tablespoon almond butter"
     ],
@@ -2076,14 +2086,19 @@
     "title": "Uncle Monkey Smoothie",
     "Category": "healthy",
     "ingredients": [
-      "2 frozen bananas",
+      "1 1/2 cups frozen banana",
       "3 tablespoons peanut butter",
-      "1 cup almond milk",
+      "1 1/2 cup almond milk",
       "1 tablespoon cacao"
     ],
     "instructions": "Blend bananas, peanut butter, milk, and cacao, together in a blender until smooth.\n",
     "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg",
     "autoIngredients": [
+      {
+        "name": "Banana",
+        "measure": "cups",
+        "amount": 1.5
+      },
       {
         "name": "Peanut Butter",
         "measure": "tablespoons",
@@ -2092,7 +2107,7 @@
       {
         "name": "Almond Milk",
         "measure": "cup",
-        "amount": 1.0
+        "amount": 1.5
       },
       {
         "name": "Cacao",
@@ -2103,7 +2118,7 @@
     "totalNutrition": {
       "measure": "cup",
       "amount": 1,
-      "calories": 358.20000000000005,
+      "calories": 513.7,
       "fiber": {
         "measure": "G",
         "amount": 0
@@ -2297,8 +2312,8 @@
     "title": "Elvis Smoothie (Almond and Banana)",
     "Category": "healthy",
     "ingredients": [
-      "2 large frozen bananas",
-      "2 cups almond milk",
+      "1 1/2 cups frozen banana",
+      "2 cups whole milk",
       "1 tablespoon almond butter",
       "1 teaspoon vanilla extract",
       "1 pinch ground cinnamon"
@@ -2307,9 +2322,19 @@
     "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg",
     "autoIngredients": [
       {
-        "name": "Almond Milk",
+        "name": "Banana",
+        "measure": "cups",
+        "amount": 1.5
+      },
+      {
+        "name": "Whole Milk",
         "measure": "cups",
         "amount": 2.0
+      },
+      {
+        "name": "Almond Milk",
+        "measure": "tablespoon",
+        "amount": 1.0
       },
       {
         "name": "Vanilla Extract",
@@ -2325,7 +2350,7 @@
     "totalNutrition": {
       "measure": "cup",
       "amount": 1,
-      "calories": 106.0,
+      "calories": 493.1,
       "fiber": {
         "measure": "G",
         "amount": 0
@@ -2404,7 +2429,7 @@
       "1 carrot - peeled, grated, and chopped",
       "1/2 cup plain fat-free Greek yogurt",
       "1/2 cup 1% milk",
-      "2 tablespoons rolled oats",
+      "1/8 cup rolled oats",
       "2 tablespoons honey",
       "1 tablespoon flax seeds"
     ],
@@ -2422,19 +2447,14 @@
         "amount": 1.0
       },
       {
-        "name": "Carrot Juice",
-        "measure": "carrot",
-        "amount": 1.0
-      },
-      {
         "name": "Greek Yogurt",
         "measure": "cup",
         "amount": 0.5
       },
       {
         "name": "Oats",
-        "measure": "tablespoons",
-        "amount": 2.0
+        "measure": "cup",
+        "amount": 0.125
       },
       {
         "name": "Honey",
@@ -2450,7 +2470,7 @@
     "totalNutrition": {
       "measure": "cup",
       "amount": 1,
-      "calories": 677.0,
+      "calories": 301.35,
       "fiber": {
         "measure": "G",
         "amount": 0
@@ -2862,7 +2882,7 @@
     "ingredients": [
       "1 large carrot, peeled and diced",
       "1/4 cup frozen mango chunks",
-      "1 large fresh peach, chopped",
+      "3/4 cups frozen peaches",
       "1/4 cup soy milk",
       "1 tablespoon ground cinnamon",
       "1 teaspoon ground allspice",
@@ -2877,14 +2897,14 @@
         "amount": 1.0
       },
       {
-        "name": "Carrot Juice",
-        "measure": "large",
-        "amount": 1.0
-      },
-      {
         "name": "Mango",
         "measure": "cup",
         "amount": 0.25
+      },
+      {
+        "name": "Peaches",
+        "measure": "cups",
+        "amount": 0.75
       },
       {
         "name": "Soy Milk",
@@ -2905,7 +2925,7 @@
     "totalNutrition": {
       "measure": "cup",
       "amount": 1,
-      "calories": 179.70000000000002,
+      "calories": 136.3,
       "fiber": {
         "measure": "G",
         "amount": 0
@@ -3116,11 +3136,6 @@
         "amount": 1.0
       },
       {
-        "name": "Carrot Juice",
-        "measure": "carrot,",
-        "amount": 1.0
-      },
-      {
         "name": "Kale",
         "measure": "leaf",
         "amount": 1.0
@@ -3144,7 +3159,7 @@
     "totalNutrition": {
       "measure": "cup",
       "amount": 1,
-      "calories": 459.7,
+      "calories": 365.30000000000007,
       "fiber": {
         "measure": "G",
         "amount": 0
@@ -3347,11 +3362,6 @@
         "amount": 1.0
       },
       {
-        "name": "Carrot Juice",
-        "measure": "cup",
-        "amount": 1.0
-      },
-      {
         "name": "Banana",
         "measure": "large",
         "amount": 1.0
@@ -3365,7 +3375,7 @@
     "totalNutrition": {
       "measure": "cup",
       "amount": 1,
-      "calories": 374.4,
+      "calories": 280.0,
       "fiber": {
         "measure": "G",
         "amount": 0
@@ -3596,6 +3606,250 @@
       "measure": "cup",
       "amount": 1,
       "calories": 350.25,
+      "fiber": {
+        "measure": "G",
+        "amount": 0
+      },
+      "macros": {
+        "protein": {
+          "measure": "G",
+          "amount": 0
+        },
+        "fat": {
+          "measure": "G",
+          "amount": 0
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 0
+        }
+      },
+      "totalSugars": {
+        "measure": "G",
+        "amount": 0
+      },
+      "vitamins": {
+        "A": {
+          "measure": "IU",
+          "amount": 0
+        },
+        "C": {
+          "measure": "MG",
+          "amount": 0
+        },
+        "D": {
+          "measure": "IU",
+          "amount": 0
+        }
+      },
+      "lipids": {
+        "cholesterol": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "saturated": {
+          "measure": "G",
+          "amount": 0
+        },
+        "trans": {
+          "measure": "G",
+          "amount": 0.0
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "measure": "MG",
+          "amount": 0
+        },
+        "iron": {
+          "measure": "MG",
+          "amount": 0
+        },
+        "potassium": {
+          "measure": "MG",
+          "amount": 0
+        },
+        "sodium": {
+          "measure": "MG",
+          "amount": 0
+        }
+      }
+    }
+  },
+  {
+    "title": "Big Berry Smoothie",
+    "Category": "healthy",
+    "ingredients": [
+      "2 cups ice",
+      "1 cup greek yogurt",
+      "1/2 cup soy milk",
+      "1/4 cup blueberry",
+      "1/4 cup raspberries",
+      "1/2 banana"
+    ],
+    "instructions": "Add all the ingredients to a blender and pulse until smooth.",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg",
+    "autoIngredients": [
+      {
+        "name": "Greek Yogurt",
+        "measure": "cup",
+        "amount": 1.0
+      },
+      {
+        "name": "Soy Milk",
+        "measure": "cup",
+        "amount": 0.5
+      },
+      {
+        "name": "Blueberry",
+        "measure": "cup",
+        "amount": 0.25
+      },
+      {
+        "name": "Raspberries",
+        "measure": "cup",
+        "amount": 0.25
+      },
+      {
+        "name": "Banana",
+        "measure": "banana",
+        "amount": 0.5
+      }
+    ],
+    "totalNutrition": {
+      "measure": "cup",
+      "amount": 1,
+      "calories": 186.0,
+      "fiber": {
+        "measure": "G",
+        "amount": 0
+      },
+      "macros": {
+        "protein": {
+          "measure": "G",
+          "amount": 0
+        },
+        "fat": {
+          "measure": "G",
+          "amount": 0
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 0
+        }
+      },
+      "totalSugars": {
+        "measure": "G",
+        "amount": 0
+      },
+      "vitamins": {
+        "A": {
+          "measure": "IU",
+          "amount": 0
+        },
+        "C": {
+          "measure": "MG",
+          "amount": 0
+        },
+        "D": {
+          "measure": "IU",
+          "amount": 0
+        }
+      },
+      "lipids": {
+        "cholesterol": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "saturated": {
+          "measure": "G",
+          "amount": 0
+        },
+        "trans": {
+          "measure": "G",
+          "amount": 0.0
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "measure": "MG",
+          "amount": 0
+        },
+        "iron": {
+          "measure": "MG",
+          "amount": 0
+        },
+        "potassium": {
+          "measure": "MG",
+          "amount": 0
+        },
+        "sodium": {
+          "measure": "MG",
+          "amount": 0
+        }
+      }
+    }
+  },
+  {
+    "title": "Green Morning Smoothie",
+    "Category": "healthy",
+    "ingredients": [
+      "2 cups almond milk",
+      "1/2 cup whole oats",
+      "1 1/4 cups frozen peaches",
+      "1 cup baby spinach, loosely packed",
+      "1 tablespoon honey",
+      "1 teaspoon vanilla extract",
+      "2 cups frozen banana"
+    ],
+    "instructions": "Watch how to make this recipe.\nPlace the milk and oats in a blender and blend for 15 seconds on high. Add the peaches, ice, spinach, honey, vanilla and bananas and blend until very smooth, 45 seconds. Serve in glasses.",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg",
+    "autoIngredients": [
+      {
+        "name": "Almond Milk",
+        "measure": "cups",
+        "amount": 2.0
+      },
+      {
+        "name": "Whole Milk",
+        "measure": "cup",
+        "amount": 0.5
+      },
+      {
+        "name": "Oats",
+        "measure": "cup",
+        "amount": 0.5
+      },
+      {
+        "name": "Peaches",
+        "measure": "cups",
+        "amount": 1.25
+      },
+      {
+        "name": "Spinach",
+        "measure": "cup",
+        "amount": 1.0
+      },
+      {
+        "name": "Honey",
+        "measure": "tablespoon",
+        "amount": 1.0
+      },
+      {
+        "name": "Vanilla Extract",
+        "measure": "teaspoon",
+        "amount": 1.0
+      },
+      {
+        "name": "Banana",
+        "measure": "cups",
+        "amount": 2.0
+      }
+    ],
+    "totalNutrition": {
+      "measure": "cup",
+      "amount": 1,
+      "calories": 583.3,
       "fiber": {
         "measure": "G",
         "amount": 0
@@ -4355,8 +4609,8 @@
     "title": "Lowfat Green Tea, Honey and Nutmeg Smoothies",
     "Category": "healthy",
     "ingredients": [
-      "1/2 cup lowfat vanilla frozen yogurt",
-      "1/4 cup chilled triple-strength green tea",
+      "1/2 cup greek yogurt",
+      "3/4 cup chilled triple-strength green tea",
       "1 tablespoon honey, plus more for garnish",
       "1 cup ice",
       "Dash ground nutmeg",
@@ -4366,14 +4620,14 @@
     "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg",
     "autoIngredients": [
       {
-        "name": "Vanilla Extract",
+        "name": "Greek Yogurt",
         "measure": "cup",
         "amount": 0.5
       },
       {
         "name": "Green Tea",
         "measure": "cup",
-        "amount": 0.25
+        "amount": 0.75
       },
       {
         "name": "Honey",
@@ -4389,7 +4643,98 @@
     "totalNutrition": {
       "measure": "cup",
       "amount": 1,
-      "calories": 81.0,
+      "calories": 121.5,
+      "fiber": {
+        "measure": "G",
+        "amount": 0
+      },
+      "macros": {
+        "protein": {
+          "measure": "G",
+          "amount": 0
+        },
+        "fat": {
+          "measure": "G",
+          "amount": 0
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 0
+        }
+      },
+      "totalSugars": {
+        "measure": "G",
+        "amount": 0
+      },
+      "vitamins": {
+        "A": {
+          "measure": "IU",
+          "amount": 0
+        },
+        "C": {
+          "measure": "MG",
+          "amount": 0
+        },
+        "D": {
+          "measure": "IU",
+          "amount": 0
+        }
+      },
+      "lipids": {
+        "cholesterol": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "saturated": {
+          "measure": "G",
+          "amount": 0
+        },
+        "trans": {
+          "measure": "G",
+          "amount": 0.0
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "measure": "MG",
+          "amount": 0
+        },
+        "iron": {
+          "measure": "MG",
+          "amount": 0
+        },
+        "potassium": {
+          "measure": "MG",
+          "amount": 0
+        },
+        "sodium": {
+          "measure": "MG",
+          "amount": 0
+        }
+      }
+    }
+  },
+  {
+    "title": "Ultra-Creamy Avocado Smoothie",
+    "Category": "dessert",
+    "ingredients": [
+      "1  1/2 cup almond milk",
+      "2 cups crushed ice",
+      "2 ripe Hass avocados"
+    ],
+    "instructions": "Blend the milk, sweetened condensed milk and ice in a blender until very smooth. Add the avocado flesh and blend again until smooth. The mixture will be quite thick; add cold water a few tablespoons at a time, blending after each addition, until the mixture is pourable. Taste and add more sweetened condensed milk if you want it sweeter. Serve in chilled glasses with straws.",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg",
+    "autoIngredients": [
+      {
+        "name": "Almond Milk",
+        "measure": "",
+        "amount": 1.0
+      }
+    ],
+    "totalNutrition": {
+      "measure": "cup",
+      "amount": 1,
+      "calories": 44.0,
       "fiber": {
         "measure": "G",
         "amount": 0
@@ -4573,7 +4918,7 @@
       "1 tablespoon coconut oil",
       "1 teaspoon honey",
       "1/2 teaspoon vanilla extract",
-      "2 frozen peeled ripe bananas, cut into 1-inch chunks"
+      "1 1/2 cups frozen bananas"
     ],
     "instructions": "Watch how to make this recipe.\nAdd the milk, coffee, peanut butter, coconut oil, honey, vanilla and bananas to a blender and puree until smooth. Serve immediately.",
     "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg",
@@ -4960,6 +5305,109 @@
       "measure": "cup",
       "amount": 1,
       "calories": 241.8,
+      "fiber": {
+        "measure": "G",
+        "amount": 0
+      },
+      "macros": {
+        "protein": {
+          "measure": "G",
+          "amount": 0
+        },
+        "fat": {
+          "measure": "G",
+          "amount": 0
+        },
+        "carbs": {
+          "measure": "g",
+          "amount": 0
+        }
+      },
+      "totalSugars": {
+        "measure": "G",
+        "amount": 0
+      },
+      "vitamins": {
+        "A": {
+          "measure": "IU",
+          "amount": 0
+        },
+        "C": {
+          "measure": "MG",
+          "amount": 0
+        },
+        "D": {
+          "measure": "IU",
+          "amount": 0
+        }
+      },
+      "lipids": {
+        "cholesterol": {
+          "measure": "MG",
+          "amount": 0.0
+        },
+        "saturated": {
+          "measure": "G",
+          "amount": 0
+        },
+        "trans": {
+          "measure": "G",
+          "amount": 0.0
+        }
+      },
+      "minerals": {
+        "calcium": {
+          "measure": "MG",
+          "amount": 0
+        },
+        "iron": {
+          "measure": "MG",
+          "amount": 0
+        },
+        "potassium": {
+          "measure": "MG",
+          "amount": 0
+        },
+        "sodium": {
+          "measure": "MG",
+          "amount": 0
+        }
+      }
+    }
+  },
+  {
+    "title": "Blueberry Power Smoothie",
+    "Category": "healthy",
+    "ingredients": [
+      "1 cup soft tofu, drained",
+      "1 cup frozen banana",
+      "2 cups orange juice",
+      "1 cups frozen bluebery",
+      "1 cup ice"
+    ],
+    "instructions": "Place everything in a blender and puree until smooth.",
+    "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg",
+    "autoIngredients": [
+      {
+        "name": "Tofu",
+        "measure": "cup",
+        "amount": 1.0
+      },
+      {
+        "name": "Banana",
+        "measure": "cup",
+        "amount": 1.0
+      },
+      {
+        "name": "Orange",
+        "measure": "cups",
+        "amount": 2.0
+      }
+    ],
+    "totalNutrition": {
+      "measure": "cup",
+      "amount": 1,
+      "calories": 379.0,
       "fiber": {
         "measure": "G",
         "amount": 0
@@ -5471,7 +5919,7 @@
     "title": "Pina Colada Smoothie",
     "Category": "healthy",
     "ingredients": [
-      "1 cup fresh pineapple chunks",
+      "1 cup coconut water",
       "1 cup unsweetened coconut milk",
       "1 banana",
       "1/4 cup ice cubes",
@@ -5482,7 +5930,7 @@
     "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg",
     "autoIngredients": [
       {
-        "name": "Pineapple",
+        "name": "Coconut Water",
         "measure": "cup",
         "amount": 1.0
       },
@@ -5515,7 +5963,7 @@
     "totalNutrition": {
       "measure": "cup",
       "amount": 1,
-      "calories": 484.0,
+      "calories": 448.5,
       "fiber": {
         "measure": "G",
         "amount": 0
@@ -5945,15 +6393,20 @@
     "title": "Apple and Cinnamon Breakfast Smoothie",
     "Category": "healthy",
     "ingredients": [
-      "3/4 cup skin milk",
+      "3/4 cup skim milk",
       "1/2 cup old-fashioned rolled oats",
-      "1/4 cup  Greek yogurt",
-      "1/2 cup apple",
+      "1/4 cup Greek yogurt",
+      "1/2 cup red apple",
       "1/2 teaspoon ground cinnamon"
     ],
     "instructions": "Combine the milk, oats, yogurt, apple, cinnamon and 3 ice cubes in a blender, and blend until smooth and creamy, about 1 minute.",
     "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg",
     "autoIngredients": [
+      {
+        "name": "Skim Milk",
+        "measure": "cup",
+        "amount": 0.75
+      },
       {
         "name": "Oats",
         "measure": "cup",
@@ -5965,6 +6418,11 @@
         "amount": 0.25
       },
       {
+        "name": "Red Apple",
+        "measure": "cup",
+        "amount": 0.5
+      },
+      {
         "name": "Cinnamon",
         "measure": "teaspoon",
         "amount": 0.5
@@ -5973,7 +6431,7 @@
     "totalNutrition": {
       "measure": "cup",
       "amount": 1,
-      "calories": 96.25,
+      "calories": 191.225,
       "fiber": {
         "measure": "G",
         "amount": 0
@@ -6270,25 +6728,35 @@
     "title": "Coconut Water",
     "Category": "healthy",
     "ingredients": [
-      "Coconut water, regular or flavored",
-      "2 bananas",
-      "2 mangos",
-      "1 cup strawberries (fresh or frozen)",
+      "1 cup Coconut water",
+      "1/2 cup frozen banana",
+      "1/2 cup frozen mango",
+      "1/2 cup frozen strawberries",
       "1/2 cup Greek yogurt",
-      "2 tablespoons honey"
+      "1 tablespoons honey"
     ],
     "instructions": "Fill ice trays with the coconut water and freeze until solid.\nPlace the fruit, honey and 12 to 14 coconut water-flavored ice cubes into a blender and blend until smooth. Serve immediately.",
     "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg",
     "autoIngredients": [
       {
         "name": "Coconut Water",
-        "measure": "water,",
-        "amount": 1
+        "measure": "cup",
+        "amount": 1.0
+      },
+      {
+        "name": "Banana",
+        "measure": "cup",
+        "amount": 0.5
+      },
+      {
+        "name": "Mango",
+        "measure": "cup",
+        "amount": 0.5
       },
       {
         "name": "Strawberries",
         "measure": "cup",
-        "amount": 1.0
+        "amount": 0.5
       },
       {
         "name": "Greek Yogurt",
@@ -6298,13 +6766,13 @@
       {
         "name": "Honey",
         "measure": "tablespoons",
-        "amount": 2.0
+        "amount": 1.0
       }
     ],
     "totalNutrition": {
       "measure": "cup",
       "amount": 1,
-      "calories": 266.5,
+      "calories": 249.5,
       "fiber": {
         "measure": "G",
         "amount": 0

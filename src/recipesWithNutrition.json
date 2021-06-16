@@ -5,9 +5,9 @@
     "ingredients": [
       "1/4 cup diced silk tofu",
       "1/2 cup soy milk",
-      "1/2 cup raspberries",
-      "1/4 banana",
-      "2 cups orange juice"
+      "1/2 cup frozen raspberries",
+      "1/2 cup frozen banana",
+      "1 cup orange juice"
     ],
     "instructions": "Place tofu, soy milk, yogurt, raspberries, banana, and orange juice in a blender. Blend until smooth. Pour in glasses over ice or vanilla ice cream.\n",
     "img_url": "https://cdn1.foodviva.com/static-content/food-images/smoothie-recipes/silken-tofu-smoothie/silken-tofu-smoothie.jpg",
@@ -29,53 +29,51 @@
       },
       {
         "name": "Banana",
-        "measure": "banana",
-        "amount": 0.25
+        "measure": "cup",
+        "amount": 0.5
       },
       {
         "name": "Orange",
-        "measure": "cups",
-        "amount": 2.0
+        "measure": "cup",
+        "amount": 1.0
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
-      "calories": 226.75,
+      "calories": 204.0,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 8.6
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 11.7225
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 4.9
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 29.354999999999997
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 21.4
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 520.495
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 64.435
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 60.02
         }
       },
       "lipids": {
@@ -85,7 +83,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.6865
         },
         "trans": {
           "measure": "G",
@@ -95,19 +93,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 239.5
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 2.12
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 239.5
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 73.25999999999999
         }
       }
     }
@@ -152,43 +150,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 601.2,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 13.1
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 21.450000000000003
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 43.8
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 48.84
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 25.759999999999998
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 221.0
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 21.5
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -198,29 +194,29 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 7.442
         },
         "trans": {
           "measure": "G",
-          "amount": 0.0
+          "amount": 0.03
         }
       },
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 64.2
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 2.1
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 64.2
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 248.07
         }
       }
     }
@@ -259,43 +255,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 309.79999999999995,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 8.3
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 9.75
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 4.2
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 72.64
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 54.06
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 2575.57
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 172.52999999999997
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.21
         }
       },
       "lipids": {
@@ -305,7 +299,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.542
         },
         "trans": {
           "measure": "G",
@@ -315,19 +309,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 79.68999999999998
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 1.32
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 79.68999999999998
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 55.63
         }
       }
     }
@@ -368,43 +362,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 104.65,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 4.6
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 1.035
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.225
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 27.825000000000003
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 18.367500000000003
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 101.6
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 43.9
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -414,7 +406,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.040749999999999995
         },
         "trans": {
           "measure": "G",
@@ -424,19 +416,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 23.98
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 0.515
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 23.98
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 2.74
         }
       }
     }
@@ -481,43 +473,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 356.225,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 4.675000000000001
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 12.491875
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 15.262500000000001
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 52.0175
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 47.13249999999999
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 13.5
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 67.72
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -527,29 +517,29 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 2.702
         },
         "trans": {
           "measure": "G",
-          "amount": 0.0
+          "amount": 0.015
         }
       },
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 51.64
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 1.4625
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 51.64
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 130.54999999999998
         }
       }
     }
@@ -612,43 +602,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 414.3,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 23.15
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 10.8
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 2.5
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 88.31000000000002
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 74.4
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 6796.12
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 316.6
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -658,7 +646,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.12999999999999998
         },
         "trans": {
           "measure": "G",
@@ -668,19 +656,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 228.9
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 4.81
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 228.9
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 51.720000000000006
         }
       }
     }
@@ -737,43 +725,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 453.50000000000006,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 6.9
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 19.705000000000002
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 27.450000000000003
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 43.6625
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 30.055
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 2064.4300000000003
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 67.09
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -783,29 +769,29 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 5.26625
         },
         "trans": {
           "measure": "G",
-          "amount": 0.0
+          "amount": 0.03
         }
       },
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 204.17000000000002
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 2.0475000000000003
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 204.17000000000002
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 259.045
         }
       }
     }
@@ -856,43 +842,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 206.95,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 4.75
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 22.995
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 2.75
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 27.150000000000002
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 16.150000000000002
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 1546.325
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 12.775
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -902,7 +886,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.506
         },
         "trans": {
           "measure": "G",
@@ -912,19 +896,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 102.75
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 6.605
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 102.75
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 438.05
         }
       }
     }
@@ -970,43 +954,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 136.1,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 4.6000000000000005
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 8.265
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 3.6500000000000004
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 16.3
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 11.5075
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 816.9
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 27.46
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -1016,29 +998,29 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.519
         },
         "trans": {
           "measure": "G",
-          "amount": 0.0
+          "amount": 0.01
         }
       },
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 138.35
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 1.805
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 138.35
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 24.35
         }
       }
     }
@@ -1077,43 +1059,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 175.3,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 7.2
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 10.36
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 4.25
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 36.19
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 23.71
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 2104.6800000000003
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 94.94
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -1123,7 +1103,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.42250000000000004
         },
         "trans": {
           "measure": "G",
@@ -1133,19 +1113,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 147.22
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 1.6500000000000001
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 147.22
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 56.970000000000006
         }
       }
     }
@@ -1192,43 +1172,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 128.225,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 4.775
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 9.61
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 7.45
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 10.690000000000001
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 9.81
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 25.925
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 19.534999999999997
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -1238,7 +1216,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.60225
         },
         "trans": {
           "measure": "G",
@@ -1248,19 +1226,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 59.25
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 1.1674999999999998
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 59.25
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 36.489999999999995
         }
       }
     }
@@ -1305,43 +1283,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 223.6,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 6.866666666666667
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 3.0100000000000002
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 1.0333333333333334
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 60.120000000000005
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 40.31000000000001
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 3165.2733333333335
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 121.60999999999999
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -1351,7 +1327,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.22666666666666668
         },
         "trans": {
           "measure": "G",
@@ -1361,19 +1337,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 64.63333333333333
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 1.33
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 64.63333333333333
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 18.933333333333334
         }
       }
     }
@@ -1418,43 +1394,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 255.6,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 9.6375
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 8.51
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 7.1000000000000005
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 50.275
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 30.374999999999996
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 873.745
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 45.73500000000001
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 60.02
         }
       },
       "lipids": {
@@ -1464,7 +1438,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.7987500000000001
         },
         "trans": {
           "measure": "G",
@@ -1474,19 +1448,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 210.375
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 1.795
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 210.375
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 46.475
         }
       }
     }
@@ -1530,43 +1504,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 430.8,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 14.299999999999999
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 20.55
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 24.3
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 49.64
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 22.959999999999997
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 191.76
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 10.7
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -1576,29 +1548,29 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 7.811999999999999
         },
         "trans": {
           "measure": "G",
-          "amount": 0.0
+          "amount": 0.02
         }
       },
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 136.3
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 5.85
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 136.3
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 174.14
         }
       }
     }
@@ -1637,43 +1609,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 247.5,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 6.425000000000001
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 23.04
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 6.8500000000000005
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 39.765
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 34.06999999999999
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 371.0
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 16.75
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -1683,7 +1653,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.6365000000000001
         },
         "trans": {
           "measure": "G",
@@ -1693,19 +1663,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 121.75
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 1.305
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 121.75
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 89.0
         }
       }
     }
@@ -1763,43 +1733,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 308.5,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 9.633333333333333
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 25.49
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 9.983333333333334
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 38.56666666666667
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 17.03333333333333
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 1016.1366666666667
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 14.329999999999998
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -1809,29 +1777,29 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.8786666666666667
         },
         "trans": {
           "measure": "G",
-          "amount": 0.0
+          "amount": 0.01
         }
       },
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 160.0
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 7.949999999999999
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 160.0
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 373.5
         }
       }
     }
@@ -1902,43 +1870,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 658.375,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 16.55
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 37.809375
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 15.5375
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 113.02750000000002
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 89.3225
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 1612.205
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 14.799999999999999
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -1948,7 +1914,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 1.65525
         },
         "trans": {
           "measure": "G",
@@ -1958,19 +1924,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 211.875
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 8.54
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 211.875
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 473.8
         }
       }
     }
@@ -2009,43 +1975,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 248.0,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 9.05
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 11.91
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 4.3
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 54.34
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 40.559999999999995
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 663.0
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 25.249999999999996
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -2055,7 +2019,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.7909999999999999
         },
         "trans": {
           "measure": "G",
@@ -2065,19 +2029,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 55.15
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 1.1600000000000001
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 55.15
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 97.7
         }
       }
     }
@@ -2116,43 +2080,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 513.7,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 10.25
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 25.625
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 30.000000000000004
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 57.61
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 34.29
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 111.0
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 16.049999999999997
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -2162,29 +2124,29 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 6.978
         },
         "trans": {
           "measure": "G",
-          "amount": 0.0
+          "amount": 0.03
         }
       },
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 99.95
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 3.815
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 99.95
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 257.07
         }
       }
     }
@@ -2235,43 +2197,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 220.4,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 5.6
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 29.22
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 5.249999999999999
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 22.14
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 17.61
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 2838.21
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 13.33
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -2281,7 +2241,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.262
         },
         "trans": {
           "measure": "G",
@@ -2291,19 +2251,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 116.7
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 6.559999999999999
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 116.7
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 417.7
         }
       }
     }
@@ -2348,75 +2308,73 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 493.1,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 5.2
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 32.795
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 19.400000000000002
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 67.94
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 51.76
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 909.56
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 16.15
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 248.88
         }
       },
       "lipids": {
         "cholesterol": {
           "measure": "MG",
-          "amount": 0.0
+          "amount": 48.8
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 9.488
         },
         "trans": {
           "measure": "G",
-          "amount": 0.0
+          "amount": 0.56
         }
       },
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 607.69
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 1.1400000000000001
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 607.69
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 244.6
         }
       }
     }
@@ -2468,43 +2426,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 301.35,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 7.9
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 11.92375
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 5.7250000000000005
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 57.55
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 45.965
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 19658.93
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 31.279999999999998
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -2514,7 +2470,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.6375
         },
         "trans": {
           "measure": "G",
@@ -2524,19 +2480,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 151.54000000000002
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 1.795
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 151.54000000000002
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 105.5
         }
       }
     }
@@ -2581,43 +2537,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 193.5,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 6.1000000000000005
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 5.0200000000000005
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.7999999999999999
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 46.3
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 39.17
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 11334.9
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 141.65999999999997
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -2627,7 +2581,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.6070000000000001
         },
         "trans": {
           "measure": "G",
@@ -2637,19 +2591,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 76.03999999999999
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 2.48
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 76.03999999999999
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 74.88
         }
       }
     }
@@ -2700,43 +2654,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 290.90000000000003,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 14.299999999999999
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 18.0875
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 7.35
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 47.39
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 25.509999999999998
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 5729.36
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 27.8
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -2746,29 +2698,29 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 3.8249999999999997
         },
         "trans": {
           "measure": "G",
-          "amount": 0.0
+          "amount": 0.01
         }
       },
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 239.5
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 8.55
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 239.5
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 82.0
         }
       }
     }
@@ -2803,43 +2755,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 132.1,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 2.3
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.9950000000000001
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.35
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 35.45
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 25.85
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 177.76
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 34.455
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.21
         }
       },
       "lipids": {
@@ -2849,7 +2799,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.061
         },
         "trans": {
           "measure": "G",
@@ -2859,19 +2809,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 24.46
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 0.215
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 24.46
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 1.3399999999999999
         }
       }
     }
@@ -2923,43 +2873,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 136.3,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 6.2875
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 4.5249999999999995
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 1.675
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 31.27
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 20.267500000000002
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 20255.947500000002
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 25.3575
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 30.01
         }
       },
       "lipids": {
@@ -2969,7 +2917,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.23675000000000002
         },
         "trans": {
           "measure": "G",
@@ -2979,19 +2927,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 145.585
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 1.2
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 145.585
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 91.5275
         }
       }
     }
@@ -3036,43 +2984,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 490.6,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 11.6
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 17.1
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 20.3
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 75.3
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 27.699999999999996
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 5916.42
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 78.63000000000001
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -3082,29 +3028,29 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 3.9819999999999998
         },
         "trans": {
           "measure": "G",
-          "amount": 0.0
+          "amount": 0.02
         }
       },
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 143.70000000000002
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 4.01
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 143.70000000000002
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 185.78
         }
       }
     }
@@ -3157,43 +3103,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 365.30000000000007,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 16.599999999999998
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 6.890000000000001
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 20.9
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 52.24
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 21.139999999999997
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 20643.04
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 48.08000000000001
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -3203,7 +3147,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 2.7139999999999995
         },
         "trans": {
           "measure": "G",
@@ -3213,19 +3157,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 131.32
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 2.15
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 131.32
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 92.91
         }
       }
     }
@@ -3265,43 +3209,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 210.0,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 4.6
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 2.0900000000000003
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.5
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 56.9
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 41.0
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 290.0
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 61.879999999999995
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -3311,7 +3253,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.122
         },
         "trans": {
           "measure": "G",
@@ -3321,19 +3263,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 49.77
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 0.48
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 49.77
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 1.85
         }
       }
     }
@@ -3373,43 +3315,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 280.0,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 11.5
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 4.41
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 1.3
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 76.06
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 49.949999999999996
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 20997.2
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 156.14000000000001
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -3419,7 +3359,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.266
         },
         "trans": {
           "measure": "G",
@@ -3429,19 +3369,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 135.5
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 0.9800000000000001
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 135.5
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 71.0
         }
       }
     }
@@ -3491,43 +3431,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 295.25,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 14.649999999999999
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 17.475
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 15.025
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 35.81
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 23.7975
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 547.02
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 36.95
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -3537,7 +3475,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 2.8442499999999997
         },
         "trans": {
           "measure": "G",
@@ -3547,19 +3485,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 102.0
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 2.39
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 102.0
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 72.625
         }
       }
     }
@@ -3603,43 +3541,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 350.25,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 11.15
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 5.6899999999999995
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 2.0
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 80.72
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 64.86
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 1145.85
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 170.20000000000002
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -3649,7 +3585,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.9775
         },
         "trans": {
           "measure": "G",
@@ -3659,19 +3595,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 81.8
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 1.185
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 81.8
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 130.67000000000002
         }
       }
     }
@@ -3717,43 +3653,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 186.0,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 5.55
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 17.599999999999998
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 2.9750000000000005
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 23.3975
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 17.200000000000003
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 320.745
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 13.129999999999999
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 60.02
         }
       },
       "lipids": {
@@ -3763,7 +3697,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.48875
         },
         "trans": {
           "measure": "G",
@@ -3773,19 +3707,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 295.25
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 1.0225
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 295.25
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 87.645
         }
       }
     }
@@ -3847,75 +3781,73 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 583.3,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 13.5625
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 29.005
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 12.85
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 116.405
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 81.945
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 3895.1
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 45.065
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 62.22
         }
       },
       "lipids": {
         "cholesterol": {
           "measure": "MG",
-          "amount": 0.0
+          "amount": 12.2
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 3.24525
         },
         "trans": {
           "measure": "G",
-          "amount": 0.0
+          "amount": 0.14
         }
       },
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 246.955
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 3.505
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 246.955
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 145.01
         }
       }
     }
@@ -3955,43 +3887,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 79.0,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 2.3
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.9950000000000001
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.25
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 19.95
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 12.05
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 145.0
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 30.884999999999998
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -4001,7 +3931,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.061
         },
         "trans": {
           "measure": "G",
@@ -4011,19 +3941,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 24.25
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 0.195
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 24.25
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 0.5
         }
       }
     }
@@ -4068,43 +3998,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 187.8,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 7.35
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 3.345
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 1.05
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 48.65
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 32.975
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 2332.1800000000003
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 100.11
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -4114,7 +4042,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.557
         },
         "trans": {
           "measure": "G",
@@ -4124,19 +4052,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 164.51
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 1.27
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 164.51
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 24.770000000000003
         }
       }
     }
@@ -4189,53 +4117,51 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 291.75,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 6.1
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 6.375
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 1.0750000000000002
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 74.635
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 56.33
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 2152.355
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 120.9075
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 57.575
         }
       },
       "lipids": {
         "cholesterol": {
           "measure": "MG",
-          "amount": 0.0
+          "amount": 2.4
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.3355
         },
         "trans": {
           "measure": "G",
@@ -4245,19 +4171,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 198.46
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 0.8225
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 198.46
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 64.195
         }
       }
     }
@@ -4310,43 +4236,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 391.7,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 14.450000000000003
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 6.04
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 16.599999999999998
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 68.55
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 37.94999999999999
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 324.61
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 106.65
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -4356,7 +4280,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 2.686
         },
         "trans": {
           "measure": "G",
@@ -4366,19 +4290,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 59.03999999999999
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 1.46
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 59.03999999999999
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 75.05000000000001
         }
       }
     }
@@ -4424,43 +4348,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 152.75,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 6.5
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 3.14
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 1.975
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 38.575
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 20.675
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 107.44
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 13.200000000000001
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -4470,7 +4392,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.832
         },
         "trans": {
           "measure": "G",
@@ -4480,19 +4402,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 41.4
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 0.6000000000000001
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 41.4
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 65.52000000000001
         }
       }
     }
@@ -4532,75 +4454,73 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 306.225,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 3.4000000000000004
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 26.765
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 10.750000000000002
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 34.65
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 19.025
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 198.975
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 10.7
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 28.7875
         }
       },
       "lipids": {
         "cholesterol": {
           "measure": "MG",
-          "amount": 0.0
+          "amount": 1.2
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 1.807
         },
         "trans": {
           "measure": "G",
-          "amount": 0.0
+          "amount": 0.01
         }
       },
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 144.125
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 5.5575
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 144.125
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 455.41499999999996
         }
       }
     }
@@ -4641,43 +4561,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 121.5,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 0.0
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 6.449999999999999
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.25
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 24.585
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 23.25
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 10.5
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 0.21000000000000002
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -4687,7 +4605,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.07
         },
         "trans": {
           "measure": "G",
@@ -4697,19 +4615,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 94.27
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 0.355
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 94.27
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 23.110000000000003
         }
       }
     }
@@ -4732,43 +4650,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 44.0,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 1.3
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 7.46
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 3.0
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 1.54
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 5.26
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 0.0
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -4778,7 +4694,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.22
         },
         "trans": {
           "measure": "G",
@@ -4788,19 +4704,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 22.0
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 0.39
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 22.0
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 33.0
         }
       }
     }
@@ -4835,43 +4751,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 159.89999999999998,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 2.85
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 2.4
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.6
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 37.13
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 33.05
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 996.405
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 63.599999999999994
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -4881,7 +4795,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.129
         },
         "trans": {
           "measure": "G",
@@ -4891,19 +4805,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 27.645
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 0.84
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 27.645
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 52.949999999999996
         }
       }
     }
@@ -4950,43 +4864,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 353.8,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 5.6000000000000005
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 16.560000000000002
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 20.1
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 35.59
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 32.71
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 2.56
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -4996,29 +4908,29 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 3.97
         },
         "trans": {
           "measure": "G",
-          "amount": 0.0
+          "amount": 0.02
         }
       },
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 56.22
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 1.11
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 56.22
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 234.92999999999998
         }
       }
     }
@@ -5069,43 +4981,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 173.20000000000002,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 3.9999999999999996
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 2.22
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.6
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 43.400000000000006
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 33.7
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 1152.45
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 105.62
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -5115,7 +5025,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.459
         },
         "trans": {
           "measure": "G",
@@ -5125,19 +5035,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 83.77
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 1.12
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 83.77
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 15.28
         }
       }
     }
@@ -5188,43 +5098,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 512.95,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 12.725
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 39.215
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 28.425
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 45.400000000000006
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 24.5
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 1232.04
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 30.32
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -5234,29 +5142,29 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 5.197
         },
         "trans": {
           "measure": "G",
-          "amount": 0.0
+          "amount": 0.02
         }
       },
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 186.91
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 7.4475
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 186.91
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 554.21
         }
       }
     }
@@ -5302,43 +5210,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 241.8,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 9.6
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 5.140000000000001
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 3.2
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 50.1
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 35.9
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 186.01999999999998
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 183.26999999999998
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -5348,29 +5254,29 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 1.002
         },
         "trans": {
           "measure": "G",
-          "amount": 0.0
+          "amount": 0.03
         }
       },
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 84.35000000000001
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 2.6
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 84.35000000000001
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 76.64
         }
       }
     }
@@ -5405,43 +5311,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 379.0,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 6.6
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 25.36
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 9.6
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 58.8
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 36.2
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 506.0
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 112.84
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -5451,7 +5355,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 1.4720000000000002
         },
         "trans": {
           "measure": "G",
@@ -5461,19 +5365,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 214.5
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 4.52
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 214.5
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 119.74
         }
       }
     }
@@ -5523,43 +5427,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 358.575,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 17.075
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 8.754999999999999
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 11.375
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 61.125
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 38.75
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 176.065
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 234.82
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -5569,7 +5471,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 1.52275
         },
         "trans": {
           "measure": "G",
@@ -5579,19 +5481,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 139.15
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 3.0025
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 139.15
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 74.645
         }
       }
     }
@@ -5642,43 +5544,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 140.15,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 4.925
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 2.6900000000000004
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.635
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 33.625
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 24.924999999999997
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 3041.64
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 106.215
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -5688,7 +5588,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.3610000000000001
         },
         "trans": {
           "measure": "G",
@@ -5698,19 +5598,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 83.35499999999999
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 2.33
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 83.35499999999999
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 30.0125
         }
       }
     }
@@ -5745,43 +5645,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 307.25,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 6.300000000000001
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 12.125
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 2.175
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 66.2525
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 58.349999999999994
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 3.75
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 15.52
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -5791,7 +5689,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.405
         },
         "trans": {
           "measure": "G",
@@ -5801,19 +5699,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 118.53500000000001
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 0.6975
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 118.53500000000001
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 39.2
         }
       }
     }
@@ -5842,43 +5740,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 189.875,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 1.7249999999999999
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.875
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.15000000000000002
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 51.2
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 47.025
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 71.775
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 58.56999999999999
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -5888,7 +5784,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.006749999999999999
         },
         "trans": {
           "measure": "G",
@@ -5898,19 +5794,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 18.29
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 0.5475
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 18.29
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 2.9749999999999996
         }
       }
     }
@@ -5961,43 +5857,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 448.5,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 15.099999999999998
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 6.590000000000001
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 5.9
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 107.69999999999999
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 78.2
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 287.46
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 93.62
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -6007,7 +5901,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 2.141
         },
         "trans": {
           "measure": "G",
@@ -6017,19 +5911,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 86.34
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 1.71
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 86.34
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 134.56
         }
       }
     }
@@ -6084,43 +5978,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 672.8,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 2.9000000000000004
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 54.660000000000004
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 23.6
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 64.24000000000001
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 58.16
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 0.0
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -6130,29 +6022,29 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 3.54
         },
         "trans": {
           "measure": "G",
-          "amount": 0.0
+          "amount": 0.02
         }
       },
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 149.8
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 10.950000000000001
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 149.8
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 890.38
         }
       }
     }
@@ -6186,43 +6078,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 245.2,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 4.3
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 9.56
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 3.6
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 53.64
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 53.66
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 190.54
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 68.71
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -6232,7 +6122,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.36
         },
         "trans": {
           "measure": "G",
@@ -6242,19 +6132,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 46.13
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 1.12
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 46.13
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 102.44999999999999
         }
       }
     }
@@ -6316,43 +6206,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 654.75,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 12.95
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 30.83
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 3.2624999999999997
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 137.14
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 103.575
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 338.475
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 221.685
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -6362,7 +6250,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 1.284
         },
         "trans": {
           "measure": "G",
@@ -6372,19 +6260,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 383.5325
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 3.16
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 383.5325
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 111.27500000000002
         }
       }
     }
@@ -6429,53 +6317,51 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 191.225,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 3.54
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 12.605000000000002
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 1.88
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 32.9675
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 17.575
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 413.92499999999995
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 2.925
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 86.36250000000001
         }
       },
       "lipids": {
         "cholesterol": {
           "measure": "MG",
-          "amount": 0.0
+          "amount": 3.5999999999999996
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.41000000000000003
         },
         "trans": {
           "measure": "G",
@@ -6485,19 +6371,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 284.42499999999995
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 0.9799999999999999
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 284.42499999999995
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 88.93
         }
       }
     }
@@ -6537,75 +6423,73 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 448.29999999999995,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 6.4
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 23.0
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 4.999999999999999
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 81.89999999999999
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 73.4
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 414.29999999999995
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 106.02
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 2.45
         }
       },
       "lipids": {
         "cholesterol": {
           "measure": "MG",
-          "amount": 0.0
+          "amount": 21.39
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 2.4899999999999998
         },
         "trans": {
           "measure": "G",
-          "amount": 0.0
+          "amount": 0.13
         }
       },
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 278.88
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 1.26
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 278.88
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 225.14
         }
       }
     }
@@ -6651,43 +6535,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 488.5,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 15.9
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 33.225
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 8.1
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 77.89999999999999
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 50.9
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 608.99
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 366.08000000000004
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 120.04
         }
       },
       "lipids": {
@@ -6697,7 +6579,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.7000000000000001
         },
         "trans": {
           "measure": "G",
@@ -6707,19 +6589,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 462.75
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 8.77
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 462.75
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 451.13
         }
       }
     }
@@ -6770,43 +6652,41 @@
       }
     ],
     "totalNutrition": {
-      "measure": "cup",
-      "amount": 1,
       "calories": 249.5,
       "fiber": {
         "measure": "G",
-        "amount": 0
+        "amount": 6.3
       },
       "macros": {
         "protein": {
           "measure": "G",
-          "amount": 0
+          "amount": 9.514999999999999
         },
         "fat": {
           "measure": "G",
-          "amount": 0
+          "amount": 1.4
         },
         "carbs": {
           "measure": "g",
-          "amount": 0
+          "amount": 54.295
         }
       },
       "totalSugars": {
         "measure": "G",
-        "amount": 0
+        "amount": 42.855000000000004
       },
       "vitamins": {
         "A": {
           "measure": "IU",
-          "amount": 0
+          "amount": 588.5
         },
         "C": {
           "measure": "MG",
-          "amount": 0
+          "amount": 71.11
         },
         "D": {
           "measure": "IU",
-          "amount": 0
+          "amount": 0.0
         }
       },
       "lipids": {
@@ -6816,7 +6696,7 @@
         },
         "saturated": {
           "measure": "G",
-          "amount": 0
+          "amount": 0.6125
         },
         "trans": {
           "measure": "G",
@@ -6826,19 +6706,19 @@
       "minerals": {
         "calcium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 106.67
         },
         "iron": {
           "measure": "MG",
-          "amount": 0
+          "amount": 0.7350000000000001
         },
         "potassium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 106.67
         },
         "sodium": {
           "measure": "MG",
-          "amount": 0
+          "amount": 88.25999999999999
         }
       }
     }

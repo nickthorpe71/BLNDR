@@ -2938,7 +2938,7 @@
             "measure": "MG"
           },
           "D": {
-            "amount": null,
+            "amount": 0,
             "measure": "IU"
           }
         },
@@ -2953,7 +2953,7 @@
             "measure": "g"
           },
           "fat": {
-            "amount": null,
+            "amount": 0,
             "measure": "G"
           }
         },
@@ -2983,7 +2983,7 @@
             "measure": "MG"
           },
           "potassium": {
-            "amount": null,
+            "amount": 0,
             "measure": "mg"
           },
           "iron": {
@@ -4177,7 +4177,7 @@
             "measure": "G"
           },
           "cholesterol": {
-            "amount": null,
+            "amount": 0,
             "measure": "g"
           }
         },
@@ -4911,7 +4911,7 @@
             "measure": "g"
           },
           "fat": {
-            "amount": null,
+            "amount": 0,
             "measure": "G"
           }
         },
@@ -5187,7 +5187,7 @@
       "name": "Chopped Basil",
       "nutrition": {
         "fiber": {
-          "amount": null,
+          "amount": 0,
           "measure": "g"
         },
         "vitamins": {
@@ -5377,7 +5377,7 @@
       "name": "Cinnamon",
       "nutrition": {
         "fiber": {
-          "amount": null,
+          "amount": 0,
           "measure": "g"
         },
         "vitamins": {

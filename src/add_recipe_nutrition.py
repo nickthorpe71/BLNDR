@@ -97,8 +97,6 @@ recipesWithNutrition = []
 for recipe in recipe_data:
     recipe["autoIngredients"] = []
     recipe["totalNutrition"] = {
-        "measure": "cup",
-        "amount": 1,
         "calories": 0,
         "fiber": {
             "measure": "G",
@@ -210,8 +208,37 @@ for recipe in recipe_data:
                     recipe["autoIngredients"].append(
                         {'name': outerIngredient["name"], 'measure': measure, 'amount': float_amount})
 
-                    # TODO: repeat this line for all nutrition
                     recipe["totalNutrition"]["calories"] += outerIngredient["nutrition"]["nutrition"]["calories"] * float_amount
+                    recipe["totalNutrition"]["fiber"]["amount"] += outerIngredient["nutrition"]["nutrition"]["fiber"]["amount"] * float_amount
+                    recipe["totalNutrition"]["macros"]["protein"]["amount"] += outerIngredient[
+                        "nutrition"]["nutrition"]["macros"]["protein"]["amount"] * float_amount
+                    recipe["totalNutrition"]["macros"]["fat"]["amount"] += outerIngredient[
+                        "nutrition"]["nutrition"]["macros"]["fat"]["amount"] * float_amount
+                    recipe["totalNutrition"]["macros"]["carbs"]["amount"] += outerIngredient[
+                        "nutrition"]["nutrition"]["macros"]["carbs"]["amount"] * float_amount
+                    recipe["totalNutrition"]["totalSugars"]["amount"] += outerIngredient[
+                        "nutrition"]["nutrition"]["totalSugars"]["amount"] * float_amount
+                    recipe["totalNutrition"]["vitamins"]["A"]["amount"] += outerIngredient[
+                        "nutrition"]["nutrition"]["vitamins"]["A"]["amount"] * float_amount
+                    recipe["totalNutrition"]["vitamins"]["C"]["amount"] += outerIngredient[
+                        "nutrition"]["nutrition"]["vitamins"]["C"]["amount"] * float_amount
+                    recipe["totalNutrition"]["vitamins"]["D"]["amount"] += outerIngredient[
+                        "nutrition"]["nutrition"]["vitamins"]["D"]["amount"] * float_amount
+                    recipe["totalNutrition"]["lipids"]["cholesterol"]["amount"] += outerIngredient[
+                        "nutrition"]["nutrition"]["lipids"]["cholesterol"]["amount"] * float_amount
+                    recipe["totalNutrition"]["lipids"]["saturated"]["amount"] += outerIngredient[
+                        "nutrition"]["nutrition"]["lipids"]["saturated"]["amount"] * float_amount
+                    recipe["totalNutrition"]["lipids"]["trans"]["amount"] += outerIngredient[
+                        "nutrition"]["nutrition"]["lipids"]["trans"]["amount"] * float_amount
+                    recipe["totalNutrition"]["minerals"]["calcium"]["amount"] += outerIngredient[
+                        "nutrition"]["nutrition"]["minerals"]["calcium"]["amount"] * float_amount
+                    recipe["totalNutrition"]["minerals"]["iron"]["amount"] += outerIngredient[
+                        "nutrition"]["nutrition"]["minerals"]["iron"]["amount"] * float_amount
+                    recipe["totalNutrition"]["minerals"]["potassium"]["amount"] += outerIngredient[
+                        "nutrition"]["nutrition"]["minerals"]["calcium"]["amount"] * float_amount
+                    recipe["totalNutrition"]["minerals"]["sodium"]["amount"] += outerIngredient[
+                        "nutrition"]["nutrition"]["minerals"]["sodium"]["amount"] * float_amount
+
                     break
 
     lower = len(recipe["ingredients"]) - 2

@@ -17,8 +17,9 @@ import curatedRecipes from './src/data/recipesWithNutrition.json';
 
 const App = ({ history }) => {
   const [userState, setUserState] = useState({
-    recipeResults: [],
+    recipeResults: null,
     curatedRecipes: curatedRecipes,
+    selectedRecipe: null,
   });
 
   const updateState = {

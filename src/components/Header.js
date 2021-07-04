@@ -12,7 +12,12 @@ const Header = props => {
 
   return (
     <View style={styles.header}>
-      <Icon name="home" color="#ff2b2b" onPress={goHome} iconStyle={styles.icon} />
+      <Icon
+        name="home"
+        color="#ff2b2b"
+        onPress={goHome}
+        iconStyle={styles.icon}
+      />
       <Icon name="search" color="#ff2b2b" iconStyle={styles.icon} />
       <Icon name="love" color="#ff2b2b" iconStyle={styles.icon} />
       <Icon name="menu" color="#ff2b2b" iconStyle={styles.icon} />

@@ -3,9 +3,7 @@ import { View, Text, StyleSheet, Button, FlatList } from 'react-native';
 import { SearchBar, Switch } from 'react-native-elements';
 import Carousel from 'react-native-snap-carousel';
 
-const allRecipes = require('../selectedRecipes.json');
-
-const Filter = ({ history }) => {
+const Filter = ({ history, userState }) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [includeToggle, setIncludeToggle] = useState(0);
   const [carouselItems, setCarouselItems] = useState([
@@ -35,9 +33,9 @@ const Filter = ({ history }) => {
   const [masterRecipes, setMasterRecipes] = useState([]);
 
   useEffect(() => {
-    setFilteredRecipes(allRecipes);
-    setMasterRecipes(allRecipes);
-  }, []);
+    setFilteredRecipes(userState.curatedRecipes);
+    setMasterRecipes(userState.curatedRecipes);
+  }, [userState.curatedRecipes]);
 
   const onClickItem = item => {
     alert(' Title : ' + item.title);

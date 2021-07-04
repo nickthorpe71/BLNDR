@@ -11,11 +11,14 @@ import Recipe from './src/screens/Recipe';
 import Replace from './src/screens/Replace';
 import ConfirmReplace from './src/screens/ConfirmReplace';
 
+import curatedRecipes from './src/data/recipesWithNutrition.json';
+
 // https://dev.to/nicopaulino/react-router-native-a-love-story-4m59
 
 const App = ({ history }) => {
   const [userState, setUserState] = useState({
     recipeResults: [],
+    curatedRecipes: curatedRecipes,
   });
 
   const updateState = {
@@ -33,33 +36,63 @@ const App = ({ history }) => {
         <Route
           exact
           path="/"
-          render={props => <Home {...props} updateState={updateState} />}
+          render={props => (
+            <Home {...props} updateState={updateState} userState={userState} />
+          )}
         />
         <Route
           exact
           path="/filter"
-          render={props => <Filter {...props} updateState={updateState} />}
+          render={props => (
+            <Filter
+              {...props}
+              updateState={updateState}
+              userState={userState}
+            />
+          )}
         />
         <Route
           exact
           path="/results"
-          render={props => <Results {...props} updateState={updateState} />}
+          render={props => (
+            <Results
+              {...props}
+              updateState={updateState}
+              userState={userState}
+            />
+          )}
         />
         <Route
           exact
           path="/recipe"
-          render={props => <Recipe {...props} updateState={updateState} />}
+          render={props => (
+            <Recipe
+              {...props}
+              updateState={updateState}
+              userState={userState}
+            />
+          )}
         />
         <Route
           exact
           path="/replace"
-          render={props => <Replace {...props} updateState={updateState} />}
+          render={props => (
+            <Replace
+              {...props}
+              updateState={updateState}
+              userState={userState}
+            />
+          )}
         />
         <Route
           exact
           path="/confirm"
           render={props => (
-            <ConfirmReplace {...props} updateState={updateState} />
+            <ConfirmReplace
+              {...props}
+              updateState={updateState}
+              userState={userState}
+            />
           )}
         />
       </NativeRouter>

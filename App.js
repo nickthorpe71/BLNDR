@@ -32,7 +32,6 @@ const App = ({ history }) => {
   return (
     <View style={styles.container}>
       <NativeRouter>
-        <Header goHome={() => history.push('/results')} />
         <Route
           exact
           path="/"
@@ -95,6 +94,7 @@ const App = ({ history }) => {
             />
           )}
         />
+        <Header goHome={() => history.push('/results')} />
       </NativeRouter>
     </View>
   );

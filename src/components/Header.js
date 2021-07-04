@@ -12,26 +12,26 @@ const Header = props => {
 
   return (
     <View style={styles.header}>
-      <Icon name="home" color="#fff" onPress={goHome} />
-      <Text style={styles.text}>Blendr</Text>
-      <Icon name="menu" color="#fff" />
+      <Icon name="home" color="#ff2b2b" onPress={goHome} iconStyle={styles.icon} />
+      <Icon name="search" color="#ff2b2b" iconStyle={styles.icon} />
+      <Icon name="love" color="#ff2b2b" iconStyle={styles.icon} />
+      <Icon name="menu" color="#ff2b2b" iconStyle={styles.icon} />
     </View>
   );
 };
 
 const styles = StyleSheet.create({
   header: {
-    height: 45,
-    padding: 10,
-    backgroundColor: '#0a84ff',
+    height: 100,
+    padding: 20,
+    backgroundColor: '#fff',
     flexDirection: 'row',
     justifyContent: 'space-between',
+    borderWidth: 1,
+    borderColor: '#999',
   },
-  text: {
-    margin: 5,
-    color: '#fff',
-    fontSize: 15,
-    textAlign: 'center',
+  icon: {
+    fontSize: 45,
   },
 });
 

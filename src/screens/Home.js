@@ -1,5 +1,12 @@
 import React, { useState } from 'react';
-import { View, Text, StyleSheet, Button } from 'react-native';
+import {
+  View,
+  Text,
+  StyleSheet,
+  Button,
+  TouchableOpacity,
+  Image,
+} from 'react-native';
 import Carousel from 'react-native-snap-carousel';
 
 const Home = ({ history }) => {
@@ -39,18 +46,20 @@ const Home = ({ history }) => {
   return (
     <View style={styles.homeContainer}>
       <View>
-        <Text style={styles.homeTitle}>GET BLENDING</Text>
-        <Text style={styles.homeParagraph}>
-          Select ingredients, restrictions and more to find the perfect recipe
-          for you
-        </Text>
-        <Button title="START SEARCH" onPress={() => history.push('/filter')} />
+        <TouchableOpacity
+          style={styles.filterButton}
+          onPress={() => history.push('/filter')}>
+          <Image
+            style={{ width: 280, height: 280 }}
+            source={{
+              uri:
+                'https://www.dinneratthezoo.com/wp-content/uploads/2018/05/frozen-fruit-smoothie-3.jpg',
+            }}
+          />
+        </TouchableOpacity>
       </View>
       <View>
         <Text style={styles.homeTitle}>FEATURED</Text>
-        <Text style={styles.homeParagraph}>
-          Get inspired by some of our top picks for you
-        </Text>
         <Carousel
           layout={'default'}
           ref={ref => (this.carousel = ref)}
@@ -73,8 +82,9 @@ const styles = StyleSheet.create({
   },
   homeTitle: {
     color: '#000',
-    fontSize: 30,
-    textAlign: 'center',
+    fontSize: 26,
+    marginLeft: 20,
+    marginBottom: 20,
   },
   homeParagraph: {
     color: '#000',
@@ -90,6 +100,12 @@ const styles = StyleSheet.create({
     height: 100,
     width: 100,
     padding: 10,
+  },
+  filterButton: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'transparent',
   },
 });
 

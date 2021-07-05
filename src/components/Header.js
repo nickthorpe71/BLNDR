@@ -19,8 +19,8 @@ const Header = props => {
         iconStyle={styles.icon}
       />
       <Icon name="search" color="#ff2b2b" iconStyle={styles.icon} />
-      <Icon name="love" color="#ff2b2b" iconStyle={styles.icon} />
-      <Icon name="menu" color="#ff2b2b" iconStyle={styles.icon} />
+      <Icon name="favorite-border" color="#ff2b2b" iconStyle={styles.icon} />
+      <Icon name="settings" color="#ff2b2b" iconStyle={styles.icon} />
     </View>
   );
 };

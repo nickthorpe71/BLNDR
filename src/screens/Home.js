@@ -1,41 +1,32 @@
-import React, { useState } from 'react';
-import { ScrollView, View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native';
+import React, { useState, useEffect } from 'react';
+import {
+  ScrollView,
+  View,
+  Text,
+  StyleSheet,
+  TouchableOpacity,
+  Image,
+} from 'react-native';
 import Carousel from 'react-native-snap-carousel';
 import RecipeCard from '../components/RecipeCard';
+import Utils from '../utils';
 
 const Home = ({ history, userState }) => {
-  const [featuredRecipes, setFeaturedRecipes] = useState([
-    {
-      title: 'Item 1',
-      numIngredients: 'Text 1',
-      calories: 'Text 1',
-      protein: 'Text 1',
-    },
-    {
-      title: 'Item 2',
-      numIngredients: 'Text 2',
-      calories: 'Text 2',
-      protein: 'Text 2',
-    },
-    {
-      title: 'Item 3',
-      numIngredients: 'Text 3',
-      calories: 'Text 3',
-      protein: 'Text 3',
-    },
-    {
-      title: 'Item 4',
-      numIngredients: 'Text 4',
-      calories: 'Text 4',
-      protein: 'Text 4',
-    },
-    {
-      title: 'Item 5',
-      numIngredients: 'Text 5',
-      calories: 'Text 5',
-      protein: 'Text 5',
-    },
-  ]);
+  const [featuredRecipes, setFeaturedRecipes] = useState([]);
+
+  useEffect(() => {
+    const featured = [];
+
+    for (let i = 0; i < 10; i++) {
+      let newRand = Utils.randNum(0, userState.curatedRecipes.length - 1);
+      while (featured.includes(newRand)) {
+        newRand = Utils.randNum(0, userState.curatedRecipes.length - 1);
+      }
+      featured.push(userState.curatedRecipes[newRand]);
+    }
+
+    setFeaturedRecipes(featured);
+  }, [userState.curatedRecipes]);
 
   const renderCarouselItem = ({ item, index }) => {
     return <RecipeCard history={history} userState={userState} recipe={item} />;

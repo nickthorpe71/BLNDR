@@ -1,17 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, Button } from 'react-native';
-import { SearchBar } from 'react-native-elements';
-import Tab from '../components/Tab';
+import { SearchBar, Tab, TabView } from 'react-native-elements';
 
-const Filter = ({ history, userState, children }) => {
-  const [activeTab, setActiveTab] = useState(children[0].props.label);
+const Filter = ({ history, userState }) => {
+  const [activeTab, setActiveTab] = useState(0);
 
   useEffect(() => {
     console.log(activeTab);
   }, [activeTab]);
 
-  const onClickTab = tab => {
-    setActiveTab(tab);
+  const onClickTab = tabIndex => {
+    setActiveTab(tabIndex);
   };
 
   return (
@@ -29,30 +28,22 @@ const Filter = ({ history, userState, children }) => {
       <View>
         <Button title="FIND RECIPE" onPress={() => history.push('/results')} />
       </View>
-      <div style={styles.tabs}>
-        <ol>
-          {children.map(child => {
-            const { label } = child.props;
-
-            return (
-              <Tab
-                activeTab={activeTab}
-                key={label}
-                label={label}
-                onClick={onClickTab}
-              />
-            );
-          })}
-        </ol>
-        <div style={styles.tabContent}>
-          {children.map(child => {
-            if (child.props.label !== activeTab) {
-              return undefined;
-            }
-            return child.props.children;
-          })}
-        </div>
-      </div>
+      <Tab value={activeTab} onChange={setActiveTab}>
+        <Tab.Item title="recent" />
+        <Tab.Item title="favorite" />
+        <Tab.Item title="cart" />
+      </Tab>
+      <TabView value={activeTab} onChange={setActiveTab}>
+        <TabView.Item style={{ backgroundColor: 'red', width: '100%' }}>
+          <Text h1>Recent</Text>
+        </TabView.Item>
+        <TabView.Item style={{ backgroundColor: 'blue', width: '100%' }}>
+          <Text h1>Favorite</Text>
+        </TabView.Item>
+        <TabView.Item style={{ backgroundColor: 'green', width: '100%' }}>
+          <Text h1>Cart</Text>
+        </TabView.Item>
+      </TabView>
     </View>
   );
 };
@@ -67,7 +58,6 @@ const styles = StyleSheet.create({
     margin: 1,
   },
   tabContent: {
-    borderBottom: '1px solid #ccc',
     paddingLeft: 0,
   },
 });

@@ -1,4 +1,3 @@
-/* eslint-disable react-native/no-inline-styles */
 import React, { useState } from 'react';
 import { View, StyleSheet } from 'react-native';
 import { NativeRouter, Route } from 'react-router-native';

@@ -10,6 +10,7 @@ import {
 import Carousel from 'react-native-snap-carousel';
 import RecipeCard from '../components/RecipeCard';
 import Utils from '../utils';
+import { FindRecipeCard } from '../images/index';
 
 const Home = ({ history, userState }) => {
   const [featuredRecipes, setFeaturedRecipes] = useState([]);
@@ -38,13 +39,7 @@ const Home = ({ history, userState }) => {
         <TouchableOpacity
           style={styles.filterButton}
           onPress={() => history.push('/filter')}>
-          <Image
-            style={{ width: 280, height: 280 }}
-            source={{
-              uri:
-                'https://www.dinneratthezoo.com/wp-content/uploads/2018/05/frozen-fruit-smoothie-3.jpg',
-            }}
-          />
+          <Image style={{ width: 280, height: 280 }} source={FindRecipeCard} />;
         </TouchableOpacity>
       </View>
       <View>

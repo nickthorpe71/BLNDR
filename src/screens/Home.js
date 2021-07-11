@@ -39,7 +39,7 @@ const Home = ({ history, userState }) => {
           style={styles.filterButton}
           onPress={() => history.push('/filter')}>
           <Image
-            source={require('./FindRecipesCard.png')}
+            source={require('../images/UI/FindRecipesCard.png')}
             style={{ width: 280, height: 280 }}
           />
         </TouchableOpacity>

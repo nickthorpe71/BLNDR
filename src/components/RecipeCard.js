@@ -9,11 +9,8 @@ const RecipeCard = ({ history, userState, recipe }) => {
       style={styles.card}
       onPress={() => history.push('/recipe')}>
       <Image
+        source={require('../images/smoothies/BigBerrySmoothie.png')}
         style={styles.image}
-        source={{
-          uri:
-            'https://www.dinneratthezoo.com/wp-content/uploads/2018/05/frozen-fruit-smoothie-3.jpg',
-        }}
       />
       <View style={styles.textContainer}>
         <Text style={styles.title} numberOfLines={2}>
@@ -51,10 +48,12 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     height: 250,
     marginBottom: 10,
+    marginTop: 10,
     position: 'relative',
   },
   image: {
     resizeMode: 'cover',
+    width: 155,
     borderRadius: 10,
     borderBottomLeftRadius: 0,
     borderBottomRightRadius: 0,

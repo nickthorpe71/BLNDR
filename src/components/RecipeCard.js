@@ -1,17 +1,14 @@
 import React from 'react';
 import { View, Text, Image, StyleSheet, TouchableOpacity } from 'react-native';
-import { Icon } from 'react-native-elements';
 
 const RecipeCard = ({ history, userState, recipe }) => {
+  // const imagePath = require(`../images/smoothies/${recipe.img}`);
   return (
     <TouchableOpacity
       activeOpacity={1}
       style={styles.card}
       onPress={() => history.push('/recipe')}>
-      <Image
-        source={require('../images/smoothies/BigBerrySmoothie.png')}
-        style={styles.image}
-      />
+      <Image source={recipe.image} style={styles.image} />
       <View style={styles.textContainer}>
         <Text style={styles.title} numberOfLines={2}>
           {recipe.title}

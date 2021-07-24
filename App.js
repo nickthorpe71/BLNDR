@@ -10,7 +10,7 @@ import Recipe from './src/screens/Recipe';
 import Replace from './src/screens/Replace';
 import ConfirmReplace from './src/screens/ConfirmReplace';
 
-import curatedRecipes from './src/data/recipesWithNutrition.json';
+import curatedRecipes from './src/data/recipesComplete.json';
 
 // https://dev.to/nicopaulino/react-router-native-a-love-story-4m59
 

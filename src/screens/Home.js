@@ -10,6 +10,7 @@ import {
 import Carousel from 'react-native-snap-carousel';
 import RecipeCard from '../components/RecipeCard';
 import Utils from '../utils';
+import imageMap from '../imageMap';
 
 const Home = ({ history, userState }) => {
   const [featuredRecipes, setFeaturedRecipes] = useState([]);
@@ -22,7 +23,10 @@ const Home = ({ history, userState }) => {
       while (featured.includes(newRand)) {
         newRand = Utils.randNum(0, userState.curatedRecipes.length - 1);
       }
-      featured.push(userState.curatedRecipes[newRand]);
+      const newFeature = userState.curatedRecipes[newRand];
+      newFeature.image = imageMap[newFeature.img];
+
+      featured.push(newFeature);
     }
 
     setFeaturedRecipes(featured);

@@ -19,14 +19,20 @@ const Filter = ({ history, userState }) => {
         round
         searchIcon={{ size: 24 }}
         placeholder="Search"
-        lightTheme={true}
+        inputStyle={styles.greyBG}
+        inputContainerStyle={styles.greyBG}
+        containerStyle={styles.searchContainerStyle}
+        placeholderTextColor={'#g5g5g5'}
       />
       <Text style={styles.filterParagraph}>
         Use the search bar to find recipes or use the sections below to filter
         your search.
       </Text>
       <View>
-        <Button title="FIND RECIPE" onPress={() => history.push('/results')} />
+        <Button
+          title="Search Recipes"
+          onPress={() => history.push('/results')}
+        />
       </View>
       <View>
         <Button title="CATEGORIES" onPress={() => onClickTab(0)} />
@@ -43,15 +49,24 @@ const Filter = ({ history, userState }) => {
 
 const styles = StyleSheet.create({
   filterContainer: {
-    justifyContent: 'center',
+    justifyContent: 'space-between',
     flexDirection: 'column',
-    paddingTop: 30,
   },
-  tabs: {
+  tabContainer: {
     margin: 1,
   },
   tabContent: {
     paddingLeft: 0,
+  },
+  searchContainerStyle: {
+    backgroundColor: 'white',
+    padding: 10,
+    paddingTop: 0,
+    borderBottomColor: 'white',
+    borderTopColor: 'white',
+  },
+  greyBG: {
+    backgroundColor: '#efefef',
   },
 });
 

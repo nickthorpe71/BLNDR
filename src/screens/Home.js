@@ -18,7 +18,7 @@ const Home = ({ history, userState }) => {
   useEffect(() => {
     const featured = [];
 
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < 20; i++) {
       let newRand = Utils.randNum(0, userState.curatedRecipes.length - 1);
       while (featured.includes(newRand)) {
         newRand = Utils.randNum(0, userState.curatedRecipes.length - 1);
@@ -44,7 +44,7 @@ const Home = ({ history, userState }) => {
           onPress={() => history.push('/filter')}>
           <Image
             source={require('../images/UI/FindRecipesCard.png')}
-            style={{ width: 280, height: 280 }}
+            style={{ width: 370, height: 370 }}
           />
         </TouchableOpacity>
       </View>
@@ -71,9 +71,9 @@ const styles = StyleSheet.create({
   homeTitle: {
     color: '#000',
     fontSize: 26,
+    fontWeight: '200',
     marginLeft: 20,
-    marginBottom: 20,
-    marginTop: 20,
+    marginTop: 15,
   },
   homeParagraph: {
     color: '#000',
@@ -85,7 +85,6 @@ const styles = StyleSheet.create({
   },
   filterButton: {
     flex: 1,
-    marginTop: 50,
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: 'transparent',

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { View, StyleSheet } from 'react-native';
+import { View, StyleSheet, Image } from 'react-native';
 import { NativeRouter, Route } from 'react-router-native';
 
-import Header from './src/components/Header';
+import FooterNav from './src/components/FooterNav';
 import Home from './src/screens/Home';
 import Filter from './src/screens/Filter';
 import Results from './src/screens/Results';
@@ -27,6 +27,10 @@ const App = ({ history }) => {
 
   return (
     <View style={styles.container}>
+      <Image
+        source={require('./src/images/UI/LogoGroup.png')}
+        style={styles.logo}
+      />
       <NativeRouter>
         <Route
           exact
@@ -68,7 +72,7 @@ const App = ({ history }) => {
             />
           )}
         />
-        <Header goHome={() => history.push('/results')} />
+        <FooterNav goHome={() => history.push('/results')} />
       </NativeRouter>
     </View>
   );
@@ -78,6 +82,12 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     paddingTop: 35,
+    justifyContent: 'space-between',
+  },
+  logo: {
+    margin: 'auto',
+    padding: 0,
+    alignSelf: 'center',
   },
 });
 

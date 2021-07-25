@@ -18,18 +18,18 @@ const Header = props => {
     <View style={styles.header}>
       <Icon
         name="home"
-        color="#ff2b2b"
+        color="#fb5636"
         onPress={goHome}
         iconStyle={styles.icon}
       />
       <Icon
         name="search"
-        color="#ff2b2b"
+        color="#fb5636"
         onPress={goToFilter}
         iconStyle={styles.icon}
       />
-      <Icon name="favorite-border" color="#ff2b2b" iconStyle={styles.icon} />
-      <Icon name="settings" color="#ff2b2b" iconStyle={styles.icon} />
+      <Icon name="favorite-border" color="#fb5636" iconStyle={styles.icon} />
+      <Icon name="settings" color="#fb5636" iconStyle={styles.icon} />
     </View>
   );
 };

@@ -10,6 +10,10 @@ const Header = props => {
     history.push('/');
   };
 
+  const goToFilter = () => {
+    history.push('/filter');
+  };
+
   return (
     <View style={styles.header}>
       <Icon
@@ -18,7 +22,12 @@ const Header = props => {
         onPress={goHome}
         iconStyle={styles.icon}
       />
-      <Icon name="search" color="#ff2b2b" iconStyle={styles.icon} />
+      <Icon
+        name="search"
+        color="#ff2b2b"
+        onPress={goToFilter}
+        iconStyle={styles.icon}
+      />
       <Icon name="favorite-border" color="#ff2b2b" iconStyle={styles.icon} />
       <Icon name="settings" color="#ff2b2b" iconStyle={styles.icon} />
     </View>

@@ -7,12 +7,8 @@ import Home from './src/screens/Home';
 import Filter from './src/screens/Filter';
 import Results from './src/screens/Results';
 import Recipe from './src/screens/Recipe';
-import Replace from './src/screens/Replace';
-import ConfirmReplace from './src/screens/ConfirmReplace';
 
 import curatedRecipes from './src/data/recipesComplete.json';
-
-// https://dev.to/nicopaulino/react-router-native-a-love-story-4m59
 
 const App = ({ history }) => {
   const [userState, setUserState] = useState({
@@ -66,28 +62,6 @@ const App = ({ history }) => {
           path="/recipe"
           render={props => (
             <Recipe
-              {...props}
-              updateState={updateState}
-              userState={userState}
-            />
-          )}
-        />
-        <Route
-          exact
-          path="/replace"
-          render={props => (
-            <Replace
-              {...props}
-              updateState={updateState}
-              userState={userState}
-            />
-          )}
-        />
-        <Route
-          exact
-          path="/confirm"
-          render={props => (
-            <ConfirmReplace
               {...props}
               updateState={updateState}
               userState={userState}

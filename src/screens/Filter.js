@@ -9,7 +9,7 @@ const Filter = ({ history, userState }) => {
     console.log(activeTab);
   }, [activeTab]);
 
-  const onClickTab = tabIndex => {
+  const onClickTab = (event, tabIndex) => {
     setActiveTab(tabIndex);
   };
 
@@ -22,28 +22,21 @@ const Filter = ({ history, userState }) => {
         lightTheme={true}
       />
       <Text style={styles.filterParagraph}>
-        You can include ingredients listed here, or find recipes with only these
-        ingredients
+        Use the search bar to find recipes or use the sections below to filter
+        your search.
       </Text>
       <View>
         <Button title="FIND RECIPE" onPress={() => history.push('/results')} />
       </View>
-      <Tab value={activeTab} onChange={setActiveTab}>
-        <Tab.Item title="recent" />
-        <Tab.Item title="favorite" />
-        <Tab.Item title="cart" />
-      </Tab>
-      <TabView value={activeTab} onChange={setActiveTab}>
-        <TabView.Item style={{ backgroundColor: 'red', width: '100%' }}>
-          <Text h1>Recent</Text>
-        </TabView.Item>
-        <TabView.Item style={{ backgroundColor: 'blue', width: '100%' }}>
-          <Text h1>Favorite</Text>
-        </TabView.Item>
-        <TabView.Item style={{ backgroundColor: 'green', width: '100%' }}>
-          <Text h1>Cart</Text>
-        </TabView.Item>
-      </TabView>
+      <View>
+        <Button title="CATEGORIES" onPress={() => onClickTab(0)} />
+        <Button title="INGREDIENTS" onPress={() => onClickTab(1)} />
+        <Button title="DIETARY OPTIONS" onPress={() => onClickTab(2)} />
+        <Button title="RESTRICTIONS" onPress={() => onClickTab(3)} />
+      </View>
+      <View>
+        <Text>{activeTab}</Text>
+      </View>
     </View>
   );
 };

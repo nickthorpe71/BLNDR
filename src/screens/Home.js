@@ -44,7 +44,7 @@ const Home = ({ history, userState }) => {
           onPress={() => history.push('/filter')}>
           <Image
             source={require('../images/UI/FindRecipesCard.png')}
-            style={{ width: 370, height: 370 }}
+            style={{ width: 370, height: 310 }}
           />
         </TouchableOpacity>
       </View>
@@ -72,6 +72,7 @@ const styles = StyleSheet.create({
     fontSize: 26,
     fontWeight: '200',
     marginLeft: 20,
+    marginTop: 10,
   },
   homeParagraph: {
     color: '#000',

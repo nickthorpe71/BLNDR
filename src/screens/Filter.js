@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, Pressable } from 'react-native';
-import { SearchBar, Tab, TabView } from 'react-native-elements';
+import { SearchBar } from 'react-native-elements';
+import CategoriesFilter from '../components/CategoriesFilter';
 
-const Filter = ({ history, userState }) => {
+const Filter = ({ history, userState, updateState }) => {
   const [activeTab, setActiveTab] = useState(0);
 
   useEffect(() => {
@@ -74,7 +75,10 @@ const Filter = ({ history, userState }) => {
           </Pressable>
         </View>
         <View>
-          <Text>{activeTab}</Text>
+          {/* <Text>{activeTab}</Text> */}
+          {activeTab === 0 && (
+            <CategoriesFilter userState={userState} updateState={updateState} />
+          )}
         </View>
       </View>
     </View>
@@ -123,7 +127,7 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     elevation: 3,
     backgroundColor: '#fb5636',
-    width: 152,
+    width: 160,
     height: 45,
   },
   searchButtonText: {

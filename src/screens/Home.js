@@ -66,14 +66,12 @@ const styles = StyleSheet.create({
   homeContainer: {
     backgroundColor: '#fff',
     flex: 1,
-    // justifyContent: 'space-evenly',
   },
   homeTitle: {
     color: '#000',
     fontSize: 26,
     fontWeight: '200',
     marginLeft: 20,
-    marginTop: 15,
   },
   homeParagraph: {
     color: '#000',

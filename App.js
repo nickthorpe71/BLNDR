@@ -15,14 +15,17 @@ const App = ({ history }) => {
     recipeResults: null,
     curatedRecipes: curatedRecipes,
     selectedRecipe: null,
+    searchMain: '',
+    searchCategoryFilter: '',
+    searchIngredientIncludeFilter: '',
+    searchIngredientExcludeFilter: '',
+    searchDietaryOptionsFilter: '',
   });
 
-  const updateState = {
-    setRecipeResults: updatedRecipes => {
-      const updatedState = userState;
-      updatedState.recipeResults = updatedRecipes;
-      setUserState(updatedState);
-    },
+  const updateState = (key, updatedValue) => {
+    const updatedState = userState;
+    updatedState[key] = updatedValue;
+    setUserState(updatedState);
   };
 
   return (

@@ -28,10 +28,19 @@ const CategoriesFilter = ({ userState, updateState }) => {
   const [decadentSelected, setDecadentSelected] = useState(false);
 
   const clearSavedCategories = () => {
+    setSaved(false);
     updateState('searchCategoryFilter', []);
+    setSelected([]);
+    setHealthySelected(false);
+    setSimpleSelected(false);
+    setGreensSelected(false);
+    setBoosterSelected(false);
+    setProteinSelected(false);
+    setDecadentSelected(false);
   };
 
   const updateSelected = category => {
+    setSaved(false);
     const newSelected = selected;
     let newButtonState = false;
 

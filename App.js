@@ -9,17 +9,19 @@ import Results from './src/screens/Results';
 import Recipe from './src/screens/Recipe';
 
 import curatedRecipes from './src/data/recipesComplete.json';
+import ingredients from './src/data/ingredientsWithNutrition.json';
 
 const App = ({ history }) => {
   const [userState, setUserState] = useState({
     recipeResults: null,
     curatedRecipes: curatedRecipes,
+    ingredients: ingredients,
     selectedRecipe: null,
     searchMain: '',
-    searchCategoryFilter: '',
-    searchIngredientIncludeFilter: '',
-    searchIngredientExcludeFilter: '',
-    searchDietaryOptionsFilter: '',
+    searchCategoryFilter: [],
+    searchIngredientIncludeFilter: [],
+    searchIngredientExcludeFilter: [],
+    searchDietaryOptionsFilter: [],
   });
 
   const updateState = (key, updatedValue) => {

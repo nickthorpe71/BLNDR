@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, StyleSheet, Pressable, Image } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native';
 import CheckBox from 'react-native-check-box';
 
 const iconImages = {
@@ -20,12 +20,24 @@ const iconImages = {
 const CategoriesFilter = ({ userState, updateState }) => {
   const [saved, setSaved] = useState(false);
   const [selected, setSelected] = useState([]);
-  const [healthySelected, setHealthySelected] = useState(false);
-  const [simpleSelected, setSimpleSelected] = useState(false);
-  const [greensSelected, setGreensSelected] = useState(false);
-  const [boosterSelected, setBoosterSelected] = useState(false);
-  const [proteinSelected, setProteinSelected] = useState(false);
-  const [decadentSelected, setDecadentSelected] = useState(false);
+  const [healthySelected, setHealthySelected] = useState(
+    userState.searchCategoryFilter.includes('Healthy'),
+  );
+  const [simpleSelected, setSimpleSelected] = useState(
+    userState.searchCategoryFilter.includes('Simple'),
+  );
+  const [greensSelected, setGreensSelected] = useState(
+    userState.searchCategoryFilter.includes('Greens'),
+  );
+  const [boosterSelected, setBoosterSelected] = useState(
+    userState.searchCategoryFilter.includes('Booster'),
+  );
+  const [proteinSelected, setProteinSelected] = useState(
+    userState.searchCategoryFilter.includes('High Protein'),
+  );
+  const [decadentSelected, setDecadentSelected] = useState(
+    userState.searchCategoryFilter.includes('Decadent'),
+  );
 
   const clearSavedCategories = () => {
     setSaved(false);
@@ -47,7 +59,6 @@ const CategoriesFilter = ({ userState, updateState }) => {
     if (!newSelected.includes(category)) {
       newSelected.push(category);
       setSelected(newSelected);
-      updateState('searchCategoryFilter', newSelected);
       newButtonState = true;
     } else {
       const index = newSelected.indexOf(category);
@@ -55,6 +66,8 @@ const CategoriesFilter = ({ userState, updateState }) => {
         newSelected.splice(index, 1);
       }
     }
+
+    updateState('searchCategoryFilter', newSelected);
 
     switch (category) {
       case 'Healthy':
@@ -81,9 +94,16 @@ const CategoriesFilter = ({ userState, updateState }) => {
     }
   };
 
-  const renderCategoryButton = (title, subtext, image, styleBool, width, height) => {
+  const renderCategoryButton = (
+    title,
+    subtext,
+    image,
+    styleBool,
+    width,
+    height,
+  ) => {
     return (
-      <Pressable
+      <TouchableOpacity
         style={
           styleBool
             ? styles.categoryButtonActive
@@ -98,7 +118,7 @@ const CategoriesFilter = ({ userState, updateState }) => {
           <Text style={styles.categoryButtonText}>{title}</Text>
           <Text style={styles.categoryButtonSubtext}>{subtext}</Text>
         </View>
-      </Pressable>
+      </TouchableOpacity>
     );
   };
 
@@ -114,9 +134,11 @@ const CategoriesFilter = ({ userState, updateState }) => {
           isChecked={saved}
           rightText={'Save Selection'}
         />
-        <Pressable style={styles.clearButton} onPress={clearSavedCategories}>
+        <TouchableOpacity
+          style={styles.clearButton}
+          onPress={clearSavedCategories}>
           <Text style={styles.clearButtonText}>{'Clear All'}</Text>
-        </Pressable>
+        </TouchableOpacity>
       </View>
       <View style={styles.bottom}>
         <View>

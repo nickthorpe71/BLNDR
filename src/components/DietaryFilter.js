@@ -9,18 +9,13 @@ import {
 import CheckBox from 'react-native-check-box';
 import FilterButton from '../components/FilterButton';
 
-const IngredientsFilter = ({
-  stateKey,
-  forceRemount,
-  userState,
-  updateState,
-}) => {
+const DietaryFilter = ({ forceRemount, userState, updateState }) => {
   const [saved, setSaved] = useState(false);
   const [selected, setSelected] = useState([]);
 
   const clearSavedIngredients = () => {
     setSaved(false);
-    updateState(stateKey, []);
+    updateState('searchDietaryOptionsFilter', []);
     setSelected([]);
     forceRemount();
   };
@@ -39,36 +34,25 @@ const IngredientsFilter = ({
       }
     }
 
-    updateState(stateKey, newSelected);
+    updateState('searchDietaryOptionsFilter', newSelected);
   };
 
-  const renderSection = section => {
-    const results = userState.ingredients
-      .filter(ingredient => ingredient.tags.includes(section))
-      .sort();
+  const renderDietary = () => {
+    const options = [
+      'Vegan',
+      'Vegetarian',
+      'Gluten Free',
+      'Keto',
+      'Whole30',
+      'Paleo',
+    ];
 
-    return results.map(result => {
+    return options.map(option => {
       return (
         <FilterButton
-          key={result.query}
-          initialState={userState[stateKey].includes(result.name)}
-          label={result.name}
-          updateSelected={updateSelected}
-        />
-      );
-    });
-  };
-
-  const renderBases = () => {
-    const results = userState.ingredients
-      .filter(ingredient => ingredient.layer === 1)
-      .sort();
-
-    return results.map(result => {
-      return (
-        <FilterButton
-          key={result.query}
-          label={result.name}
+          key={option}
+          initialState={userState.searchDietaryOptionsFilter.includes(option)}
+          label={option}
           updateSelected={updateSelected}
         />
       );
@@ -95,18 +79,7 @@ const IngredientsFilter = ({
       </View>
       <View style={styles.bottom}>
         <ScrollView style={styles.scroll}>
-          <Text style={styles.sectionHeading}>Fruits</Text>
-          <View style={styles.buttonOuterLayout}>{renderSection('fruit')}</View>
-          <Text style={styles.sectionHeading}>Vegetables</Text>
-          <View style={styles.buttonOuterLayout}>
-            {renderSection('veggie')}
-          </View>
-          <Text style={styles.sectionHeading}>Liquids & Bases</Text>
-          <View style={styles.buttonOuterLayout}>{renderBases()}</View>
-          <Text style={styles.sectionHeading}>Boosters</Text>
-          <View style={styles.buttonOuterLayout}>
-            {renderSection('booster')}
-          </View>
+          <View style={styles.buttonOuterLayout}>{renderDietary()}</View>
         </ScrollView>
       </View>
     </View>
@@ -167,4 +140,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default IngredientsFilter;
+export default DietaryFilter;

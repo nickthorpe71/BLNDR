@@ -1,17 +1,33 @@
-import React, { useState, useEffect } from 'react';
-import { View, Text, StyleSheet, Pressable } from 'react-native';
+import React, { useState } from 'react';
+import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { SearchBar } from 'react-native-elements';
 import CategoriesFilter from '../components/CategoriesFilter';
+import IngredientsFilter from '../components/IngredientsFilter';
+import DietaryFilter from '../components/DietaryFilter';
 
-const Filter = ({ history, userState, updateState }) => {
+const Filter = props => {
   const [activeTab, setActiveTab] = useState(0);
-
-  useEffect(() => {
-    console.log(activeTab);
-  }, [activeTab]);
+  const [tabKey1, setTabKey1] = useState(0);
+  const [tabKey2, setTabKey2] = useState(1);
+  const [tabKey3, setTabKey3] = useState(2);
+  const [tabKey4, setTabKey4] = useState(3);
+  const { history, userState, updateState } = props;
 
   const onClickTab = tabIndex => {
     setActiveTab(tabIndex);
+  };
+
+  const wipeSearch = () => {
+    updateState('searchMain', []);
+    updateState('searchCategoryFilter', []);
+    updateState('searchIngredientIncludeFilter', []);
+    updateState('searchIngredientExcludeFilter', []);
+    updateState('searchDietaryOptionsFilter', []);
+
+    setTabKey1(tabKey1 + 1);
+    setTabKey2(tabKey2 + 1);
+    setTabKey3(tabKey3 + 1);
+    setTabKey4(tabKey4 + 1);
   };
 
   return (
@@ -32,52 +48,84 @@ const Filter = ({ history, userState, updateState }) => {
         </Text>
       </View>
       <View style={styles.mid}>
-        <Pressable
+        <TouchableOpacity
           style={styles.searchButton}
           onPress={() => history.push('/results')}>
           <Text style={styles.searchButtonText}>{'Search Recipes'}</Text>
-        </Pressable>
-        <Pressable
-          style={styles.clearButton}
-          onPress={() => history.push('/results')}>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.clearButton} onPress={wipeSearch}>
           <Text style={styles.clearButtonText}>{'Clear All Selections'}</Text>
-        </Pressable>
+        </TouchableOpacity>
       </View>
       <View style={styles.bottom}>
         <View style={styles.tabContainer}>
-          <Pressable
+          <TouchableOpacity
             style={
               activeTab === 0 ? styles.tabButtonSelected : styles.tabButton
             }
             onPress={() => onClickTab(0)}>
             <Text style={styles.tabButtonText}>{'CATEGORIES'}</Text>
-          </Pressable>
-          <Pressable
+          </TouchableOpacity>
+          <TouchableOpacity
             style={
               activeTab === 1 ? styles.tabButtonSelected : styles.tabButton
             }
             onPress={() => onClickTab(1)}>
             <Text style={styles.tabButtonText}>{'INGREDIENTS'}</Text>
-          </Pressable>
-          <Pressable
+          </TouchableOpacity>
+          <TouchableOpacity
             style={
               activeTab === 2 ? styles.tabButtonSelected : styles.tabButton
             }
             onPress={() => onClickTab(2)}>
             <Text style={styles.tabButtonText}>{'DIETARY OPTIONS'}</Text>
-          </Pressable>
-          <Pressable
+          </TouchableOpacity>
+          <TouchableOpacity
             style={
               activeTab === 3 ? styles.tabButtonSelected : styles.tabButton
             }
             onPress={() => onClickTab(3)}>
             <Text style={styles.tabButtonText}>{'RESTRICTIONS'}</Text>
-          </Pressable>
+          </TouchableOpacity>
         </View>
         <View>
           {/* <Text>{activeTab}</Text> */}
           {activeTab === 0 && (
-            <CategoriesFilter userState={userState} updateState={updateState} />
+            <CategoriesFilter
+              forceRemount={() => setTabKey1(tabKey1 + 1)}
+              key={tabKey1}
+              userState={userState}
+              updateState={updateState}
+            />
+          )}
+          {activeTab === 1 && (
+            <IngredientsFilter
+              key={tabKey2}
+              {...props}
+              stateKey={'searchIngredientIncludeFilter'}
+              forceRemount={() => setTabKey2(tabKey2 + 1)}
+              userState={userState}
+              updateState={updateState}
+            />
+          )}
+          {activeTab === 2 && (
+            <DietaryFilter
+              {...props}
+              forceRemount={() => setTabKey3(tabKey3 + 1)}
+              key={tabKey3}
+              userState={userState}
+              updateState={updateState}
+            />
+          )}
+          {activeTab === 3 && (
+            <IngredientsFilter
+              key={tabKey4}
+              {...props}
+              stateKey={'searchIngredientExcludeFilter'}
+              forceRemount={() => setTabKey4(tabKey4 + 1)}
+              userState={userState}
+              updateState={updateState}
+            />
           )}
         </View>
       </View>

@@ -4,6 +4,7 @@ import { SearchBar } from 'react-native-elements';
 import CategoriesFilter from '../components/CategoriesFilter';
 import IngredientsFilter from '../components/IngredientsFilter';
 import DietaryFilter from '../components/DietaryFilter';
+import utils from '../utils';
 
 const Filter = props => {
   const [activeTab, setActiveTab] = useState(0);
@@ -34,16 +35,24 @@ const Filter = props => {
 
   const submitSearch = () => {
     updateState('searchMain', searchText);
-    updateState('recipeResults', [
+    // TODO: need to remove duplicates from results
+
+    const results = [
+      ...filterIncluded(),
       ...filteredBySearchText(),
       ...filteredByCategory(),
-    ]);
+      ...filterDietary(),
+    ]
+      .filter(
+        recipe =>
+          !hasIngredient(recipe, userState.searchIngredientExcludeFilter),
+      )
+      .filter((item, pos, self) => {
+        return self.indexOf(item) == pos;
+      });
 
-    // has category as tag add
-    // include
-    // check how many ingredients that are selected this includes
-    // if  > 70% add
-    // if has the dietary option add
+    updateState('recipeResults', results);
+
     // loop through results and any that include ingredients in exclude remove
 
     history.push('/results');
@@ -76,12 +85,12 @@ const Filter = props => {
   const filteredByCategory = () => {
     const matchClearance = 0.7;
     let results = [];
-    userState.curatedRecipes.forEach(recipe => {
+
+    utils.shuffleArray(userState.curatedRecipes).forEach(recipe => {
       let match = 0;
-      switch (userState.searchCategoryFilter) {
+      switch (String(userState.searchCategoryFilter)) {
         case 'Healthy':
-          console.log('test');
-          if (recipe.Category.toLower() === 'healthy') {
+          if (recipe.Category.toLowerCase() === 'healthy') {
             results.push(recipe);
             break;
           }
@@ -111,7 +120,7 @@ const Filter = props => {
             match =
               numIngredientsWithTag(recipe, tag) /
               recipe.autoIngredients.length;
-            if (match >= matchClearance) {
+            if (match >= 0.5) {
               results.push(recipe);
             }
           });
@@ -130,7 +139,7 @@ const Filter = props => {
           }
           break;
         case 'Decadent':
-          if (recipe.Category.toLower() === 'decadent') {
+          if (recipe.Category.toLowerCase() === 'decadent') {
             results.push(recipe);
             break;
           }
@@ -148,6 +157,79 @@ const Filter = props => {
       }
     });
     return results;
+  };
+
+  const filterDietary = () => {
+    let results = [];
+
+    utils.shuffleArray(userState.curatedRecipes).forEach(recipe => {
+      let match =
+        numIngredientsWithTag(
+          recipe,
+          String(userState.searchDietaryOptionsFilter).toLowerCase(),
+        ) / recipe.autoIngredients.length;
+      if (match >= 0.9) {
+        results.push(recipe);
+      }
+    });
+    return results;
+  };
+
+  const filterIncluded = () => {
+    let top = [];
+    let mid = [];
+    let bottom = [];
+
+    utils.shuffleArray(userState.curatedRecipes).forEach(recipe => {
+      const numIngredients = userState.searchIngredientIncludeFilter.length;
+      let numMatchedIngredients = 0;
+
+      userState.searchIngredientIncludeFilter.forEach(selectedIngredient => {
+        recipe.autoIngredients.forEach(ingredient => {
+          if (
+            selectedIngredient.toLowerCase() === ingredient.name.toLowerCase()
+          ) {
+            numMatchedIngredients++;
+            bottom.push(recipe);
+          }
+        });
+      });
+
+      if (numMatchedIngredients / numIngredients >= 1) {
+        top.push(recipe);
+      }
+      if (numMatchedIngredients / numIngredients >= 0.5) {
+        mid.push(recipe);
+      }
+    });
+
+    const results = {};
+
+    const allRecipes = [...top, ...mid, ...bottom];
+
+    allRecipes.forEach(recipe => {
+      if (!Object.keys(results).includes(recipe.title)) {
+        results[recipe.title] = recipe;
+      }
+    });
+
+    return Object.values(results);
+  };
+
+  const hasIngredient = (recipe, ingredients) => {
+    let has = false;
+    recipe.autoIngredients.forEach(autoIngredient => {
+      userState.ingredients.forEach(stockIngredient => {
+        if (stockIngredient.name === autoIngredient.name) {
+          ingredients.forEach(ingredient => {
+            if (ingredient.name === ingredient) {
+              has = true;
+            }
+          });
+        }
+      });
+    });
+    return has;
   };
 
   const numIngredientsWithTag = (recipe, tag) => {
@@ -223,7 +305,6 @@ const Filter = props => {
           </TouchableOpacity>
         </View>
         <View>
-          {/* <Text>{activeTab}</Text> */}
           {activeTab === 0 && (
             <CategoriesFilter
               forceRemount={() => setTabKey1(tabKey1 + 1)}

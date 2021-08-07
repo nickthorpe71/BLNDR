@@ -13,7 +13,7 @@ import ingredients from './src/data/ingredientsWithNutrition.json';
 
 const App = ({ history }) => {
   const [userState, setUserState] = useState({
-    recipeResults: null,
+    recipeResults: [],
     curatedRecipes: curatedRecipes,
     ingredients: ingredients,
     selectedRecipe: null,

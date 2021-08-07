@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native';
 import Carousel from 'react-native-snap-carousel';
 
-const Results = ({ history }) => {
+const Results = ({ history, userState, updateState }) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [carouselItems, setCarouselItems] = useState([
     {
@@ -50,44 +50,35 @@ const Results = ({ history }) => {
         <Text style={styles.resultsParagraph}>
           Here's what we found for you
         </Text>
+        <Text style={styles.resultsParagraph}>
+          Query:
+          {userState.searchMain}
+          {userState.searchCategoryFilter}
+          {userState.searchIngredientIncludeFilter}
+          {userState.searchIngredientExcludeFilter}
+          {userState.searchDietaryOptionsFilter}
+        </Text>
+        <Text style={styles.resultsParagraph}>
+          Results:
+          {userState.recipeResults.map(result => (
+            <Text>{result.title}</Text>
+          ))}
+        </Text>
       </View>
       <View>
         <Text style={styles.resultsSubTitle}>Category</Text>
-        <Carousel
+        {/* <Carousel
           containerCustomStyle={styles.carousel}
           layout={'default'}
           enableSnap={true}
-          ref={ref => (this.carousel = ref)}
+          ref={ref => (carousel = ref)}
           data={carouselItems}
           sliderWidth={400}
           itemWidth={110}
           renderItem={renderCarouselItem}
           onSnapToItem={index => setActiveIndex(index)}
-        />
+        /> */}
         <Text style={styles.resultsSubTitle}>Category</Text>
-        <Carousel
-          containerCustomStyle={styles.carousel}
-          layout={'default'}
-          enableSnap={true}
-          ref={ref => (this.carousel = ref)}
-          data={carouselItems}
-          sliderWidth={400}
-          itemWidth={110}
-          renderItem={renderCarouselItem}
-          onSnapToItem={index => setActiveIndex(index)}
-        />
-        <Text style={styles.resultsSubTitle}>Category</Text>
-        <Carousel
-          containerCustomStyle={styles.carousel}
-          layout={'default'}
-          enableSnap={true}
-          ref={ref => (this.carousel = ref)}
-          data={carouselItems}
-          sliderWidth={400}
-          itemWidth={110}
-          renderItem={renderCarouselItem}
-          onSnapToItem={index => setActiveIndex(index)}
-        />
       </View>
     </View>
   );

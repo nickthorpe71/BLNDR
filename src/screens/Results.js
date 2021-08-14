@@ -1,124 +1,108 @@
-import React, { useState } from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native';
-import Carousel from 'react-native-snap-carousel';
+import React from 'react';
+import {
+  View,
+  Text,
+  StyleSheet,
+  TouchableOpacity,
+  ScrollView,
+} from 'react-native';
+import RecipeCard from '../components/RecipeCard';
 
 const Results = ({ history, userState, updateState }) => {
-  const [activeIndex, setActiveIndex] = useState(0);
-  const [carouselItems, setCarouselItems] = useState([
-    {
-      title: 'Item 1',
-      text: 'Text 1',
-    },
-    {
-      title: 'Item 2',
-      text: 'Text 2',
-    },
-    {
-      title: 'Item 3',
-      text: 'Text 3',
-    },
-    {
-      title: 'Item 4',
-      text: 'Text 4',
-    },
-    {
-      title: 'Item 5',
-      text: 'Text 5',
-    },
-  ]);
+  const renderResults = () => {
+    const imageStyle = {
+      resizeMode: 'cover',
+      width: 165,
+      borderRadius: 10,
+      borderBottomLeftRadius: 0,
+      borderBottomRightRadius: 0,
+      flex: 3,
+    };
 
-  const renderCarouselItem = ({ item, index }) => {
-    return (
-      <TouchableOpacity
-        style={styles.carouselItem}
-        onPress={() => history.push('/recipe')}>
-        <Image
-          style={{ width: 80, height: 130 }}
-          source={{
-            uri:
-              'https://www.dinneratthezoo.com/wp-content/uploads/2018/05/frozen-fruit-smoothie-3.jpg',
-          }}
+    return userState.recipeResults.map((recipe, index) => {
+      const margin = index % 2 === 0 ? 20 : 0;
+
+      const cardStyle = {
+        shadowColor: 'black',
+        shadowOffset: { width: 0, height: 2 },
+        shadowRadius: 6,
+        shadowOpacity: 0.26,
+        backgroundColor: 'white',
+        borderRadius: 10,
+        display: 'flex',
+        flexDirection: 'column',
+        height: 250,
+        width: 165,
+        marginBottom: 10,
+        marginTop: 10,
+        marginRight: margin,
+        position: 'relative',
+      };
+
+      return (
+        <RecipeCard
+          key={index}
+          history={history}
+          userState={userState}
+          updateState={updateState}
+          recipe={recipe}
+          cardStyle={cardStyle}
+          imageStyle={imageStyle}
         />
-      </TouchableOpacity>
-    );
+      );
+    });
   };
 
   return (
     <View style={styles.resultsContainer}>
       <View>
-        <Text style={styles.resultsTitle}>RESULTS</Text>
-        <Text style={styles.resultsParagraph}>
-          Here's what we found for you
-        </Text>
-        <Text style={styles.resultsParagraph}>
-          Query:
-          {userState.searchMain}
-          {userState.searchCategoryFilter}
-          {userState.searchIngredientIncludeFilter}
-          {userState.searchIngredientExcludeFilter}
-          {userState.searchDietaryOptionsFilter}
-        </Text>
-        <Text style={styles.resultsParagraph}>
-          Results:
-          {userState.recipeResults.map(result => (
-            <Text>{result.title}</Text>
-          ))}
-        </Text>
+        <TouchableOpacity
+          style={styles.clearButton}
+          onPress={() => history.push('/filter')}>
+          <Text style={styles.clearButtonText}>{'Back To Search'}</Text>
+        </TouchableOpacity>
       </View>
-      <View>
-        <Text style={styles.resultsSubTitle}>Category</Text>
-        {/* <Carousel
-          containerCustomStyle={styles.carousel}
-          layout={'default'}
-          enableSnap={true}
-          ref={ref => (carousel = ref)}
-          data={carouselItems}
-          sliderWidth={400}
-          itemWidth={110}
-          renderItem={renderCarouselItem}
-          onSnapToItem={index => setActiveIndex(index)}
-        /> */}
-        <Text style={styles.resultsSubTitle}>Category</Text>
-      </View>
+      <ScrollView style={styles.scrollView}>
+        <View style={styles.scrollInner}>{renderResults()}</View>
+      </ScrollView>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
   resultsContainer: {
+    display: 'flex',
     backgroundColor: '#fff',
     flex: 1,
     justifyContent: 'space-evenly',
   },
-  resultsTitle: {
-    color: '#000',
-    fontSize: 30,
-    textAlign: 'center',
+  clearButton: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: 10,
+    paddingHorizontal: 5,
+    paddingTop: 30,
+    backgroundColor: '#fff',
+    width: 160,
   },
-  resultsSubTitle: {
-    color: '#000',
-    fontSize: 21,
+  clearButtonText: {
+    fontSize: 16,
     fontWeight: 'bold',
-    marginBottom: 10,
-    marginLeft: 20,
+    textDecorationLine: 'underline',
+    color: 'black',
   },
-  resultsParagraph: {
-    color: '#000',
-    fontSize: 14,
-    textAlign: 'center',
-    maxWidth: '90%',
-    alignSelf: 'center',
-    marginBottom: 15,
+  scrollView: {
+    paddingHorizontal: 20,
+    paddingTop: 10,
+    flex: 1,
+    width: '100%',
   },
-  carouselItem: {
-    backgroundColor: '#ddd',
-    borderRadius: 5,
-    height: 150,
-    width: 100,
-    padding: 10,
-  },
-  carousel: {
-    marginBottom: 10,
+  scrollInner: {
+    flex: 1,
+    flexDirection: 'row',
+    // justifyContent: 'center',
+    // alignItems: 'flex-start',
+    flexWrap: 'wrap',
   },
 });
 

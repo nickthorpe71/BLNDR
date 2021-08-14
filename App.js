@@ -10,11 +10,15 @@ import Recipe from './src/screens/Recipe';
 
 import curatedRecipes from './src/data/recipesComplete.json';
 import ingredients from './src/data/ingredientsWithNutrition.json';
+import imageMap from './src/imageMap';
 
 const App = ({ history }) => {
   const [userState, setUserState] = useState({
     recipeResults: [],
-    curatedRecipes: curatedRecipes,
+    curatedRecipes: curatedRecipes.map(recipe => {
+      recipe.image = imageMap[recipe.img];
+      return recipe;
+    }),
     ingredients: ingredients,
     selectedRecipe: null,
     searchMain: '',

@@ -10,9 +10,8 @@ import {
 import Carousel from 'react-native-snap-carousel';
 import RecipeCard from '../components/RecipeCard';
 import Utils from '../utils';
-import imageMap from '../imageMap';
 
-const Home = ({ history, userState }) => {
+const Home = ({ history, userState, updateState }) => {
   const [featuredRecipes, setFeaturedRecipes] = useState([]);
 
   useEffect(() => {
@@ -24,7 +23,6 @@ const Home = ({ history, userState }) => {
         newRand = Utils.randNum(0, userState.curatedRecipes.length - 1);
       }
       const newFeature = userState.curatedRecipes[newRand];
-      newFeature.image = imageMap[newFeature.img];
 
       featured.push(newFeature);
     }
@@ -33,7 +31,51 @@ const Home = ({ history, userState }) => {
   }, [userState.curatedRecipes]);
 
   const renderCarouselItem = ({ item, index }) => {
-    return <RecipeCard history={history} userState={userState} recipe={item} />;
+    const cardStyle = {
+      shadowColor: 'black',
+      shadowOffset: { width: 0, height: 2 },
+      shadowRadius: 6,
+      shadowOpacity: 0.26,
+      backgroundColor: 'white',
+      borderRadius: 10,
+      display: 'flex',
+      flexDirection: 'column',
+      height: 250,
+      width: 155,
+      marginBottom: 10,
+      marginTop: 10,
+      position: 'relative',
+    };
+    const imageStyle = {
+      resizeMode: 'cover',
+      width: 155,
+      borderRadius: 10,
+      borderBottomLeftRadius: 0,
+      borderBottomRightRadius: 0,
+      flex: 3,
+    };
+
+    return (
+      <RecipeCard
+        history={history}
+        userState={userState}
+        updateState={updateState}
+        recipe={item}
+        cardStyle={cardStyle}
+        imageStyle={imageStyle}
+      />
+    );
+  };
+
+  const pressFindRecipes = () => {
+    updateState('searchMain', '');
+    updateState('searchCategoryFilter', []);
+    updateState('searchIngredientIncludeFilter', []);
+    updateState('searchIngredientExcludeFilter', []);
+    updateState('searchDietaryOptionsFilter', []);
+    updateState('recipeResults', []);
+
+    history.push('/filter');
   };
 
   return (
@@ -41,7 +83,7 @@ const Home = ({ history, userState }) => {
       <View>
         <TouchableOpacity
           style={styles.filterButton}
-          onPress={() => history.push('/filter')}>
+          onPress={pressFindRecipes}>
           <Image
             source={require('../images/UI/FindRecipesCard.png')}
             style={{ width: 370, height: 310 }}

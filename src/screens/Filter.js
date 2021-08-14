@@ -35,7 +35,6 @@ const Filter = props => {
 
   const submitSearch = () => {
     updateState('searchMain', searchText);
-    // TODO: need to remove duplicates from results
 
     const results = [
       ...filterIncluded(),
@@ -52,8 +51,6 @@ const Filter = props => {
       });
 
     updateState('recipeResults', results);
-
-    // loop through results and any that include ingredients in exclude remove
 
     history.push('/results');
   };

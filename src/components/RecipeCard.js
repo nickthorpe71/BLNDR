@@ -1,14 +1,22 @@
 import React from 'react';
 import { View, Text, Image, StyleSheet, TouchableOpacity } from 'react-native';
 
-const RecipeCard = ({ history, userState, recipe }) => {
-  // const imagePath = require(`../images/smoothies/${recipe.img}`);
+const RecipeCard = ({
+  history,
+  userState,
+  updateState,
+  recipe,
+  cardStyle,
+  imageStyle,
+}) => {
+  const onPress = () => {
+    updateState('selectedRecipe', recipe);
+    history.push('/recipe');
+  };
+
   return (
-    <TouchableOpacity
-      activeOpacity={1}
-      style={styles.card}
-      onPress={() => history.push('/recipe')}>
-      <Image source={recipe.image} style={styles.image} />
+    <TouchableOpacity activeOpacity={1} style={cardStyle} onPress={onPress}>
+      <Image source={recipe.image} style={imageStyle} />
       <View style={styles.textContainer}>
         <Text style={styles.title} numberOfLines={2}>
           {recipe.title}
@@ -34,28 +42,6 @@ const RecipeCard = ({ history, userState, recipe }) => {
 };
 
 const styles = StyleSheet.create({
-  card: {
-    shadowColor: 'black',
-    shadowOffset: { width: 0, height: 2 },
-    shadowRadius: 6,
-    shadowOpacity: 0.26,
-    backgroundColor: 'white',
-    borderRadius: 10,
-    display: 'flex',
-    flexDirection: 'column',
-    height: 250,
-    marginBottom: 10,
-    marginTop: 10,
-    position: 'relative',
-  },
-  image: {
-    resizeMode: 'cover',
-    width: 155,
-    borderRadius: 10,
-    borderBottomLeftRadius: 0,
-    borderBottomRightRadius: 0,
-    flex: 3,
-  },
   textContainer: {
     flex: 1,
     justifyContent: 'center',

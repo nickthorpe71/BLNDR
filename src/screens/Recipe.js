@@ -9,6 +9,7 @@ import {
 } from 'react-native';
 
 import RecipeIngredients from '../components/RecipeIngredients';
+import RecipePrep from '../components/RecipePrep';
 
 const Recipe = ({ history, userState }) => {
   const recipe = userState.selectedRecipe;
@@ -100,16 +101,13 @@ const Recipe = ({ history, userState }) => {
               ingredients={userState.selectedRecipe.ingredients}
             />
           )}
-          {/* {activeTab === 1 && (
-            <IngredientsFilter
+          {activeTab === 1 && (
+            <RecipePrep
               key={tabKey2}
-              stateKey={'searchIngredientIncludeFilter'}
-              forceRemount={() => setTabKey2(tabKey2 + 1)}
-              userState={userState}
-              updateState={updateState}
+              instructions={userState.selectedRecipe.instructions}
             />
           )}
-          {activeTab === 2 && (
+          {/* {activeTab === 2 && (
             <DietaryFilter
               forceRemount={() => setTabKey3(tabKey3 + 1)}
               key={tabKey3}

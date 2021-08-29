@@ -1,25 +1,19 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, TextInput, Text, StyleSheet } from 'react-native';
 
-const RecipeIngredients = recipe => {
-  const renderIngredients = () => {
-    if (recipe.ingredients.length) {
-      return recipe.ingredients.map(ingredient => (
-        <Text style={styles.ingredient}>{ingredient}</Text>
-      ));
-    } else {
-      return ['loading...'].map(ingredient => (
-        <Text style={styles.ingredient}>{ingredient}</Text>
-      ));
-    }
-  };
-
-  return (
-    <View style={styles.container}>
-      <View style={styles.recipeContainerBottom}>{renderIngredients()}</View>
+const RecipeIngredients = ({ ingredients }) => (
+  <View style={styles.container}>
+    <View style={styles.recipeContainerBottom}>
+      {ingredients.map(ingredient => (
+        <TextInput
+          style={styles.ingredient}
+          editable={false}
+          value={ingredient}
+        />
+      ))}
     </View>
-  );
-};
+  </View>
+);
 
 const styles = StyleSheet.create({
   container: {
@@ -29,8 +23,13 @@ const styles = StyleSheet.create({
     padding: 15,
     height: '100%',
   },
+  ingredientText: {
+    fontSize: 20,
+  },
   ingredient: {
-    fontSize: 18,
+    borderBottomWidth: 1,
+    borderBottomColor: '#eee',
+    paddingVertical: 10,
   },
 });
 

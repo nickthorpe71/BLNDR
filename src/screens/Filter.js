@@ -253,7 +253,7 @@ const Filter = props => {
           inputStyle={styles.greyBG}
           inputContainerStyle={styles.greyBG}
           containerStyle={styles.searchContainerStyle}
-          placeholderTextColor={'#g5g5g5'}
+          placeholderTextColor={'#aaa'}
           onChangeText={updateSearchText}
           value={searchText}
         />

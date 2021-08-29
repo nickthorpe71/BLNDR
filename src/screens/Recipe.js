@@ -10,6 +10,7 @@ import {
 
 import RecipeIngredients from '../components/RecipeIngredients';
 import RecipePrep from '../components/RecipePrep';
+import RecipeNutrition from '../components/RecipeNutrition';
 
 const Recipe = ({ history, userState }) => {
   const recipe = userState.selectedRecipe;
@@ -107,14 +108,12 @@ const Recipe = ({ history, userState }) => {
               instructions={userState.selectedRecipe.instructions}
             />
           )}
-          {/* {activeTab === 2 && (
-            <DietaryFilter
-              forceRemount={() => setTabKey3(tabKey3 + 1)}
+          {activeTab === 2 && (
+            <RecipeNutrition
               key={tabKey3}
-              userState={userState}
-              updateState={updateState}
+              nutrition={userState.selectedRecipe.totalNutrition}
             />
-          )} */}
+          )}
         </View>
       </View>
       <View style={styles.bottomScrollBuffer} />

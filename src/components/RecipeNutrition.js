@@ -3,34 +3,42 @@ import { View, Text, StyleSheet } from 'react-native';
 import { Col, Row, Grid } from 'react-native-easy-grid';
 import utils from '../utils';
 
+import dailyValues from '../data/dailyValues.json';
+
 const RecipeNutrition = ({ nutrition }) => {
-  const renderKeys = section => {
+  const percentString = (numerator, denominator) =>
+    `${String(Math.round((numerator / denominator) * 100))}%`;
+
+  const renderLeftCol = section => {
     return Object.keys(section).map(key => {
       if (key === 'calories') {
         return <></>;
       }
-      const hasChildren = Object.keys(section[key])[0] !== 'measure';
+      const hasChildren = Object.keys(section[key])[0] === 'measure';
       return (
         <>
-          {!hasChildren ? (
-            <Row style={styles.cell}>
-              <Text style={styles.cellFont}>{key}</Text>
-              <View style={styles.row}>
-                <Text style={styles.valueFont}>
-                  {Math.round(section[key].amount)}
-                  {utils.capitalizeFirstLetter(section[key].measure)}
-                </Text>
-              </View>
-            </Row>
-          ) : (
-            <Row style={styles.cell}>
-              <View style={styles.row}>
+          {hasChildren ? (
+            <Row>
+              <Col style={styles.leftCol} size={33}>
                 <Text style={styles.cellFont}>
                   {utils.capitalizeFirstLetter(key)}
                 </Text>
-                {renderKeys(section[key])}
-              </View>
+              </Col>
+              <Col style={styles.midCol} size={33}>
+                <Text style={styles.valueFont}>
+                  {` ${Math.round(
+                    section[key].amount,
+                  )}${utils.capitalizeFirstLetter(section[key].measure)}`}
+                </Text>
+              </Col>
+              <Col style={styles.rightCol} size={33}>
+                <Text style={styles.valueFont}>
+                  {percentString(section[key].amount, dailyValues[key])}
+                </Text>
+              </Col>
             </Row>
+          ) : (
+            <>{renderLeftCol(section[key])}</>
           )}
         </>
       );
@@ -40,17 +48,20 @@ const RecipeNutrition = ({ nutrition }) => {
   return (
     <View style={styles.container}>
       <Grid>
-        <Col size={60} style={styles.left}>
-          <Row style={styles.cell}>
-            <Text style={styles.cellFont}>{''}</Text>
-            {renderKeys(nutrition)}
-          </Row>
-        </Col>
-        <Col size={40} style={styles.right}>
-          <Row style={styles.cellRight}>
+        <Row>
+          <Col style={styles.leftCol} size={33}>
+            <Text style={styles.cellFont}>Calories</Text>
+          </Col>
+          <Col style={styles.midCol} size={33}>
+            <Text style={styles.valueFont}>
+              {Math.round(nutrition.calories)}
+            </Text>
+          </Col>
+          <Col style={styles.rightCol} size={33}>
             <Text style={styles.cellFont}>{'% Daily Value'}</Text>
-          </Row>
-        </Col>
+          </Col>
+        </Row>
+        {renderLeftCol(nutrition)}
       </Grid>
     </View>
   );
@@ -61,42 +72,35 @@ const styles = StyleSheet.create({
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'space-between',
-    paddingVertical: 15,
-    height: '84%',
-  },
-  cell: {
-    borderBottomWidth: 1,
-    borderColor: '#eee',
-    flex: 1,
-    flexDirection: 'column',
-    justifyContent: 'center',
-  },
-  cellRight: {
-    borderBottomWidth: 1,
-    borderColor: 'white',
-    flex: 1,
-    justifyContent: 'center',
+    padding: 15,
   },
   cellFont: {
     fontSize: 12,
-    padding: 5,
     fontWeight: 'bold',
   },
   valueFont: {
     fontSize: 12,
-    padding: 5,
     paddingHorizontal: 10,
   },
-  row: {
-    display: 'flex',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-  },
-  left: {
-    backgroundColor: 'white',
-  },
-  right: {
+  rightCol: {
     backgroundColor: '#eee',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderBottomWidth: 1,
+    borderColor: 'white',
+    paddingVertical: 5,
+  },
+  midCol: {
+    justifyContent: 'center',
+    borderBottomWidth: 1,
+    borderColor: '#eee',
+    paddingVertical: 5,
+  },
+  leftCol: {
+    justifyContent: 'center',
+    borderBottomWidth: 1,
+    borderColor: '#eee',
+    paddingVertical: 5,
   },
 });
 

@@ -14,10 +14,10 @@ import RecipeNutrition from '../components/RecipeNutrition';
 
 const Recipe = ({ history, userState }) => {
   const recipe = userState.selectedRecipe;
+  const tabKey1 = 0;
+  const tabKey2 = 1;
+  const tabKey3 = 2;
   const [activeTab, setActiveTab] = useState(0);
-  const [tabKey1, setTabKey1] = useState(0);
-  const [tabKey2, setTabKey2] = useState(1);
-  const [tabKey3, setTabKey3] = useState(2);
 
   const renderNutritionSection = (
     value,
@@ -170,6 +170,7 @@ const styles = StyleSheet.create({
     display: 'flex',
     flexDirection: 'row',
     borderBottomColor: '#aaa',
+    paddingRight: 15,
   },
   tabButton: {
     alignItems: 'center',

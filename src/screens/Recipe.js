@@ -124,12 +124,12 @@ const Recipe = ({ history, userState }) => {
 const styles = StyleSheet.create({
   recipeContainerOuter: {
     flex: 1,
-    paddingHorizontal: 18,
   },
   recipeContainerMid: {
     flex: 4,
     justifyContent: 'center',
     flexDirection: 'row',
+    paddingHorizontal: 15,
   },
   recipeContainerBottom: {
     flex: 3,
@@ -138,6 +138,7 @@ const styles = StyleSheet.create({
   },
   recipeContainerTop: {
     flex: 1,
+    paddingHorizontal: 15,
   },
   recipeContainerTopLeft: {
     flex: 3,

@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, Image, StyleSheet } from 'react-native';
 
 const RecipePrep = ({ instructions }) => {
   const renderInstructions = () =>
@@ -18,7 +18,11 @@ const RecipePrep = ({ instructions }) => {
 
   return (
     <View style={styles.container}>
-      <View>{renderInstructions()}</View>
+      <View style={styles.instructionContainer}>{renderInstructions()}</View>
+      <Image
+        style={styles.infoGraphic}
+        source={require('../images/UI/BLNDRInfographic.png')}
+      />
     </View>
   );
 };
@@ -27,17 +31,19 @@ const styles = StyleSheet.create({
   container: {
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'space-between',
-    padding: 15,
     height: '100%',
+  },
+  instructionContainer: {
+    paddingVertical: 15,
   },
   instructionRow: {
     display: 'flex',
     flexDirection: 'row',
-    margin: 8,
+    margin: 15,
   },
   instructionText: {
     fontSize: 12,
+    width: '80%',
   },
   instructionNum: {
     fontSize: 14,
@@ -54,6 +60,9 @@ const styles = StyleSheet.create({
     height: 20,
     backgroundColor: '#fb5636',
     marginRight: 10,
+  },
+  infoGraphic: {
+    marginLeft: -5,
   },
 });
 

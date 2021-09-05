@@ -1,6 +1,7 @@
 [
   {
     "title": "Tofuberry",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1/4 cup diced silk tofu",
@@ -112,6 +113,7 @@
   },
   {
     "title": "Avocado Banana Nut",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1 cup almond milk",
@@ -223,6 +225,7 @@
   },
   {
     "title": "Papaya Passion",
+    "liked": false,
     "Category": "dessert",
     "ingredients": [
       "1 cup frozen papaya - peeled, seeded and cubed",
@@ -328,6 +331,7 @@
   },
   {
     "title": "Cucumber Pear",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1/4 cucumber, chopped",
@@ -435,6 +439,7 @@
   },
   {
     "title": "PB&J",
+    "liked": false,
     "Category": "decadent",
     "ingredients": [
       "3/4 cup frozen strawberries",
@@ -546,6 +551,7 @@
   },
   {
     "title": "Matcha-Berry Swirl",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "2 cups fresh spinach",
@@ -675,6 +681,7 @@
   },
   {
     "title": "Any Way You Want It Kale",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "2 cups kale",
@@ -798,6 +805,7 @@
   },
   {
     "title": "New Year Detox Green",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1 cup coconut water",
@@ -915,6 +923,7 @@
   },
   {
     "title": "Blueberry Mango",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1 tablespoon chia seeds",
@@ -1027,6 +1036,7 @@
   },
   {
     "title": "Quick Kale and Banana",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "2 cups chopped kale",
@@ -1132,6 +1142,7 @@
   },
   {
     "title": "Paleo Apple Pie",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1 apple, roughly chopped",
@@ -1245,6 +1256,7 @@
   },
   {
     "title": "Mango Pineapple Green",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "2/3 cup frozen pineapple chunks",
@@ -1356,6 +1368,7 @@
   },
   {
     "title": "Perfect Peach",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "3/4 cups frozen peaches",
@@ -1467,6 +1480,7 @@
   },
   {
     "title": "Chocolate Peanut Banana",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1 cup unsweetened almond milk",
@@ -1577,6 +1591,7 @@
   },
   {
     "title": "The Boss!",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "2 cups almond milk",
@@ -1682,6 +1697,7 @@
   },
   {
     "title": "Morning",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1 banana",
@@ -1806,6 +1822,7 @@
   },
   {
     "title": "Blueberry Vanilla Graham Protein",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1 cup coconut water",
@@ -1943,6 +1960,7 @@
   },
   {
     "title": "Moring Coconut",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1 frozen banana",
@@ -2048,6 +2066,7 @@
   },
   {
     "title": "Uncle Monkey",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1 1/2 cups frozen banana",
@@ -2153,6 +2172,7 @@
   },
   {
     "title": "Green Tea Pear",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1 cup almond milk",
@@ -2270,6 +2290,7 @@
   },
   {
     "title": "Elvis  (Almond and Banana)",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1 1/2 cups frozen banana",
@@ -2381,6 +2402,7 @@
   },
   {
     "title": "Zucchini and Carrot",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1 zucchini - peeled, grated, and chopped",
@@ -2499,6 +2521,7 @@
   },
   {
     "title": "Lean Green",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "2 cups frozen cantaloupe",
@@ -2610,6 +2633,7 @@
   },
   {
     "title": "Skinny Black Forest",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "2 cups baby spinach",
@@ -2727,6 +2751,7 @@
   },
   {
     "title": "Nectarine Sunshine",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1 cup frozen nectarines",
@@ -2828,6 +2853,7 @@
   },
   {
     "title": "Carrot Cake",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1 large carrot, peeled and diced",
@@ -2946,6 +2972,7 @@
   },
   {
     "title": "Good-To-Go Morning",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "2 cups fresh spinach",
@@ -3057,6 +3084,7 @@
   },
   {
     "title": "Jumping Ginger",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1 cups water",
@@ -3176,6 +3204,7 @@
   },
   {
     "title": "Purple Monstrosity Fruit",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1 frozen banana",
@@ -3282,6 +3311,7 @@
   },
   {
     "title": "Carrot Mango",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "2 cups freshly squeezed orange juice",
@@ -3388,6 +3418,7 @@
   },
   {
     "title": "Almond Milk and Berry",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1/2 medium banana, peeled and cut into chunks",
@@ -3504,6 +3535,7 @@
   },
   {
     "title": "Mango Pineapple Strawberry",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1 mango, peeled, seeded and chopped",
@@ -3614,6 +3646,7 @@
   },
   {
     "title": "Big Berry",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "2 cups ice",
@@ -3726,6 +3759,7 @@
   },
   {
     "title": "Green Morning",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "2 cups almond milk",
@@ -3854,6 +3888,7 @@
   },
   {
     "title": "Banana Orange",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1/2 cup orange juice",
@@ -3960,6 +3995,7 @@
   },
   {
     "title": "Katie's Kale",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "2 cups kale",
@@ -4071,6 +4107,7 @@
   },
   {
     "title": "Tropical",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1/2 ripe mango, peeled and seeded",
@@ -4190,6 +4227,7 @@
   },
   {
     "title": "Blueberry",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1 avocado, peeled, halved and pitted",
@@ -4309,6 +4347,7 @@
   },
   {
     "title": "Banana-Coconut Pudding",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1 frozen banana, peeled and chopped",
@@ -4421,6 +4460,7 @@
   },
   {
     "title": "It's Elvis, Baby!",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1 banana",
@@ -4527,6 +4567,7 @@
   },
   {
     "title": "Ultra-Creamy Avocado",
+    "liked": false,
     "Category": "dessert",
     "ingredients": [
       "1  1/2 cup almond milk",
@@ -4616,6 +4657,7 @@
   },
   {
     "title": "Melon Burst",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1 1/2 cups seeded and chopped watermelon",
@@ -4717,6 +4759,7 @@
   },
   {
     "title": "Complete Breakfast",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1 cup almond milk",
@@ -4830,6 +4873,7 @@
   },
   {
     "title": "Green",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1 cup chopped fresh pineapple, plus a pineapple wedge for garnish",
@@ -4947,6 +4991,7 @@
   },
   {
     "title": "Power",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1 1/4 cups unsweetened almond milk",
@@ -5064,6 +5109,7 @@
   },
   {
     "title": "Strawberry and Farm Fresh Blueberry",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "2 cups strawberries",
@@ -5176,6 +5222,7 @@
   },
   {
     "title": "Blueberry Power",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1 cup soft tofu, drained",
@@ -5277,6 +5324,7 @@
   },
   {
     "title": "Gluten-Free Coconut Pineapple Strawberry",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1 cup coconut milk",
@@ -5393,6 +5441,7 @@
   },
   {
     "title": "Mean Green",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1 cup fresh baby spinach",
@@ -5510,6 +5559,7 @@
   },
   {
     "title": "Blueberry Pomegranate",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1 1/2 cups pomegranate juice",
@@ -5611,6 +5661,7 @@
   },
   {
     "title": "Pineapple Mama",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "16 ounces ice",
@@ -5706,6 +5757,7 @@
   },
   {
     "title": "Pina Colada",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1 cup coconut water",
@@ -5823,6 +5875,7 @@
   },
   {
     "title": "Peanut Butter and Jelly",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "2 tablespoons smooth peanut butter",
@@ -5944,6 +5997,7 @@
   },
   {
     "title": "Honeydew-Almond",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "2 cups chopped honeydew melon",
@@ -6044,6 +6098,7 @@
   },
   {
     "title": "Apple and Cinnamon Breakfast",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "3/4 cup skim milk",
@@ -6155,6 +6210,7 @@
   },
   {
     "title": "Honeydew",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "2 cups honeydew melon, cubed",
@@ -6261,6 +6317,7 @@
   },
   {
     "title": "Strawberry Banana",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "8 ounces crushed ice",
@@ -6373,6 +6430,7 @@
   },
   {
     "title": "Coconut Water",
+    "liked": false,
     "Category": "healthy",
     "ingredients": [
       "1 cup Coconut water",

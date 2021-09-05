@@ -7,10 +7,11 @@ import Home from './src/screens/Home';
 import Filter from './src/screens/Filter';
 import Results from './src/screens/Results';
 import Recipe from './src/screens/Recipe';
+import Favorites from './src/screens/Favorites';
 
 import curatedRecipes from './src/data/recipesComplete.json';
 import ingredients from './src/data/ingredientsWithNutrition.json';
-import imageMap from './src/imageMap';
+import imageMap from './src/Utilities/imageMap.js';
 
 const App = ({ history }) => {
   const [userState, setUserState] = useState({
@@ -75,6 +76,17 @@ const App = ({ history }) => {
           path="/recipe"
           render={props => (
             <Recipe
+              {...props}
+              updateState={updateState}
+              userState={userState}
+            />
+          )}
+        />
+        <Route
+          exact
+          path="/favorites"
+          render={props => (
+            <Favorites
               {...props}
               updateState={updateState}
               userState={userState}

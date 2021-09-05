@@ -7,13 +7,15 @@ import {
   TouchableOpacity,
   ScrollView,
 } from 'react-native';
+import { Icon } from 'react-native-elements';
 
 import RecipeIngredients from '../components/RecipeIngredients';
 import RecipePrep from '../components/RecipePrep';
 import RecipeNutrition from '../components/RecipeNutrition';
 
-const Recipe = ({ history, userState }) => {
-  const recipe = userState.selectedRecipe;
+const Recipe = ({ userState, updateState }) => {
+  const [recipe, setRecipe] = useState(userState.selectedRecipe);
+  const [liked, setLiked] = useState(userState.selectedRecipe.liked);
   const tabKey1 = 0;
   const tabKey2 = 1;
   const tabKey3 = 2;
@@ -38,10 +40,40 @@ const Recipe = ({ history, userState }) => {
     </View>
   );
 
+  const clickLike = () => {
+    updateState(
+      'curatedRecipes',
+      userState.curatedRecipes.map(rec => {
+        if (rec.title === recipe.title) {
+          rec.liked = !rec.liked;
+          setLiked(rec.liked);
+          setRecipe(rec);
+        }
+        return rec;
+      }),
+    );
+    updateState('selectedRecipe', recipe);
+  };
+
   return (
     <ScrollView style={styles.recipeContainerOuter}>
       <View style={styles.recipeContainerTop}>
         <Text style={styles.recipeTitleLg}>{recipe.title}</Text>
+        {liked ? (
+          <Icon
+            name="favorite"
+            color="#ff3336"
+            iconStyle={styles.likeIcon}
+            onPress={clickLike}
+          />
+        ) : (
+          <Icon
+            name="favorite-border"
+            color="#000"
+            iconStyle={styles.likeIcon}
+            onPress={clickLike}
+          />
+        )}
       </View>
       <View style={styles.recipeContainerMid}>
         <View style={styles.recipeContainerTopLeft}>
@@ -139,6 +171,9 @@ const styles = StyleSheet.create({
   recipeContainerTop: {
     flex: 1,
     paddingHorizontal: 15,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
   },
   recipeContainerTopLeft: {
     flex: 3,
@@ -233,6 +268,10 @@ const styles = StyleSheet.create({
     fontSize: 14,
     color: '#000',
     textAlign: 'center',
+  },
+  likeIcon: {
+    fontSize: 35,
+    paddingBottom: 18,
   },
 });
 

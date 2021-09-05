@@ -4,7 +4,7 @@ import { SearchBar } from 'react-native-elements';
 import CategoriesFilter from '../components/CategoriesFilter';
 import IngredientsFilter from '../components/IngredientsFilter';
 import DietaryFilter from '../components/DietaryFilter';
-import utils from '../utils';
+import Utils from '../Utilities/utils.js';
 
 const Filter = props => {
   const [activeTab, setActiveTab] = useState(0);
@@ -83,7 +83,7 @@ const Filter = props => {
     const matchClearance = 0.7;
     let results = [];
 
-    utils.shuffleArray(userState.curatedRecipes).forEach(recipe => {
+    Utils.shuffleArray(userState.curatedRecipes).forEach(recipe => {
       let match = 0;
       switch (String(userState.searchCategoryFilter)) {
         case 'Healthy':
@@ -159,7 +159,7 @@ const Filter = props => {
   const filterDietary = () => {
     let results = [];
 
-    utils.shuffleArray(userState.curatedRecipes).forEach(recipe => {
+    Utils.shuffleArray(userState.curatedRecipes).forEach(recipe => {
       let match =
         numIngredientsWithTag(
           recipe,
@@ -177,7 +177,7 @@ const Filter = props => {
     let mid = [];
     let bottom = [];
 
-    utils.shuffleArray(userState.curatedRecipes).forEach(recipe => {
+    Utils.shuffleArray(userState.curatedRecipes).forEach(recipe => {
       const numIngredients = userState.searchIngredientIncludeFilter.length;
       let numMatchedIngredients = 0;
 

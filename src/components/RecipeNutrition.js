@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { Col, Row, Grid } from 'react-native-easy-grid';
-import utils from '../utils';
+import Utils from '../Utilities/utils.js';
 
 import dailyValues from '../data/dailyValues.json';
 
@@ -21,14 +21,14 @@ const RecipeNutrition = ({ nutrition }) => {
             <Row>
               <Col style={styles.leftCol} size={33}>
                 <Text style={styles.cellFont}>
-                  {utils.capitalizeFirstLetter(key)}
+                  {Utils.capitalizeFirstLetter(key)}
                 </Text>
               </Col>
               <Col style={styles.midCol} size={33}>
                 <Text style={styles.valueFont}>
                   {` ${Math.round(
                     section[key].amount,
-                  )}${utils.capitalizeFirstLetter(section[key].measure)}`}
+                  )}${Utils.capitalizeFirstLetter(section[key].measure)}`}
                 </Text>
               </Col>
               <Col style={styles.rightCol} size={33}>

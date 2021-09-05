@@ -1,18 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import {
-  ScrollView,
-  View,
-  Text,
-  StyleSheet,
-  TouchableOpacity,
-  Image,
-} from 'react-native';
+import { ScrollView, View, Text, StyleSheet } from 'react-native';
 import Carousel from 'react-native-snap-carousel';
 import RecipeCard from '../components/RecipeCard';
 import Utils from '../Utilities/utils.js';
 
-const Home = ({ history, userState, updateState }) => {
+const Favorites = ({ history, userState, updateState }) => {
   const [featuredRecipes, setFeaturedRecipes] = useState([]);
+  const [favorites, setFavorites] = useState([]);
 
   useEffect(() => {
     const featured = [];
@@ -28,6 +22,7 @@ const Home = ({ history, userState, updateState }) => {
     }
 
     setFeaturedRecipes(featured);
+    setFavorites(userState.curatedRecipes.filter(recipe => recipe.liked));
   }, [userState.curatedRecipes]);
 
   const renderCarouselItem = ({ item, index }) => {
@@ -67,31 +62,20 @@ const Home = ({ history, userState, updateState }) => {
     );
   };
 
-  const pressFindRecipes = () => {
-    updateState('searchMain', '');
-    updateState('searchCategoryFilter', []);
-    updateState('searchIngredientIncludeFilter', []);
-    updateState('searchIngredientExcludeFilter', []);
-    updateState('searchDietaryOptionsFilter', []);
-    updateState('recipeResults', []);
-
-    history.push('/filter');
-  };
-
   return (
-    <ScrollView style={styles.homeContainer}>
+    <ScrollView style={styles.favoritesContainer}>
       <View>
-        <TouchableOpacity
-          style={styles.filterButton}
-          onPress={pressFindRecipes}>
-          <Image
-            source={require('../images/UI/FindRecipesCard.png')}
-            style={{ width: 370, height: 310 }}
-          />
-        </TouchableOpacity>
+        <Text style={styles.favoritesTitle}>FAVORITES</Text>
+        <Carousel
+          layout={'default'}
+          data={favorites}
+          sliderWidth={400}
+          itemWidth={155}
+          renderItem={renderCarouselItem}
+        />
       </View>
       <View>
-        <Text style={styles.homeTitle}>FEATURED</Text>
+        <Text style={styles.favoritesTitle}>RECOMMENDED</Text>
         <Carousel
           layout={'default'}
           data={featuredRecipes}
@@ -105,18 +89,18 @@ const Home = ({ history, userState, updateState }) => {
 };
 
 const styles = StyleSheet.create({
-  homeContainer: {
+  favoritesContainer: {
     backgroundColor: '#fff',
     flex: 1,
   },
-  homeTitle: {
+  favoritesTitle: {
     color: '#000',
     fontSize: 26,
     fontWeight: '200',
     marginLeft: 20,
     marginTop: 10,
   },
-  homeParagraph: {
+  favoritesParagraph: {
     color: '#000',
     fontSize: 14,
     textAlign: 'center',
@@ -132,4 +116,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Home;
+export default Favorites;

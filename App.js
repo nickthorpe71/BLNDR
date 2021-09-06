@@ -1,6 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
 import { View, StyleSheet, Image } from 'react-native';
 import { NativeRouter, Route } from 'react-router-native';
+import {
+  getDBConnection,
+  getFromTable,
+  saveRecipes,
+  createTable,
+} from './src/Utilities/db.js';
 
 import FooterNav from './src/components/FooterNav';
 import Home from './src/screens/Home';
@@ -16,8 +22,9 @@ import imageMap from './src/Utilities/imageMap.js';
 const App = ({ history }) => {
   const [userState, setUserState] = useState({
     recipeResults: [],
-    curatedRecipes: curatedRecipes.map(recipe => {
+    curatedRecipes: curatedRecipes.map((recipe, index) => {
       recipe.image = imageMap[recipe.img];
+      recipe.id = index;
       return recipe;
     }),
     ingredients: ingredients,
@@ -29,11 +36,39 @@ const App = ({ history }) => {
     searchDietaryOptionsFilter: [],
   });
 
-  const updateState = (key, updatedValue) => {
-    const updatedState = userState;
-    updatedState[key] = updatedValue;
-    setUserState(updatedState);
-  };
+  const updateState = useCallback(
+    async (key, updatedValue) => {
+      const updatedState = userState;
+      updatedState[key] = updatedValue;
+      setUserState(updatedState);
+      if (key === 'curatedRecipes') {
+        try {
+          const db = await getDBConnection();
+          await saveRecipes(db, userState.curatedRecipes, 'curatedRecipes');
+        } catch (error) {
+          console.error(error);
+        }
+      }
+    },
+    [userState],
+  );
+
+  const loadDataCallback = useCallback(async () => {
+    try {
+      const db = await getDBConnection();
+      await createTable(db, 'curatedRecipes');
+      const storedRecipes = await getFromTable(db, 'curatedRecipes');
+      storedRecipes.length
+        ? updateState('curatedRecipes', storedRecipes)
+        : await saveRecipes(db, userState.curatedRecipes, 'curatedRecipes');
+    } catch (error) {
+      console.error(error);
+    }
+  }, [updateState, userState.curatedRecipes]);
+
+  useEffect(() => {
+    loadDataCallback();
+  }, [loadDataCallback]);
 
   return (
     <View style={styles.container}>

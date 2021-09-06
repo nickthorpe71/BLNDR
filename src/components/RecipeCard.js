@@ -3,7 +3,6 @@ import { View, Text, Image, StyleSheet, TouchableOpacity } from 'react-native';
 
 const RecipeCard = ({
   history,
-  userState,
   updateState,
   recipe,
   cardStyle,

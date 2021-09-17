@@ -1,6 +1,7 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
 import { View, StyleSheet, Image } from 'react-native';
 import { NativeRouter, Route } from 'react-router-native';
+import AsyncStorage from '@react-native-community/async-storage';
 
 import FooterNav from './src/components/FooterNav';
 import Home from './src/screens/Home';
@@ -12,6 +13,8 @@ import Favorites from './src/screens/Favorites';
 import curatedRecipes from './src/data/recipesComplete.json';
 import ingredients from './src/data/ingredientsWithNutrition.json';
 import imageMap from './src/Utilities/imageMap.js';
+
+const STORAGE_KEY = '@save_state';
 
 const App = ({ history }) => {
   const [userState, setUserState] = useState({
@@ -35,9 +38,36 @@ const App = ({ history }) => {
       const updatedState = userState;
       updatedState[key] = updatedValue;
       setUserState(updatedState);
+      saveData(updateState);
     },
     [userState],
   );
+
+  useEffect(() => {
+    readData();
+  });
+
+  const readData = async () => {
+    try {
+      const state = await AsyncStorage.getItem(STORAGE_KEY);
+
+      if (state !== null) {
+        setUserState(state);
+      }
+    } catch (e) {
+      // eslint-disable-next-line no-alert
+      alert('Failed to fetch data from local storage');
+    }
+  };
+
+  const saveData = async data => {
+    try {
+      await AsyncStorage.setItem(STORAGE_KEY, data);
+      setUserState(data);
+    } catch (e) {
+      alert('Failed to save data to local storage');
+    }
+  };
 
   return (
     <View style={styles.container}>

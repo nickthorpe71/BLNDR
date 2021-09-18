@@ -33,39 +33,47 @@ const App = ({ history }) => {
     searchDietaryOptionsFilter: [],
   });
 
-  const updateState = useCallback(
-    async (key, updatedValue) => {
-      const updatedState = userState;
-      updatedState[key] = updatedValue;
-      setUserState(updatedState);
-      saveData(updateState);
-    },
-    [userState],
-  );
+  const updateState = async (key, updatedValue) => {
+    const updatedState = userState;
+    updatedState[key] = updatedValue;
+    setUserState(updatedState);
+    saveData(updatedState);
+  };
 
   useEffect(() => {
+    // clearAppData();
     readData();
-  });
+  }, []);
+
+  const clearAppData = async () => {
+    try {
+      const keys = await AsyncStorage.getAllKeys();
+      await AsyncStorage.multiRemove(keys);
+    } catch (error) {
+      console.error('Error clearing app data.');
+    }
+  };
 
   const readData = async () => {
     try {
-      const state = await AsyncStorage.getItem(STORAGE_KEY);
-
-      if (state !== null) {
-        setUserState(state);
+      const value = await AsyncStorage.getItem(STORAGE_KEY);
+      const jsonValue = JSON.parse(value);
+      if (jsonValue != null) {
+        setUserState(jsonValue);
       }
     } catch (e) {
       // eslint-disable-next-line no-alert
-      alert('Failed to fetch data from local storage');
+      alert('Failed to fetch data from local storage: ' + e);
     }
   };
 
   const saveData = async data => {
     try {
-      await AsyncStorage.setItem(STORAGE_KEY, data);
-      setUserState(data);
+      const json = JSON.stringify(data);
+      await AsyncStorage.setItem(STORAGE_KEY, json);
     } catch (e) {
-      alert('Failed to save data to local storage');
+      // eslint-disable-next-line no-alert
+      alert('Failed to save data to local storage: ' + e);
     }
   };
 

@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import Carousel from 'react-native-snap-carousel';
 import RecipeCard from '../components/RecipeCard';
-import Utils from '../Utilities/utils.js';
+import Utils from '../utilities/utils.js';
 
 const Home = ({ history, userState, updateState }) => {
   const [featuredRecipes, setFeaturedRecipes] = useState([]);

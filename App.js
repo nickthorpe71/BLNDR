@@ -13,7 +13,7 @@ import Settings from './src/screens/Settings';
 
 import curatedRecipes from './src/data/recipesComplete.json';
 import ingredients from './src/data/ingredientsWithNutrition.json';
-import imageMap from './src/Utilities/imageMap.js';
+import imageMap from './src/utilities/imageMap.js';
 
 const STORAGE_KEY = '@save_state';
 

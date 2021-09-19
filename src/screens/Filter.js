@@ -4,7 +4,7 @@ import { SearchBar } from 'react-native-elements';
 import CategoriesFilter from '../components/CategoriesFilter';
 import IngredientsFilter from '../components/IngredientsFilter';
 import DietaryFilter from '../components/DietaryFilter';
-import Utils from '../Utilities/utils.js';
+import Utils from '../utilities/utils.js';
 
 const Filter = props => {
   const [activeTab, setActiveTab] = useState(0);

@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { Col, Row, Grid } from 'react-native-easy-grid';
-import Utils from '../Utilities/utils.js';
+import Utils from '../utilities/utils.js';
 
 import dailyValues from '../data/dailyValues.json';
 

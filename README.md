@@ -25,6 +25,7 @@ If you have questions, concerns, bug reports, etc, please file an issue in this 
 
 ## Creators
 Nick Thorpe
+<br>
 Matt Sokniewicz
 
 ----

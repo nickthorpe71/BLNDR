@@ -26,7 +26,12 @@ const Header = props => {
         onPress={() => history.push('/favorites')}
         iconStyle={styles.icon}
       />
-      <Icon name="settings" color="#fb5636" iconStyle={styles.icon} />
+      <Icon
+        name="settings"
+        color="#fb5636"
+        onPress={() => history.push('/settings')}
+        iconStyle={styles.icon}
+      />
     </View>
   );
 };

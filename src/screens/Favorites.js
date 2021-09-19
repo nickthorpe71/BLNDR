@@ -21,6 +21,10 @@ const Favorites = ({ history, userState, updateState }) => {
       featured.push(newFeature);
     }
 
+    if (featured[0].title === featured[1].title) {
+      featured.shift();
+    }
+
     setFeaturedRecipes(featured);
     setFavorites(userState.curatedRecipes.filter(recipe => recipe.liked));
   }, [userState.curatedRecipes]);

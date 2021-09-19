@@ -27,6 +27,10 @@ const Home = ({ history, userState, updateState }) => {
       featured.push(newFeature);
     }
 
+    if (featured[0].title === featured[1].title) {
+      featured.shift();
+    }
+
     setFeaturedRecipes(featured);
   }, [userState.curatedRecipes]);
 

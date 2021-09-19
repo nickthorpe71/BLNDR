@@ -6435,6 +6435,11 @@
     "react-native-ratings" "^7.3.0"
     "react-native-size-matters" "^0.3.1"
 
+"react-native-in-app-review@^3.2.2":
+  "integrity" "sha512-dCIVA8InJGJ4MoQiIM/uVs3Qi6pLlplkMSxqdY433GoUAPutU+/4wM7kQzLx3GAsXemiGHJINNNLDK94X0dqEA=="
+  "resolved" "https://registry.npmjs.org/react-native-in-app-review/-/react-native-in-app-review-3.2.2.tgz"
+  "version" "3.2.2"
+
 "react-native-ratings@^7.3.0":
   "integrity" "sha512-V3y19iIifwemMr87KfovFIIzy/Rotqcds9k+ECaayQvrlucm/mXFC69R8xl/NivEdnxX7K87iurigByhpE37EQ=="
   "resolved" "https://registry.npmjs.org/react-native-ratings/-/react-native-ratings-7.6.1.tgz"
@@ -6461,11 +6466,6 @@
     "prop-types" "^15.6.1"
     "react-addons-shallow-compare" "15.6.2"
 
-"react-native-sqlite-storage@^5.0.0":
-  "integrity" "sha512-c1Joq3/tO1nmIcP8SkRZNolPSbfvY8uZg5lXse0TmjIPC0qHVbk96IMvWGyly1TmYCIpxpuDRc0/xCffDbYIvg=="
-  "resolved" "https://registry.npmjs.org/react-native-sqlite-storage/-/react-native-sqlite-storage-5.0.0.tgz"
-  "version" "5.0.0"
-
 "react-native-vector-icons@^8.1.0", "react-native-vector-icons@>7.0.0":
   "integrity" "sha512-sHIdBB6Y0dHaot2fMXgy5J/hhCn5YuyN7SKDNFgPzL8KA1oF2/v7mgYMavnK7LIIs2dJoGnDANKf61dsU+TZlg=="
   "resolved" "https://registry.npmjs.org/react-native-vector-icons/-/react-native-vector-icons-8.1.0.tgz"
@@ -6480,7 +6480,7 @@
     "prop-types" "^15.7.2"
     "yargs" "^16.1.1"
 
-"react-native@*", "react-native@>=0.14.0", "react-native@>=0.20.0", "react-native@>=0.44", "react-native@>=0.59", "react-native@>=0.64.0-rc.0 || 0.0.0-*", "react-native@0.64.0":
+"react-native@*", "react-native@>=0.20.0", "react-native@>=0.44", "react-native@>=0.59", "react-native@>=0.64.0-rc.0 || 0.0.0-*", "react-native@0.64.0":
   "integrity" "sha512-8dhSHBthgGwAjU+OjqUEA49229ThPMQH7URH0u8L0xoQFCnZO2sZ9Wc6KcbxI0x9KSmjCMFFZqRe3w3QsRv64g=="
   "resolved" "https://registry.npmjs.org/react-native/-/react-native-0.64.0.tgz"
   "version" "0.64.0"

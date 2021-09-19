@@ -1,5 +1,5 @@
 {
-  "name": "Blendr",
+  "name": "BLNDR",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -18,9 +18,9 @@
     "react-native-check-box": "^2.1.7",
     "react-native-easy-grid": "^0.2.2",
     "react-native-elements": "^3.4.1",
+    "react-native-in-app-review": "^3.2.2",
     "react-native-safe-area-context": "^3.3.2",
     "react-native-snap-carousel": "^3.9.1",
-    "react-native-sqlite-storage": "^5.0.0",
     "react-native-vector-icons": "^8.1.0",
     "react-router-dom": "^5.2.0",
     "react-router-native": "^5.2.0"

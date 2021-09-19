@@ -9,6 +9,7 @@ import Filter from './src/screens/Filter';
 import Results from './src/screens/Results';
 import Recipe from './src/screens/Recipe';
 import Favorites from './src/screens/Favorites';
+import Settings from './src/screens/Settings';
 
 import curatedRecipes from './src/data/recipesComplete.json';
 import ingredients from './src/data/ingredientsWithNutrition.json';
@@ -129,6 +130,17 @@ const App = ({ history }) => {
           path="/favorites"
           render={props => (
             <Favorites
+              {...props}
+              updateState={updateState}
+              userState={userState}
+            />
+          )}
+        />
+        <Route
+          exact
+          path="/settings"
+          render={props => (
+            <Settings
               {...props}
               updateState={updateState}
               userState={userState}
